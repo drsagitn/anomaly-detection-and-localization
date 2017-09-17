@@ -35,7 +35,6 @@ Please cite the following paper if you use our code / paper:
   bookTitle = {Advances in Neural Networks - ISNN 2017: 14th International Symposium, ISNN 2017, Sapporo, Hakodate, and Muroran, Hokkaido, Japan, June 21--26, 2017, Proceedings, Part II},
   year      = {2017},
   publisher = {Springer International Publishing},
-  address   = {Cham},
   pages     = {189--196},
   isbn      = {978-3-319-59081-3},
   doi       = {10.1007/978-3-319-59081-3_23},
