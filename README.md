@@ -1,4 +1,4 @@
-# abnormal-spatiotemporal-ae
+# Abnormal Event Detection in Videos Using Spatiotemporal Autoencoder
 Codes for "Abnormal Event Detection in Videos Using Spatiotemporal Autoencoder".
 Paper can be found at [Springer](https://link.springer.com/chapter/10.1007/978-3-319-59081-3_23) and [arXiv](https://arxiv.org/abs/1701.01546).
 
