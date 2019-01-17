@@ -1,21 +1,28 @@
-
 def calc_mean(dataset, video_root_path='/share/data/videos'):
     import os
     from skimage.io import imread
     import numpy as np
+    from skimage.transform import resize
 
     frame_path = os.path.join(video_root_path, dataset, 'training_frames')
     count = 0
-    frame_sum = np.zeros((224, 224)).astype('float64')
+    frame_sum = None
 
-    for frame_folder in os.listdir(frame_path):
-        print('==> ' + os.path.join(frame_path, frame_folder))
-        for frame_file in os.listdir(os.path.join(frame_path, frame_folder)):
-            frame_filename = os.path.join(frame_path, frame_folder, frame_file)
-            frame_value = imread(frame_filename, as_grey=True)
-            assert(0. <= frame_value.all() <= 1.)
-            frame_sum += frame_value
-            count += 1
+    try:
+        for frame_folder in os.listdir(frame_path):
+            print('==> ' + os.path.join(frame_path, frame_folder))
+            for frame_file in os.listdir(os.path.join(frame_path, frame_folder)):
+                frame_filename = os.path.join(frame_path, frame_folder, frame_file)
+                frame_value = imread(frame_filename, as_gray=True)/256
+                frame_value = resize(frame_value, (160, 240), mode='reflect')
+                assert(0. <= frame_value.all() <= 1.)
+                if frame_sum is None:
+                    frame_sum = np.zeros(frame_value.shape).astype('float64')
+                frame_sum += frame_value
+                count += 1
+    except Exception as e:
+        print(e)
+        pass
 
     frame_mean = frame_sum / count
     assert(0. <= frame_mean.all() <= 1.)
@@ -26,6 +33,7 @@ def subtract_mean(dataset, video_root_path='/share/data/videos'):
     import os
     from skimage.io import imread
     import numpy as np
+    from skimage.transform import resize
 
     frame_mean = np.load(os.path.join(video_root_path, dataset, 'mean_frame_224.npy'))
 
@@ -35,12 +43,13 @@ def subtract_mean(dataset, video_root_path='/share/data/videos'):
         training_frames_vid = []
         for frame_file in sorted(os.listdir(os.path.join(frame_path, frame_folder))):
             frame_filename = os.path.join(frame_path, frame_folder, frame_file)
-            frame_value = imread(frame_filename, as_grey=True)
+            frame_value = imread(frame_filename, as_grey=True)/256
+            frame_value = resize(frame_value, (160, 240), mode='reflect')
             assert(0. <= frame_value.all() <= 1.)
             frame_value -= frame_mean
             training_frames_vid.append(frame_value)
         training_frames_vid = np.array(training_frames_vid)
-        np.save(os.path.join(video_root_path, dataset, 'training_frames_{}.npy'.format(frame_folder)), training_frames_vid)
+        np.save(os.path.join(video_root_path, dataset, 'training_frames_{}.npy'.format(frame_folder[-3:])), training_frames_vid)
 
     frame_path = os.path.join(video_root_path, dataset, 'testing_frames')
     for frame_folder in os.listdir(frame_path):
@@ -48,12 +57,13 @@ def subtract_mean(dataset, video_root_path='/share/data/videos'):
         testing_frames_vid = []
         for frame_file in sorted(os.listdir(os.path.join(frame_path, frame_folder))):
             frame_filename = os.path.join(frame_path, frame_folder, frame_file)
-            frame_value = imread(frame_filename, as_grey=True)
+            frame_value = imread(frame_filename, as_grey=True)/256
+            frame_value = resize(frame_value, (160, 240), mode='reflect')
             assert(0. <= frame_value.all() <= 1.)
             frame_value -= frame_mean
             testing_frames_vid.append(frame_value)
         testing_frames_vid = np.array(testing_frames_vid)
-        np.save(os.path.join(video_root_path, dataset, 'testing_frames_{}.npy'.format(frame_folder)), testing_frames_vid)
+        np.save(os.path.join(video_root_path, dataset, 'testing_frames_{}.npy'.format(frame_folder[-3:])), testing_frames_vid)
 
 
 def build_h5(dataset, train_or_test, t, video_root_path='/share/data/videos'):
@@ -66,11 +76,11 @@ def build_h5(dataset, train_or_test, t, video_root_path='/share/data/videos'):
 
     def build_volume(train_or_test, num_videos, time_length):
         for i in tqdm(range(num_videos)):
-            data_frames = np.load(os.path.join(video_root_path, '{}/{}_frames_{:02d}.npy'.format(dataset, train_or_test, i+1)))
+            data_frames = np.load(os.path.join(video_root_path, '{}/{}_frames_{:03d}.npy'.format(dataset, train_or_test, i+1)))
             data_frames = np.expand_dims(data_frames, axis=-1)
             num_frames = data_frames.shape[0]
 
-            data_only_frames = np.zeros((num_frames-time_length, time_length, 224, 224, 1)).astype('float16')
+            data_only_frames = np.zeros((num_frames-time_length, time_length, 160, 240, 1)).astype('float16')
 
             vol = 0
             for j in range(num_frames-time_length):
@@ -107,7 +117,7 @@ def combine_dataset(dataset, t, video_root_path='/share/data/videos'):
 
       if n == 0:
         # first file; create the dummy dataset with no max shape
-        create_dataset = output_file.create_dataset('data', (total_rows, t, 224, 224, 1), maxshape=(None, t, 224, 224, 1))
+        create_dataset = output_file.create_dataset('data', (total_rows, t, 160, 240, 1), maxshape=(None, t, 160, 240, 1))
         # fill the first section of the dataset
         create_dataset[:,:] = your_data
         where_to_start_appending = total_rows
@@ -121,7 +131,7 @@ def combine_dataset(dataset, t, video_root_path='/share/data/videos'):
     output_file.close()
 
 
-def preprocess_data(logger, dataset, t, video_root_path='/share/data/videos'):
+def preprocess_data(logger, dataset, t, video_root_path='/home/thinh/anomaly/github/abnormal-spatiotemporal-ae/VIDEO_ROOT_PATH'):
     import os
 
     # Step 1: Calculate the mean frame of all training frames
@@ -146,10 +156,10 @@ def preprocess_data(logger, dataset, t, video_root_path='/share/data/videos'):
     try:
         # try block will execute without AssetionError if all frames have been subtracted
         for frame_folder in os.listdir(training_frame_path):
-            training_frame_npy = os.path.join(video_root_path, dataset, 'training_frames_{}.npy'.format(frame_folder))
+            training_frame_npy = os.path.join(video_root_path, dataset, 'training_frames_{}.npy'.format(frame_folder[-3:]))
             assert(os.path.isfile(training_frame_npy))
         for frame_folder in os.listdir(testing_frame_path):
-            testing_frame_npy = os.path.join(video_root_path, dataset, 'testing_frames_{}.npy'.format(frame_folder))
+            testing_frame_npy = os.path.join(video_root_path, dataset, 'testing_frames_{}.npy'.format(frame_folder[-3:]))
             assert (os.path.isfile(testing_frame_npy))
     except AssertionError:
         # if all or some frames have not been subtracted, then generate those files

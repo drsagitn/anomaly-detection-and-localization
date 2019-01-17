@@ -7,11 +7,11 @@ from classifier import train
 import uuid
 from shutil import copyfile
 
-dataset = 'ped1'
-device = 'gpu1'
+dataset = 'UCSD_ped1'
+device = 'gpu0'
 
 job_uuid = str(uuid.uuid4())
-job_folder = os.path.join('/share/clean/{}/jobs'.format(dataset), job_uuid)
+job_folder = os.path.join('/home/thinh/anomaly/github/abnormal-spatiotemporal-ae/logs/{}/jobs'.format(dataset), job_uuid)
 os.makedirs(job_folder)
 copyfile('config.yml', os.path.join(job_folder, 'config.yml'))
 

@@ -16,10 +16,10 @@ def get_model(t):
     from keras.layers.core import Activation
     from keras.layers import Input
 
-    input_tensor = Input(shape=(t, 224, 224, 1))
+    input_tensor = Input(shape=(t, 160, 240, 1))
 
     conv1 = TimeDistributed(Conv2D(128, kernel_size=(11, 11), padding='same', strides=(4, 4), name='conv1'),
-                            input_shape=(t, 224, 224, 1))(input_tensor)
+                            input_shape=(t, 160, 240, 1))(input_tensor)
     conv1 = TimeDistributed(BatchNormalization())(conv1)
     conv1 = TimeDistributed(Activation('relu'))(conv1)
 
@@ -55,7 +55,7 @@ def compile_model(model, loss, optimizer):
     model.compile(loss=loss, optimizer=opt)
 
 
-def train(dataset, job_folder, logger, video_root_path='/share/data/videos'):
+def train(dataset, job_folder, logger, video_root_path='/home/thinh/anomaly/github/abnormal-spatiotemporal-ae/VIDEO_ROOT_PATH'):
     """Build and train the model
     """
     import yaml
@@ -88,8 +88,7 @@ def train(dataset, job_folder, logger, video_root_path='/share/data/videos'):
 
     logger.info("Preparing training and testing data")
     preprocess_data(logger, dataset, time_length, video_root_path)
-    data = HDF5Matrix(os.path.join(video_root_path, '{0}/{0}_train_t{1}.h5'.format(dataset, time_length)),
-                      'data')
+    data = HDF5Matrix(os.path.join(video_root_path, '{0}/{0}_train_t{1}.h5'.format(dataset, time_length)), 'data')
 
     snapshot = ModelCheckpoint(os.path.join(job_folder,
                'model_snapshot_e{epoch:03d}_{val_loss:.6f}.h5'))
@@ -286,7 +285,7 @@ def test(logger, dataset, t, job_uuid, epoch, val_loss, visualize_score=True, vi
 
         if visualize_frame:
             logger.debug("Calculating pixel reconstruction error")
-            pixel_costs = np.zeros((filesize+t, 224, 224, 1))
+            pixel_costs = np.zeros((filesize+t, 160, 240, 1))
 
             count = 0
             for vol in range(filesize):
