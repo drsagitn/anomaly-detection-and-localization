@@ -6,6 +6,38 @@ matplotlib.use('Agg')
 
 assert(K.image_data_format() == 'channels_last')
 
+def get_model2(t):
+    from keras.models import Model
+    from keras.layers.convolutional import Conv2D, Conv2DTranspose
+    from keras.layers.convolutional_recurrent import ConvLSTM2D
+    from keras.layers.normalization import BatchNormalization
+    from keras.layers.wrappers import TimeDistributed
+    from keras.layers.core import Activation
+    from keras.layers import Input
+
+    input_tensor = Input(shape=(t, 160, 240, 1))
+
+    conv1 = TimeDistributed(Conv2D(128, kernel_size=(7, 7), padding='same', strides=(4, 4), name='conv1'),
+                            input_shape=(t, 160, 240, 1))(input_tensor)
+    conv1 = TimeDistributed(BatchNormalization())(conv1)
+    conv1 = TimeDistributed(Activation('relu'))(conv1)
+
+    conv2 = TimeDistributed(Conv2D(64, kernel_size=(5, 5), padding='same', strides=(2, 2), name='conv2'))(conv1)
+    conv2 = TimeDistributed(BatchNormalization())(conv2)
+    conv2 = TimeDistributed(Activation('relu'))(conv2)
+
+    convlstm1 = ConvLSTM2D(64, kernel_size=(3, 3), padding='same', return_sequences=True, name='convlstm1')(conv2)
+    convlstm2 = ConvLSTM2D(32, kernel_size=(3, 3), padding='same', return_sequences=True, name='convlstm2')(convlstm1)
+    convlstm3 = ConvLSTM2D(64, kernel_size=(3, 3), padding='same', return_sequences=True, name='convlstm3')(convlstm2)
+
+    deconv1 = TimeDistributed(Conv2DTranspose(128, kernel_size=(5, 5), padding='same', strides=(2, 2), name='deconv1'))(convlstm3)
+    deconv1 = TimeDistributed(BatchNormalization())(deconv1)
+    deconv1 = TimeDistributed(Activation('relu'))(deconv1)
+
+    decoded = TimeDistributed(Conv2DTranspose(1, kernel_size=(11, 11), padding='same', strides=(4, 4), name='deconv2'))(
+        deconv1)
+
+    return Model(inputs=input_tensor, outputs=decoded)
 
 def get_model(t):
     from keras.models import Model
@@ -76,8 +108,8 @@ def train(dataset, job_folder, logger, video_root_path='/home/thinh/anomaly/gith
     time_length = cfg['time_length']
     # shuffle = cfg['shuffle']
 
-    logger.info("Building model of type {} and activation {}".format(model_type, activation))
-    model = get_model(time_length)
+    # logger.info("Building model of type {} and activation {}".format(model_type, activation))
+    model = get_model2(time_length)
     logger.info("Compiling model with {} and {} optimizer".format(loss, optimizer))
     compile_model(model, loss, optimizer)
 
@@ -92,7 +124,7 @@ def train(dataset, job_folder, logger, video_root_path='/home/thinh/anomaly/gith
 
     snapshot = ModelCheckpoint(os.path.join(job_folder,
                'model_snapshot_e{epoch:03d}_{val_loss:.6f}.h5'))
-    earlystop = EarlyStopping(patience=10)
+    earlystop = EarlyStopping(patience=5)
     history_log = LossHistory(job_folder=job_folder, logger=logger)
 
     logger.info("Initializing training...")
@@ -135,9 +167,9 @@ def get_gt_vid(dataset, vid_idx, pred_vid):
         gt_vid = np.zeros_like(pred_vid)
 
         try:
-            for event in range(gt_vid_raw.shape[1]):
-                start = int(gt_vid_raw[0, event])
-                end = int(gt_vid_raw[1, event]) + 1
+            for event in range(gt_vid_raw.shape[0]):
+                start = int(gt_vid_raw[event, 0]) - 1
+                end = int(gt_vid_raw[event, 1])
                 gt_vid[start:end] = 1
         except IndexError:
             start = int(gt_vid_raw[0])
