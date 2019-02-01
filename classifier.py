@@ -87,7 +87,7 @@ def compile_model(model, loss, optimizer):
     model.compile(loss=loss, optimizer=opt)
 
 
-def train(dataset, job_folder, logger, video_root_path='/home/thinh/anomaly/github/abnormal-spatiotemporal-ae/VIDEO_ROOT_PATH'):
+def train(dataset, job_folder, logger, video_root_path='/home/miruware/anomaly/anomaly-detection-and-localization/VIDEO_ROOT_PATH'):
     """Build and train the model
     """
     import yaml
