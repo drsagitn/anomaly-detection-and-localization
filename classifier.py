@@ -178,6 +178,21 @@ def get_gt_vid(dataset, vid_idx, pred_vid):
 
     return gt_vid
 
+def get_gt_pixel(dataset, vid_idx, video_root_path):
+    from skimage.io import imread
+    import os
+    from skimage.transform import resize
+
+    video_gt_dir = os.path.join(video_root_path, dataset, "gt", 'Test{0:03d}_gt'.format(vid_idx+1))
+    if not os.path.isdir(video_gt_dir):
+        return None
+    gt_vid = []
+    for file in sorted(os.listdir(video_gt_dir)):
+        frame_value = imread(os.path.join(video_gt_dir, file), as_gray=True)/255
+        frame_value = resize(frame_value, (160, 240), mode='reflect')
+        gt_vid.append(frame_value)
+
+    return gt_vid
 
 def compute_eer(far, frr):
     cords = zip(far, frr)
@@ -190,6 +205,43 @@ def compute_eer(far, frr):
             eer = (item_far + item_frr) / 2
     return eer
 
+
+def calc_auc_pixel(logger, dataset, n_vid, save_path, video_root_path="/home/thinh/anomaly/github/abnormal-spatiotemporal-ae/VIDEO_ROOT_PATH"):
+    import numpy as np
+    from sklearn.metrics import roc_auc_score, roc_curve
+    import matplotlib.pyplot as plt
+
+    all_gt = []
+    all_pred = []
+    for vid in range(n_vid):
+        gt_vid = get_gt_pixel(dataset, vid, video_root_path)
+        if gt_vid is not None:
+            pred_vid = np.load(os.path.join(save_path, 'pixel_costs_{0}_video_{1:02d}.npy'.format(dataset, vid+1)))
+            all_gt.append(gt_vid)
+            all_pred.append(pred_vid)
+
+    all_gt = np.asarray(all_gt)
+    all_pred = np.asarray(all_pred)
+    all_gt = np.concatenate(all_gt).ravel()
+    all_pred = np.concatenate(all_pred).ravel()
+
+    auc = roc_auc_score(all_gt, all_pred)
+    fpr, tpr, thresholds = roc_curve(all_gt, all_pred, pos_label=1)
+    frr = 1 - tpr
+    far = fpr
+    eer = compute_eer(far, frr)
+
+    logger.info("Dataset {}: Overall Pixel AUC = {:.2f}%, Overall Pixel EER = {:.2f}%".format(dataset, auc*100, eer*100))
+
+    plt.plot(fpr, tpr)
+    plt.plot([0,1],[1,0],'--')
+    plt.xlim(0,1.01)
+    plt.ylim(0,1.01)
+    plt.title('{0} AUC: {1:.3f}, EER: {2:.3f}'.format(dataset, auc, eer))
+    plt.savefig(os.path.join(save_path, '{}_pixel_auc.png'.format(dataset)))
+    plt.close()
+
+    return auc, eer
 
 def calc_auc_overall(logger, dataset, n_vid, save_path):
     import numpy as np
@@ -229,7 +281,7 @@ def calc_auc_overall(logger, dataset, n_vid, save_path):
 
 
 def test(logger, dataset, t, job_uuid, epoch, val_loss, visualize_score=True, visualize_frame=False,
-         video_root_path='/share/data/videos'):
+         video_root_path='/home/thinh/anomaly/github/abnormal-spatiotemporal-ae/VIDEO_ROOT_PATH'):
     import numpy as np
     from keras.models import load_model
     import os
@@ -238,13 +290,15 @@ def test(logger, dataset, t, job_uuid, epoch, val_loss, visualize_score=True, vi
     import matplotlib.pyplot as plt
     from scipy.misc import imresize
 
-    n_videos = {'avenue': 21, 'enter': 6, 'exit': 4, 'ped1': 36, 'ped2': 12}
+    n_videos = {'avenue': 21, 'enter': 6, 'exit': 4, 'UCSD_ped1': 36, 'UCSD_ped2': 12}
     test_dir = os.path.join(video_root_path, '{0}/testing_h5_t{1}'.format(dataset, t))
-    job_folder = os.path.join('/share/clean/{}/jobs'.format(dataset), job_uuid)
+    job_folder = os.path.join('/home/thinh/anomaly/github/abnormal-spatiotemporal-ae/logs/{}/jobs'.format(dataset),
+                              job_uuid)
     model_filename = 'model_snapshot_e{:03d}_{:.6f}.h5'.format(epoch, val_loss)
     temporal_model = load_model(os.path.join(job_folder, model_filename))
     save_path = os.path.join(job_folder, 'result')
     os.makedirs(save_path, exist_ok=True)
+    os.makedirs(os.path.join(save_path, 'vid'), exist_ok=True)
 
 
     for videoid in range(n_videos[dataset]):
@@ -255,7 +309,7 @@ def test(logger, dataset, t, job_uuid, epoch, val_loss, visualize_score=True, vi
         filesize = f['data'].shape[0]
         f.close()
 
-        gt_vid_raw = np.loadtxt('/share/data/groundtruths/gt_{0}_vid{1:02d}.txt'.format(dataset, videoid+1))
+        # gt_vid_raw = np.loadtxt('/share/data/groundtruths/gt_{0}_vid{1:02d}.txt'.format(dataset, videoid+1))
 
         logger.debug("Predicting using {}".format(os.path.join(job_folder, model_filename)))
         X_test = HDF5Matrix(filepath, 'data')
@@ -300,17 +354,17 @@ def test(logger, dataset, t, job_uuid, epoch, val_loss, visualize_score=True, vi
             plt.ylim(0, 1)
             plt.xlim(1, score_vid.shape[0]+1)
 
-            try:
-                for event in range(gt_vid_raw.shape[1]):
-                    start = int(gt_vid_raw[0, event])
-                    end = int(gt_vid_raw[1, event]) + 1
-                    gt_vid[start:end] = 1
-                    plt.fill_between(np.arange(start, end), 0, 1, facecolor='red', alpha=0.4)
-            except IndexError:
-                start = int(gt_vid_raw[0])
-                end = int(gt_vid_raw[1])
-                gt_vid[start:end] = 1
-                plt.fill_between(np.arange(start, end), 0, 1, facecolor='red', alpha=0.4)
+            # try:
+            #     for event in range(gt_vid_raw.shape[1]):
+            #         start = int(gt_vid_raw[0, event])
+            #         end = int(gt_vid_raw[1, event]) + 1
+            #         gt_vid[start:end] = 1
+            #         plt.fill_between(np.arange(start, end), 0, 1, facecolor='red', alpha=0.4)
+            # except IndexError:
+            #     start = int(gt_vid_raw[0])
+            #     end = int(gt_vid_raw[1])
+            #     gt_vid[start:end] = 1
+            #     plt.fill_between(np.arange(start, end), 0, 1, facecolor='red', alpha=0.4)
 
             plt.savefig(os.path.join(save_path, 'scores_{0}_video_{1:02d}.png'.format(dataset, videoid+1)), dpi=300)
             plt.close()
@@ -332,7 +386,7 @@ def test(logger, dataset, t, job_uuid, epoch, val_loss, visualize_score=True, vi
             for idx in range(filesize+t):
                 plt.imshow(np.squeeze(pixel_costs[idx]), vmin=np.amin(pixel_costs), vmax=np.amax(pixel_costs), cmap='jet')
                 plt.colorbar()
-                plt.savefig(os.path.join(save_path, '{}_err_vid{:02d}_frm{:03d}.png'.format(dataset, videoid+1, idx+1)))
+                plt.savefig(os.path.join(save_path, 'vid', '{}_err_vid{:02d}_frm{:03d}.png'.format(dataset, videoid+1, idx+1)))
                 plt.clf()
 
     logger.info("{}: Calculating overall metrics".format(dataset))
