@@ -207,7 +207,7 @@ def compute_eer(far, frr):
     return eer
 
 
-def calc_auc_pixel(logger, dataset, n_vid, save_path, video_root_path="/home/thinh/anomaly/github/abnormal-spatiotemporal-ae/VIDEO_ROOT_PATH"):
+def calc_auc_pixel(logger, dataset, n_vid, save_path, video_root_path="VIDEO_ROOT_PATH"):
     import numpy as np
     from sklearn.metrics import roc_auc_score, roc_curve
     import matplotlib.pyplot as plt
@@ -282,7 +282,7 @@ def calc_auc_overall(logger, dataset, n_vid, save_path):
 
 
 def test(logger, dataset, t, job_uuid, epoch, val_loss, visualize_score=True, visualize_frame=False,
-         video_root_path='/home/thinh/anomaly/github/abnormal-spatiotemporal-ae/VIDEO_ROOT_PATH'):
+         video_root_path='VIDEO_ROOT_PATH'):
     import numpy as np
     from keras.models import load_model
     import os
@@ -293,7 +293,7 @@ def test(logger, dataset, t, job_uuid, epoch, val_loss, visualize_score=True, vi
 
     n_videos = {'avenue': 21, 'enter': 6, 'exit': 4, 'UCSD_ped1': 36, 'UCSD_ped2': 12}
     test_dir = os.path.join(video_root_path, '{0}/testing_h5_t{1}'.format(dataset, t))
-    job_folder = os.path.join('/home/thinh/anomaly/github/abnormal-spatiotemporal-ae/logs/{}/jobs'.format(dataset), job_uuid)
+    job_folder = os.path.join('logs/{}/jobs'.format(dataset), job_uuid)
     model_filename = 'model_snapshot_e{:03d}_{:.6f}.h5'.format(epoch, val_loss)
     temporal_model = load_model(os.path.join(job_folder, model_filename))
     save_path = os.path.join(job_folder, 'result', str(epoch))
