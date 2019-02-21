@@ -109,7 +109,7 @@ def train(dataset, job_folder, logger, video_root_path='/home/miruware/anomaly/a
     # shuffle = cfg['shuffle']
 
     # logger.info("Building model of type {} and activation {}".format(model_type, activation))
-    model = get_model2(time_length)
+    model = get_model(time_length)
     logger.info("Compiling model with {} and {} optimizer".format(loss, optimizer))
     compile_model(model, loss, optimizer)
 
