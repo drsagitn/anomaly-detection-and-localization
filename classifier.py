@@ -163,7 +163,7 @@ def get_gt_vid(dataset, vid_idx, pred_vid):
     if dataset in ("indoor", "plaza", "lawn"):
         gt_vid = np.load('/share/data/groundtruths/{0}_test_gt.npy'.format(dataset))
     else:
-        gt_vid_raw = np.loadtxt('/share/data/groundtruths/gt_{0}_vid{1:02d}.txt'.format(dataset, vid_idx+1))
+        gt_vid_raw = np.loadtxt('VIDEO_ROOT_PATH/{0}/gt_files/gt_{0}_vid{1:02d}.txt'.format(dataset, vid_idx+1))
         gt_vid = np.zeros_like(pred_vid)
 
         try:
@@ -182,6 +182,7 @@ def get_gt_pixel(dataset, vid_idx, video_root_path):
     from skimage.io import imread
     import os
     from skimage.transform import resize
+    import numpy as np
 
     video_gt_dir = os.path.join(video_root_path, dataset, "gt", 'Test{0:03d}_gt'.format(vid_idx+1))
     if not os.path.isdir(video_gt_dir):
@@ -190,7 +191,7 @@ def get_gt_pixel(dataset, vid_idx, video_root_path):
     for file in sorted(os.listdir(video_gt_dir)):
         frame_value = imread(os.path.join(video_gt_dir, file), as_gray=True)/255
         frame_value = resize(frame_value, (160, 240), mode='reflect')
-        gt_vid.append(frame_value)
+        gt_vid.append(np.round(frame_value))
 
     return gt_vid
 
@@ -238,7 +239,7 @@ def calc_auc_pixel(logger, dataset, n_vid, save_path, video_root_path="/home/thi
     plt.xlim(0,1.01)
     plt.ylim(0,1.01)
     plt.title('{0} AUC: {1:.3f}, EER: {2:.3f}'.format(dataset, auc, eer))
-    plt.savefig(os.path.join(save_path, '{}_pixel_auc.png'.format(dataset)))
+    plt.savefig(os.path.join(save_path, 'scores','{}_pixel_auc.png'.format(dataset)))
     plt.close()
 
     return auc, eer
@@ -274,7 +275,7 @@ def calc_auc_overall(logger, dataset, n_vid, save_path):
     plt.xlim(0,1.01)
     plt.ylim(0,1.01)
     plt.title('{0} AUC: {1:.3f}, EER: {2:.3f}'.format(dataset, auc, eer))
-    plt.savefig(os.path.join(save_path, '{}_auc.png'.format(dataset)))
+    plt.savefig(os.path.join(save_path, 'scores','{}_auc.png'.format(dataset)))
     plt.close()
 
     return auc, eer
@@ -292,13 +293,13 @@ def test(logger, dataset, t, job_uuid, epoch, val_loss, visualize_score=True, vi
 
     n_videos = {'avenue': 21, 'enter': 6, 'exit': 4, 'UCSD_ped1': 36, 'UCSD_ped2': 12}
     test_dir = os.path.join(video_root_path, '{0}/testing_h5_t{1}'.format(dataset, t))
-    job_folder = os.path.join('/home/thinh/anomaly/github/abnormal-spatiotemporal-ae/logs/{}/jobs'.format(dataset),
-                              job_uuid)
+    job_folder = os.path.join('/home/thinh/anomaly/github/abnormal-spatiotemporal-ae/logs/{}/jobs'.format(dataset), job_uuid)
     model_filename = 'model_snapshot_e{:03d}_{:.6f}.h5'.format(epoch, val_loss)
     temporal_model = load_model(os.path.join(job_folder, model_filename))
-    save_path = os.path.join(job_folder, 'result')
+    save_path = os.path.join(job_folder, 'result', str(epoch))
     os.makedirs(save_path, exist_ok=True)
     os.makedirs(os.path.join(save_path, 'vid'), exist_ok=True)
+    os.makedirs(os.path.join(save_path, 'scores'), exist_ok=True)
 
 
     for videoid in range(n_videos[dataset]):
@@ -366,7 +367,7 @@ def test(logger, dataset, t, job_uuid, epoch, val_loss, visualize_score=True, vi
             #     gt_vid[start:end] = 1
             #     plt.fill_between(np.arange(start, end), 0, 1, facecolor='red', alpha=0.4)
 
-            plt.savefig(os.path.join(save_path, 'scores_{0}_video_{1:02d}.png'.format(dataset, videoid+1)), dpi=300)
+            plt.savefig(os.path.join(save_path, 'scores','scores_{0}_video_{1:02d}.png'.format(dataset, videoid+1)), dpi=300)
             plt.close()
 
         if visualize_frame:
@@ -391,4 +392,5 @@ def test(logger, dataset, t, job_uuid, epoch, val_loss, visualize_score=True, vi
 
     logger.info("{}: Calculating overall metrics".format(dataset))
     auc_overall, eer_overall = calc_auc_overall(logger, dataset, n_videos[dataset], save_path)
+    auc_overall, eer_overall = calc_auc_pixel(logger, dataset, n_videos[dataset], save_path)
 
