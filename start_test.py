@@ -19,7 +19,7 @@ job_uuid = 'ce1fd1d1-f170-4f1b-aa6a-4d85be5b4ce4'
 # val_loss = 0.001181
 # time_length = 8
 
-job_folder = os.path.join('/home/thinh/anomaly/github/abnormal-spatiotemporal-ae/logs/{}/jobs'.format(dataset), job_uuid)
+job_folder = os.path.join('logs/{}/jobs'.format(dataset), job_uuid)
 log_path = os.path.join(job_folder, 'logs')
 os.makedirs(log_path, exist_ok=True)
 logging.basicConfig(filename=os.path.join(log_path, "test-{}.log".format(datetime.datetime.now().strftime("%Y%m%d-%H%M%S"))),
