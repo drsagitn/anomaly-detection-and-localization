@@ -87,7 +87,7 @@ def compile_model(model, loss, optimizer):
     model.compile(loss=loss, optimizer=opt)
 
 
-def train(dataset, job_folder, logger, video_root_path='/home/miruware/anomaly/anomaly-detection-and-localization/VIDEO_ROOT_PATH'):
+def train(dataset, job_folder, logger, video_root_path='VIDEO_ROOT_PATH'):
     """Build and train the model
     """
     import yaml
@@ -155,6 +155,13 @@ def train(dataset, job_folder, logger, video_root_path='/home/miruware/anomaly/a
     plt.ylabel('Loss')
     plt.legend()
     plt.savefig(os.path.join(job_folder, 'train_val_loss.png'))
+
+def get_gt_range(dataset, vid_idx):
+    import numpy as np
+    ret =  np.loadtxt('VIDEO_ROOT_PATH/{0}/gt_files/gt_{0}_vid{1:02d}.txt'.format(dataset, vid_idx+1))
+    if(ret.shape.__len__() == 1):
+        return [ret]
+    return ret
 
 
 def get_gt_vid(dataset, vid_idx, pred_vid):
@@ -301,7 +308,6 @@ def test(logger, dataset, t, job_uuid, epoch, val_loss, visualize_score=True, vi
     os.makedirs(os.path.join(save_path, 'vid'), exist_ok=True)
     os.makedirs(os.path.join(save_path, 'scores'), exist_ok=True)
 
-
     for videoid in range(n_videos[dataset]):
         videoname = '{0}_{1:02d}.h5'.format(dataset, videoid+1)
         filepath = os.path.join(test_dir, videoname)
@@ -341,11 +347,13 @@ def test(logger, dataset, t, job_uuid, epoch, val_loss, visualize_score=True, vi
             np.savetxt(os.path.join(save_path, file_name_prefix + '_' + '%02d' % (videoid + 1) + '.txt'), 1-score_vid)
 
             logger.debug("Plotting frame reconstruction error")
+            plt.figure(figsize=(10, 3))
             plt.plot(np.arange(1, raw_costs.shape[0]+1), raw_costs)
             plt.savefig(os.path.join(save_path, '{}_video_{:02d}_err.png'.format(dataset, videoid+1)))
             plt.clf()
 
             logger.debug("Plotting regularity scores")
+            plt.figure(figsize=(10, 3))
             ax = plt.subplot(111)
             box = ax.get_position()
             ax.set_position([box.x0, box.y0 + box.height*0.1, box.width, box.height*0.9])
@@ -355,25 +363,15 @@ def test(logger, dataset, t, job_uuid, epoch, val_loss, visualize_score=True, vi
             plt.ylim(0, 1)
             plt.xlim(1, score_vid.shape[0]+1)
 
-            # try:
-            #     for event in range(gt_vid_raw.shape[1]):
-            #         start = int(gt_vid_raw[0, event])
-            #         end = int(gt_vid_raw[1, event]) + 1
-            #         gt_vid[start:end] = 1
-            #         plt.fill_between(np.arange(start, end), 0, 1, facecolor='red', alpha=0.4)
-            # except IndexError:
-            #     start = int(gt_vid_raw[0])
-            #     end = int(gt_vid_raw[1])
-            #     gt_vid[start:end] = 1
-            #     plt.fill_between(np.arange(start, end), 0, 1, facecolor='red', alpha=0.4)
+            vid_raw = get_gt_range(dataset, videoid)
+            for event in vid_raw:
+                plt.fill_between(np.arange(event[0], event[1]), 0, 1, facecolor='red', alpha=0.4)
 
             plt.savefig(os.path.join(save_path, 'scores','scores_{0}_video_{1:02d}.png'.format(dataset, videoid+1)), dpi=300)
             plt.close()
 
         if visualize_frame:
             logger.debug("Calculating pixel reconstruction error")
-            pixel_costs = np.zeros((filesize+t, 160, 240, 1))
-
             count = 0
             for vol in range(filesize):
                 for i in range(t):
