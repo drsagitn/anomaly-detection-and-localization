@@ -9,33 +9,38 @@ assert(K.image_data_format() == 'channels_last')
 def get_model2(t):
     from keras.models import Model
     from keras.layers.convolutional import Conv2D, Conv2DTranspose
-    from keras.layers.convolutional_recurrent import ConvLSTM2D
     from keras.layers.normalization import BatchNormalization
-    from keras.layers.wrappers import TimeDistributed
     from keras.layers.core import Activation
     from keras.layers import Input
 
     input_tensor = Input(shape=(t, 160, 240, 1))
 
-    conv1 = TimeDistributed(Conv2D(128, kernel_size=(7, 7), padding='same', strides=(4, 4), name='conv1'),
-                            input_shape=(t, 160, 240, 1))(input_tensor)
-    conv1 = TimeDistributed(BatchNormalization())(conv1)
-    conv1 = TimeDistributed(Activation('relu'))(conv1)
+    conv1 = Conv2D(128, kernel_size=(7, 7), padding='same', strides=(4, 4), name='conv1')(input_tensor)
+    conv1 = BatchNormalization()(conv1)
+    conv1 = Activation('relu')(conv1)
 
-    conv2 = TimeDistributed(Conv2D(64, kernel_size=(5, 5), padding='same', strides=(2, 2), name='conv2'))(conv1)
-    conv2 = TimeDistributed(BatchNormalization())(conv2)
-    conv2 = TimeDistributed(Activation('relu'))(conv2)
+    conv2 = Conv2D(64, kernel_size=(5, 5), padding='same', strides=(2, 2), name='conv2')(conv1)
+    conv2 = BatchNormalization()(conv2)
+    conv2 = Activation('relu')(conv2)
 
-    convlstm1 = ConvLSTM2D(64, kernel_size=(3, 3), padding='same', return_sequences=True, name='convlstm1')(conv2)
-    convlstm2 = ConvLSTM2D(32, kernel_size=(3, 3), padding='same', return_sequences=True, name='convlstm2')(convlstm1)
-    convlstm3 = ConvLSTM2D(64, kernel_size=(3, 3), padding='same', return_sequences=True, name='convlstm3')(convlstm2)
+    conv3 = Conv2D(32, kernel_size=(3, 3), padding='same', strides=(1, 1), name='conv3')(conv2)
+    conv3 = BatchNormalization()(conv3)
+    conv3 = Activation('relu')(conv3)
 
-    deconv1 = TimeDistributed(Conv2DTranspose(128, kernel_size=(5, 5), padding='same', strides=(2, 2), name='deconv1'))(convlstm3)
-    deconv1 = TimeDistributed(BatchNormalization())(deconv1)
-    deconv1 = TimeDistributed(Activation('relu'))(deconv1)
 
-    decoded = TimeDistributed(Conv2DTranspose(1, kernel_size=(11, 11), padding='same', strides=(4, 4), name='deconv2'))(
-        deconv1)
+    deconv1 = Conv2DTranspose(32, kernel_size=(3, 3), padding='same', strides=(1, 1), name='deconv1')(conv3)
+    deconv1 = BatchNormalization()(deconv1)
+    deconv1 = Activation('relu')(deconv1)
+
+    deconv2 = Conv2DTranspose(64, kernel_size=(5, 5), padding='same', strides=(2, 2), name='deconv2')(deconv1)
+    deconv2 = BatchNormalization()(deconv2)
+    deconv2 = Activation('relu')(deconv2)
+
+    deconv3 = Conv2DTranspose(128, kernel_size=(7, 7), padding='same', strides=(2, 2), name='deconv3')(deconv2)
+    deconv3 = BatchNormalization()(deconv3)
+    deconv3 = Activation('relu')(deconv3)
+
+    decoded = Conv2DTranspose(1, kernel_size=(11, 11), padding='same', strides=(4, 4), name='deconv')(deconv3)
 
     return Model(inputs=input_tensor, outputs=decoded)
 
@@ -251,6 +256,30 @@ def calc_auc_pixel(logger, dataset, n_vid, save_path, video_root_path="VIDEO_ROO
 
     return auc, eer
 
+def calc_auc_per_video(logger, dataset, n_vid, data_path, save_path):
+    import numpy as np
+    from sklearn.metrics import roc_auc_score, roc_curve
+    import matplotlib.pyplot as plt
+
+    os.makedirs(save_path, exist_ok=True)
+    auc_arr = []
+    for vid in range(n_vid):
+        pred_vid = np.loadtxt(os.path.join(data_path, 'frame_costs_{0}_video_{1:02d}.txt'.format(dataset, vid + 1)))
+        pred_vid = np.asarray(pred_vid).ravel()
+        gt_vid = np.asarray(get_gt_vid(dataset, vid, pred_vid)).ravel()
+        auc = roc_auc_score(gt_vid, pred_vid)
+        auc_arr.append(auc)
+        logger.info("{} video {}: Overall AUC = {:.2f}%".format(dataset, vid+1, auc * 100))
+    ax = np.asarray(range(n_vid)) + 1
+    plt.plot(ax, auc_arr)
+    plt.xlim(0, n_vid)
+    plt.ylim(0, 1.01)
+    avg = np.sum(auc_arr) / n_vid
+    plt.title('AUC across videos. AVG = {}'.format(avg))
+    plt.savefig(os.path.join(save_path, '{}.png'.format(dataset)))
+    plt.close()
+    np.savetxt(os.path.join(save_path, '{}.txt'.format(dataset)), auc_arr)
+
 def calc_auc_overall(logger, dataset, n_vid, save_path):
     import numpy as np
     from sklearn.metrics import roc_auc_score, roc_curve
@@ -286,6 +315,19 @@ def calc_auc_overall(logger, dataset, n_vid, save_path):
     plt.close()
 
     return auc, eer
+
+def visualize_data(data, filesize, t, savedir):
+    import numpy as np
+    from scipy.misc import toimage
+    import os
+
+    os.makedirs(savedir, exist_ok=True)
+    vol_costs = np.zeros((filesize, data.shape[2], data.shape[3]))
+    for j in range(filesize):
+        for i in range(t):
+            vol_costs[j] += np.squeeze(data[j, i, :, :, :])
+        vol_costs[j] /= t
+        toimage(vol_costs[j]).save(os.path.join(savedir, "meanPredicted_{}.jpg".format(str(j))))
 
 
 def test(logger, dataset, t, job_uuid, epoch, val_loss, visualize_score=True, visualize_frame=False,
