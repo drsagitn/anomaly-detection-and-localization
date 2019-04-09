@@ -131,7 +131,7 @@ def combine_dataset(dataset, t, video_root_path='/share/data/videos'):
     output_file.close()
 
 
-def preprocess_data(logger, dataset, t, video_root_path='/home/thinh/anomaly/github/abnormal-spatiotemporal-ae/VIDEO_ROOT_PATH'):
+def preprocess_data(logger, dataset, t, video_root_path='VIDEO_ROOT_PATH'):
     import os
 
     # Step 1: Calculate the mean frame of all training frames
