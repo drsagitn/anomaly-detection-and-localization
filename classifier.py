@@ -91,6 +91,10 @@ def compile_model(model, loss, optimizer):
 
     model.compile(loss=loss, optimizer=opt)
 
+def get_model_by_config(model_cfg_name):
+    module = __import__('models')
+    get_model_func  = getattr(module, model_cfg_name)
+    return get_model_func()
 
 def train(dataset, job_folder, logger, video_root_path='VIDEO_ROOT_PATH'):
     """Build and train the model
@@ -114,7 +118,7 @@ def train(dataset, job_folder, logger, video_root_path='VIDEO_ROOT_PATH'):
     # shuffle = cfg['shuffle']
 
     # logger.info("Building model of type {} and activation {}".format(model_type, activation))
-    model = get_model(time_length)
+    model = get_model_by_config(cfg['model'])
     logger.info("Compiling model with {} and {} optimizer".format(loss, optimizer))
     compile_model(model, loss, optimizer)
 
