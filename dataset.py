@@ -29,13 +29,15 @@ def calc_mean(dataset, video_root_path='/share/data/videos'):
     np.save(os.path.join(video_root_path, dataset, 'mean_frame_224.npy'), frame_mean)
 
 
-def subtract_mean(dataset, video_root_path='/share/data/videos'):
+def subtract_mean(dataset, video_root_path='/share/data/videos', is_combine=False):
     import os
     from skimage.io import imread
     import numpy as np
     from skimage.transform import resize
 
     frame_mean = np.load(os.path.join(video_root_path, dataset, 'mean_frame_224.npy'))
+    training_combine = []
+    testing_combine = []
 
     frame_path = os.path.join(video_root_path, dataset, 'training_frames')
     for frame_folder in os.listdir(frame_path):
@@ -50,6 +52,8 @@ def subtract_mean(dataset, video_root_path='/share/data/videos'):
             training_frames_vid.append(frame_value)
         training_frames_vid = np.array(training_frames_vid)
         np.save(os.path.join(video_root_path, dataset, 'training_frames_{}.npy'.format(frame_folder[-3:])), training_frames_vid)
+        if is_combine:
+            training_combine.append(training_frames_vid)
 
     frame_path = os.path.join(video_root_path, dataset, 'testing_frames')
     for frame_folder in os.listdir(frame_path):
@@ -64,9 +68,16 @@ def subtract_mean(dataset, video_root_path='/share/data/videos'):
             testing_frames_vid.append(frame_value)
         testing_frames_vid = np.array(testing_frames_vid)
         np.save(os.path.join(video_root_path, dataset, 'testing_frames_{}.npy'.format(frame_folder[-3:])), testing_frames_vid)
+        if is_combine:
+            testing_combine.append(testing_frames_vid)
+    if is_combine:
+        training_combine = np.array(training_combine).reshape(-1, 160, 240, 1)
+        testing_combine = np.array(testing_combine).reshape(-1, 160, 240, 1)
+        np.save(os.path.join(video_root_path, dataset, 'training_frames_t0.npy'), training_combine)
+        np.save(os.path.join(video_root_path, dataset, 'testing_frames_t0.npy'), testing_combine)
 
 
-def build_h5(dataset, train_or_test, t, video_root_path='/share/data/videos'):
+def build_h5(dataset, train_or_test, t, video_root_path='VIDEO_ROOT_PATH'):
     import h5py
     from tqdm import tqdm
     import os
@@ -97,7 +108,7 @@ def build_h5(dataset, train_or_test, t, video_root_path='/share/data/videos'):
     build_volume(train_or_test, num_videos, time_length=t)
 
 
-def combine_dataset(dataset, t, video_root_path='/share/data/videos'):
+def combine_dataset(dataset, t, video_root_path='VIDEO_ROOT_PATH'):
     import h5py
     import os
     from tqdm import tqdm
@@ -164,32 +175,32 @@ def preprocess_data(logger, dataset, t, video_root_path='VIDEO_ROOT_PATH'):
     except AssertionError:
         # if all or some frames have not been subtracted, then generate those files
         logger.info("Step 2/4: Subtracting mean frame for {}".format(dataset))
-        subtract_mean(dataset, video_root_path)
+        subtract_mean(dataset, video_root_path, t<=0)
+    if t > 0:
+        # Step 3: Generate small video volumes from the mean-subtracted frames and dump into h5 files (grouped by video ID)
+        # Check if those h5 files have already been generated
+        # If the file exists, then skip this step
+        logger.debug("Step 3/4: Check if individual h5 files exists for {}".format(dataset))
+        for train_or_test in ('training', 'testing'):
+            try:
+                h5_folder = os.path.join(video_root_path, '{}/{}_h5_t{}'.format(dataset, train_or_test, t))
+                assert(os.path.isdir(h5_folder))
+                num_videos = len(os.listdir(os.path.join(video_root_path, '{}/{}_frames'.format(dataset, train_or_test))))
+                for i in range(num_videos):
+                    h5_file = os.path.join(video_root_path, '{0}/{1}_h5_t{2}/{0}_{3:02d}.h5'.format(dataset, train_or_test, t, i+1))
+                    assert(os.path.isfile(h5_file))
+            except AssertionError:
+                logger.info("Step 3/4: Generating volumes for {} {} set".format(dataset, train_or_test))
+                build_h5(dataset, train_or_test, t, video_root_path)
 
-    # Step 3: Generate small video volumes from the mean-subtracted frames and dump into h5 files (grouped by video ID)
-    # Check if those h5 files have already been generated
-    # If the file exists, then skip this step
-    logger.debug("Step 3/4: Check if individual h5 files exists for {}".format(dataset))
-    for train_or_test in ('training', 'testing'):
-        try:
-            h5_folder = os.path.join(video_root_path, '{}/{}_h5_t{}'.format(dataset, train_or_test, t))
-            assert(os.path.isdir(h5_folder))
-            num_videos = len(os.listdir(os.path.join(video_root_path, '{}/{}_frames'.format(dataset, train_or_test))))
-            for i in range(num_videos):
-                h5_file = os.path.join(video_root_path, '{0}/{1}_h5_t{2}/{0}_{3:02d}.h5'.format(dataset, train_or_test, t, i+1))
-                assert(os.path.isfile(h5_file))
-        except AssertionError:
-            logger.info("Step 3/4: Generating volumes for {} {} set".format(dataset, train_or_test))
-            build_h5(dataset, train_or_test, t, video_root_path)
-
-    # Step 4: Combine small h5 files into one big h5 file
-    # Check if this big h5 file is already been generated
-    # If the file exists, then skip this step
-    logger.debug("Step 4/4: Check if individual h5 files have already been combined for {}".format(dataset))
-    training_h5 = os.path.join(video_root_path, '{0}/{0}_train_t{1}.h5'.format(dataset, t))
-    if not os.path.isfile(training_h5):
-        logger.info("Step 4/4: Combining h5 files for {}".format(dataset))
-        combine_dataset(dataset, t, video_root_path)
+        # Step 4: Combine small h5 files into one big h5 file
+        # Check if this big h5 file is already been generated
+        # If the file exists, then skip this step
+        logger.debug("Step 4/4: Check if individual h5 files have already been combined for {}".format(dataset))
+        training_h5 = os.path.join(video_root_path, '{0}/{0}_train_t{1}.h5'.format(dataset, t))
+        if not os.path.isfile(training_h5):
+            logger.info("Step 4/4: Combining h5 files for {}".format(dataset))
+            combine_dataset(dataset, t, video_root_path)
 
     logger.info("Preprocessing is completed")
 

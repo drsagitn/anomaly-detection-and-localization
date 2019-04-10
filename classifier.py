@@ -119,6 +119,8 @@ def train(dataset, job_folder, logger, video_root_path='VIDEO_ROOT_PATH'):
 
     # logger.info("Building model of type {} and activation {}".format(model_type, activation))
     model = get_model_by_config(cfg['model'])
+    for layer in model.layers:
+        print(layer.output_shape)
     logger.info("Compiling model with {} and {} optimizer".format(loss, optimizer))
     compile_model(model, loss, optimizer)
 
@@ -129,7 +131,11 @@ def train(dataset, job_folder, logger, video_root_path='VIDEO_ROOT_PATH'):
 
     logger.info("Preparing training and testing data")
     preprocess_data(logger, dataset, time_length, video_root_path)
-    data = HDF5Matrix(os.path.join(video_root_path, '{0}/{0}_train_t{1}.h5'.format(dataset, time_length)), 'data')
+    if time_length <= 0:
+        data = np.load(os.path.join(video_root_path, '{0}/training_frames_t0.npy'.format(dataset)))
+    else:
+        data = HDF5Matrix(os.path.join(video_root_path, '{0}/{0}_train_t{1}.h5'.format(dataset, time_length)), 'data')
+
 
     snapshot = ModelCheckpoint(os.path.join(job_folder,
                'model_snapshot_e{epoch:03d}_{val_loss:.6f}.h5'))
@@ -326,11 +332,17 @@ def visualize_data(data, filesize, t, savedir):
     import os
 
     os.makedirs(savedir, exist_ok=True)
-    vol_costs = np.zeros((filesize, data.shape[2], data.shape[3]))
+    if t > 0:
+        vol_costs = np.zeros((filesize, data.shape[2], data.shape[3]))
+    else:
+        vol_costs = np.zeros((filesize, data.shape[1], data.shape[2]))
     for j in range(filesize):
-        for i in range(t):
-            vol_costs[j] += np.squeeze(data[j, i, :, :, :])
-        vol_costs[j] /= t
+        if t > 0:
+            for i in range(t):
+                vol_costs[j] += np.squeeze(data[j, i, :, :, :])
+            vol_costs[j] /= t
+        else:
+            vol_costs[j] += np.squeeze(data[j, :, :, :])
         toimage(vol_costs[j]).save(os.path.join(savedir, "meanPredicted_{}.jpg".format(str(j))))
 
 

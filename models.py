@@ -20,23 +20,23 @@ def conv_ae():
     conv3 = Activation('relu')(conv3)
 
 
-    deconv1 = Conv2DTranspose(32, kernel_size=(3, 3), padding='same', strides=(1, 1), name='deconv1')(conv3)
-    deconv1 = BatchNormalization()(deconv1)
-    deconv1 = Activation('relu')(deconv1)
+    # deconv1 = Conv2DTranspose(32, kernel_size=(3, 3), padding='same', strides=(1, 1), name='deconv1')(conv3)
+    # deconv1 = BatchNormalization()(deconv1)
+    # deconv1 = Activation('relu')(deconv1)
 
-    deconv2 = Conv2DTranspose(64, kernel_size=(5, 5), padding='same', strides=(2, 2), name='deconv2')(deconv1)
+    deconv2 = Conv2DTranspose(64, kernel_size=(3, 3), padding='same', strides=(2, 2), name='deconv2')(conv3)
     deconv2 = BatchNormalization()(deconv2)
     deconv2 = Activation('relu')(deconv2)
 
-    deconv3 = Conv2DTranspose(128, kernel_size=(7, 7), padding='same', strides=(2, 2), name='deconv3')(deconv2)
-    deconv3 = BatchNormalization()(deconv3)
-    deconv3 = Activation('relu')(deconv3)
+    # deconv3 = Conv2DTranspose(128, kernel_size=(5, 5), padding='same', strides=(2, 2), name='deconv3')(deconv2)
+    # deconv3 = BatchNormalization()(deconv3)
+    # deconv3 = Activation('relu')(deconv3)
 
-    decoded = Conv2DTranspose(1, kernel_size=(11, 11), padding='same', strides=(4, 4), name='deconv')(deconv3)
+    decoded = Conv2DTranspose(1, kernel_size=(11, 11), padding='same', strides=(4, 4), name='deconvAAAA')(deconv2)
 
     return Model(inputs=input_tensor, outputs=decoded)
 
-def conv_lstm_ae(t):
+def conv_lstm_ae():
     from keras.models import Model
     from keras.layers.convolutional import Conv2D, Conv2DTranspose
     from keras.layers.convolutional_recurrent import ConvLSTM2D
@@ -44,7 +44,12 @@ def conv_lstm_ae(t):
     from keras.layers.wrappers import TimeDistributed
     from keras.layers.core import Activation
     from keras.layers import Input
+    import yaml
 
+    with open('config.yml', 'r') as ymlfile:
+        cfg = yaml.load(ymlfile)
+
+    t = cfg['time_length']
     input_tensor = Input(shape=(t, 160, 240, 1))
 
     conv1 = TimeDistributed(Conv2D(128, kernel_size=(11, 11), padding='same', strides=(4, 4), name='conv1'),
