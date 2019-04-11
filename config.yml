@@ -4,3 +4,6 @@ epochs: 10
 optimizer: sgd
 batch_size: 16
 model: conv_ae
+noise_factor: 0.03
+clip: true
+data-regen: true

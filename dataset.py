@@ -31,13 +31,21 @@ def calc_mean(dataset, video_root_path='/share/data/videos'):
 
 def subtract_mean(dataset, video_root_path='/share/data/videos', is_combine=False):
     import os
+    import yaml
     from skimage.io import imread
     import numpy as np
     from skimage.transform import resize
+    from classifier import add_noise
 
     frame_mean = np.load(os.path.join(video_root_path, dataset, 'mean_frame_224.npy'))
     training_combine = []
     testing_combine = []
+
+    with open('config.yml', 'r') as ymlfile:
+        cfg = yaml.load(ymlfile)
+
+    is_clip = cfg['clip']
+    noise_factor = cfg['noise_factor']
 
     frame_path = os.path.join(video_root_path, dataset, 'training_frames')
     for frame_folder in os.listdir(frame_path):
@@ -51,6 +59,12 @@ def subtract_mean(dataset, video_root_path='/share/data/videos', is_combine=Fals
             frame_value -= frame_mean
             training_frames_vid.append(frame_value)
         training_frames_vid = np.array(training_frames_vid)
+
+        if noise_factor > 0:
+            training_frames_vid = add_noise(training_frames_vid, noise_factor)
+        if is_clip:
+            training_frames_vid = np.clip(training_frames_vid, 0, 1)
+
         np.save(os.path.join(video_root_path, dataset, 'training_frames_{}.npy'.format(frame_folder[-3:])), training_frames_vid)
         if is_combine:
             training_combine.append(training_frames_vid)
@@ -67,6 +81,12 @@ def subtract_mean(dataset, video_root_path='/share/data/videos', is_combine=Fals
             frame_value -= frame_mean
             testing_frames_vid.append(frame_value)
         testing_frames_vid = np.array(testing_frames_vid)
+
+        if noise_factor > 0:
+            testing_frames_vid = add_noise(testing_frames_vid, noise_factor)
+        if is_clip:
+            testing_frames_vid = np.clip(testing_frames_vid, 0, 1)
+
         np.save(os.path.join(video_root_path, dataset, 'testing_frames_{}.npy'.format(frame_folder[-3:])), testing_frames_vid)
         if is_combine:
             testing_combine.append(testing_frames_vid)
@@ -144,6 +164,11 @@ def combine_dataset(dataset, t, video_root_path='VIDEO_ROOT_PATH'):
 
 def preprocess_data(logger, dataset, t, video_root_path='VIDEO_ROOT_PATH'):
     import os
+    import yaml
+
+    with open('config.yml', 'r') as ymlfile:
+        cfg = yaml.load(ymlfile)
+    data_regen = cfg['data-regen']
 
     # Step 1: Calculate the mean frame of all training frames
     # Check if mean frame file exists for the dataset
@@ -165,6 +190,8 @@ def preprocess_data(logger, dataset, t, video_root_path='VIDEO_ROOT_PATH'):
     # If the file exists, then we can skip re-generating the file
     logger.debug("Step 2/4: Check if training/testing_frames_videoID.npy exists for {}".format(dataset))
     try:
+        if data_regen:
+            raise AssertionError
         # try block will execute without AssetionError if all frames have been subtracted
         for frame_folder in os.listdir(training_frame_path):
             training_frame_npy = os.path.join(video_root_path, dataset, 'training_frames_{}.npy'.format(frame_folder[-3:]))

@@ -5,7 +5,8 @@ def conv_ae():
     from keras.layers.core import Activation
     from keras.layers import Input
 
-    input_tensor = Input(shape=(160, 240, 1))
+    channel_num = 1
+    input_tensor = Input(shape=(160, 240, channel_num))
 
     conv1 = Conv2D(128, kernel_size=(7, 7), padding='same', strides=(4, 4), name='conv1')(input_tensor)
     conv1 = BatchNormalization()(conv1)
@@ -32,7 +33,7 @@ def conv_ae():
     # deconv3 = BatchNormalization()(deconv3)
     # deconv3 = Activation('relu')(deconv3)
 
-    decoded = Conv2DTranspose(1, kernel_size=(11, 11), padding='same', strides=(4, 4), name='deconvAAAA')(deconv2)
+    decoded = Conv2DTranspose(channel_num, kernel_size=(11, 11), padding='same', strides=(4, 4), name='deconvAAAA')(deconv2)
 
     return Model(inputs=input_tensor, outputs=decoded)
 

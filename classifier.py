@@ -96,6 +96,11 @@ def get_model_by_config(model_cfg_name):
     get_model_func  = getattr(module, model_cfg_name)
     return get_model_func()
 
+def add_noise(data, noise_factor):
+    import numpy as np
+    noisy_data = data + noise_factor * np.random.normal(loc=0.0, scale=1.0, size=data.shape)
+    return noisy_data
+
 def train(dataset, job_folder, logger, video_root_path='VIDEO_ROOT_PATH'):
     """Build and train the model
     """
@@ -115,7 +120,6 @@ def train(dataset, job_folder, logger, video_root_path='VIDEO_ROOT_PATH'):
     loss = cfg['cost']
     optimizer = cfg['optimizer']
     time_length = cfg['time_length']
-    # shuffle = cfg['shuffle']
 
     # logger.info("Building model of type {} and activation {}".format(model_type, activation))
     model = get_model_by_config(cfg['model'])
@@ -135,7 +139,6 @@ def train(dataset, job_folder, logger, video_root_path='VIDEO_ROOT_PATH'):
         data = np.load(os.path.join(video_root_path, '{0}/training_frames_t0.npy'.format(dataset)))
     else:
         data = HDF5Matrix(os.path.join(video_root_path, '{0}/{0}_train_t{1}.h5'.format(dataset, time_length)), 'data')
-
 
     snapshot = ModelCheckpoint(os.path.join(job_folder,
                'model_snapshot_e{epoch:03d}_{val_loss:.6f}.h5'))
