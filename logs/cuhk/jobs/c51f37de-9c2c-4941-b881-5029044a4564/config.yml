@@ -1,0 +1,10 @@
+time_length: 0
+cost: mse
+epochs: 1000
+optimizer: sgd
+batch_size: 16
+model: conv_ae
+noise_factor: 0
+clip: false
+data-regen: true
+
