@@ -1,0 +1,15 @@
+2019-06-04 14:48:15,451 [DEBUG] Using GPU 0
+2019-06-04 14:48:15,478 [DEBUG] CACHEDIR=/home/thinh/.cache/matplotlib
+2019-06-04 14:48:15,480 [DEBUG] Using fontManager instance from /home/thinh/.cache/matplotlib/fontlist-v300.json
+2019-06-04 14:48:15,555 [DEBUG] Loaded backend agg version unknown.
+2019-06-04 14:48:19,418 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_01.h5
+2019-06-04 14:48:19,419 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-06-04 14:48:21,698 [CRITICAL] Uncaught exception
+Traceback (most recent call last):
+  File "/home/thinh/github/anomaly-detection-and-localization/start_test.py", line 80, in <module>
+    visualize_score=True, visualize_frame=True)
+  File "/home/thinh/github/anomaly-detection-and-localization/classifier.py", line 736, in test
+    s_err = stripe_predict(temporal_model, X_test, 3)
+  File "/home/thinh/github/anomaly-detection-and-localization/classifier.py", line 591, in stripe_predict
+    ret_arr.append(((the_combined - np.squeeze(norm_prediction))**2))
+ValueError: operands could not be broadcast together with shapes (160,240,1) (160,240) 

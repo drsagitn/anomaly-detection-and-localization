@@ -1,0 +1,25 @@
+2019-04-16 14:15:25,225 [DEBUG] Using GPU 0
+2019-04-16 14:15:25,275 [DEBUG] CACHEDIR=/home/thinh/.cache/matplotlib
+2019-04-16 14:15:25,278 [DEBUG] Using fontManager instance from /home/thinh/.cache/matplotlib/fontlist-v300.json
+2019-04-16 14:15:25,402 [DEBUG] Loaded backend agg version unknown.
+2019-04-16 14:15:26,752 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_01.h5
+2019-04-16 14:15:26,752 [DEBUG] Predicting using logs/UCSD_ped1/jobs/d1e9c23c-e754-4027-be93-111069ea3b81/model_snapshot_e100_0.003504.h5
+2019-04-16 14:15:43,375 [CRITICAL] Uncaught exception
+Traceback (most recent call last):
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/pydevd.py", line 1741, in <module>
+    main()
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/pydevd.py", line 1735, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/pydevd.py", line 1135, in run
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/home/thinh/github/anomaly-detection-and-localization/start_test.py", line 71, in <module>
+    visualize_score=True, visualize_frame=True)
+  File "/home/thinh/github/anomaly-detection-and-localization/classifier.py", line 432, in test
+    res = stripe_predict(temporal_model, X_test, 20)
+  File "/home/thinh/github/anomaly-detection-and-localization/classifier.py", line 387, in stripe_predict
+    stripe_batch = add_stripes(X[i], stripe_h)
+  File "/home/thinh/github/anomaly-detection-and-localization/classifier.py", line 377, in add_stripes
+    for i in range(num_of_stripe):
+TypeError: 'float' object cannot be interpreted as an integer

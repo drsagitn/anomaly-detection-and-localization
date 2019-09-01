@@ -1,0 +1,13 @@
+2019-04-25 12:42:16,963 [DEBUG] Using GPU 0
+2019-04-25 12:42:16,990 [DEBUG] CACHEDIR=/home/thinh/.cache/matplotlib
+2019-04-25 12:42:16,992 [DEBUG] Using fontManager instance from /home/thinh/.cache/matplotlib/fontlist-v300.json
+2019-04-25 12:42:17,062 [DEBUG] Loaded backend agg version unknown.
+2019-04-25 12:42:18,217 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_14.h5
+2019-04-25 12:42:18,217 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-04-25 12:42:25,433 [INFO] Dataset UCSD_ped1: Overall PR-AUC = 18.52%
+2019-04-25 12:42:25,434 [INFO] Dataset UCSD_ped1: Overall AUC = 89.14%
+2019-04-25 12:42:25,575 [DEBUG] update_title_pos
+2019-04-25 12:42:25,610 [DEBUG] findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2019-04-25 12:42:25,783 [DEBUG] findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2019-04-25 12:42:25,794 [DEBUG] update_title_pos
+2019-04-25 12:42:25,970 [INFO] Job 3df36c94-5457-4bc3-a8b9-7af636acb134 (UCSD_ped1) has finished testing.

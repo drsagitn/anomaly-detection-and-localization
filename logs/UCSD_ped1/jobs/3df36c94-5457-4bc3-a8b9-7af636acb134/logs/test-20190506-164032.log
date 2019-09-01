@@ -1,0 +1,39 @@
+2019-05-06 16:40:32,827 [DEBUG] Using GPU 0
+2019-05-06 16:40:32,878 [DEBUG] CACHEDIR=/home/thinh/.cache/matplotlib
+2019-05-06 16:40:32,881 [DEBUG] Using fontManager instance from /home/thinh/.cache/matplotlib/fontlist-v300.json
+2019-05-06 16:40:33,017 [DEBUG] Loaded backend agg version unknown.
+2019-05-06 16:40:40,789 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_03.h5
+2019-05-06 16:40:40,789 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-06 16:42:49,254 [DEBUG] update_title_pos
+2019-05-06 16:42:49,301 [DEBUG] findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2019-05-06 16:42:54,013 [CRITICAL] Uncaught exception
+Traceback (most recent call last):
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/pydevd.py", line 1741, in <module>
+    main()
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/pydevd.py", line 1735, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/pydevd.py", line 1135, in run
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/home/thinh/github/anomaly-detection-and-localization/start_test.py", line 73, in <module>
+    visualize_score=True, visualize_frame=True)
+  File "/home/thinh/github/anomaly-detection-and-localization/classifier.py", line 640, in test
+    get_gt_range(dataset, videoid)
+  File "/home/thinh/github/anomaly-detection-and-localization/visualization.py", line 47, in save_anomaly_score
+    plt.savefig(save_name, dpi=300)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/pyplot.py", line 689, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/figure.py", line 2094, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2075, in print_figure
+    **kwargs)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/backends/backend_agg.py", line 521, in print_png
+    cbook.open_file_cm(filename_or_obj, "wb") as fh:
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/contextlib.py", line 81, in __enter__
+    return next(self.gen)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/cbook/__init__.py", line 407, in open_file_cm
+    fh, opened = to_filehandle(path_or_file, mode, True, encoding)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/cbook/__init__.py", line 392, in to_filehandle
+    fh = open(fname, flag, encoding=encoding)
+FileNotFoundError: [Errno 2] No such file or directory: 'logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/result/298/score/UCSD_ped1_vid03_ano_score.png'

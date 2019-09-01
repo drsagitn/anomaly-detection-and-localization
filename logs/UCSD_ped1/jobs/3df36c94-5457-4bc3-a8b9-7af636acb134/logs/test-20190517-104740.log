@@ -1,0 +1,8 @@
+2019-05-17 10:47:40,415 [DEBUG] Using GPU 0
+2019-05-17 10:47:40,437 [DEBUG] CACHEDIR=/home/thinh/.cache/matplotlib
+2019-05-17 10:47:40,438 [DEBUG] Using fontManager instance from /home/thinh/.cache/matplotlib/fontlist-v300.json
+2019-05-17 10:47:40,490 [DEBUG] Loaded backend agg version unknown.
+2019-05-17 10:47:41,406 [DEBUG] update_title_pos
+2019-05-17 10:47:41,410 [DEBUG] findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2019-05-17 10:47:51,837 [DEBUG] update_title_pos
+2019-05-17 10:47:54,738 [WARNING] Ctrl + C triggered by user, testing ended prematurely

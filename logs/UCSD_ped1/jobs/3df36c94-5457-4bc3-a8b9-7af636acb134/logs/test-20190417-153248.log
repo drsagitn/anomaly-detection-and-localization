@@ -1,0 +1,25 @@
+2019-04-17 15:32:48,164 [DEBUG] Using GPU 0
+2019-04-17 15:32:48,215 [DEBUG] CACHEDIR=/home/thinh/.cache/matplotlib
+2019-04-17 15:32:48,218 [DEBUG] Using fontManager instance from /home/thinh/.cache/matplotlib/fontlist-v300.json
+2019-04-17 15:32:48,345 [DEBUG] Loaded backend agg version unknown.
+2019-04-17 15:32:50,425 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_01.h5
+2019-04-17 15:32:50,425 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-04-17 15:33:08,615 [CRITICAL] Uncaught exception
+Traceback (most recent call last):
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/pydevd.py", line 1741, in <module>
+    main()
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/pydevd.py", line 1735, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/pydevd.py", line 1135, in run
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/home/thinh/github/anomaly-detection-and-localization/start_test.py", line 73, in <module>
+    visualize_score=True, visualize_frame=True)
+  File "/home/thinh/github/anomaly-detection-and-localization/classifier.py", line 439, in test
+    res = stripe_predict(temporal_model, X_test, 20)
+  File "/home/thinh/github/anomaly-detection-and-localization/classifier.py", line 393, in stripe_predict
+    image_side_side(np.squeeze(predicted_batch), np.squeeze(stripe_batch))
+  File "/home/thinh/github/anomaly-detection-and-localization/visualization.py", line 7, in image_side_side
+    axarr[i, 0] = image_arr1[i]
+IndexError: index 2 is out of bounds for axis 0 with size 2

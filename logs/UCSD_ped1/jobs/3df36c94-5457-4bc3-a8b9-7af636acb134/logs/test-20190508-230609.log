@@ -1,0 +1,48 @@
+2019-05-08 23:06:09,721 [DEBUG] Using GPU 0
+2019-05-08 23:06:09,769 [DEBUG] CACHEDIR=/home/thinh/.cache/matplotlib
+2019-05-08 23:06:09,772 [DEBUG] Using fontManager instance from /home/thinh/.cache/matplotlib/fontlist-v300.json
+2019-05-08 23:06:09,890 [DEBUG] Loaded backend agg version unknown.
+2019-05-08 23:06:10,811 [DEBUG] update_title_pos
+2019-05-08 23:06:10,819 [DEBUG] findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2019-05-08 23:06:17,638 [DEBUG] update_title_pos
+2019-05-08 23:06:31,935 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_03.h5
+2019-05-08 23:06:31,935 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-08 23:06:40,102 [DEBUG] update_title_pos
+2019-05-08 23:06:40,258 [DEBUG] update_title_pos
+2019-05-08 23:06:40,300 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_04.h5
+2019-05-08 23:06:40,300 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-08 23:06:47,170 [DEBUG] update_title_pos
+2019-05-08 23:06:47,333 [DEBUG] update_title_pos
+2019-05-08 23:06:47,375 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_14.h5
+2019-05-08 23:06:47,375 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-08 23:06:54,235 [DEBUG] update_title_pos
+2019-05-08 23:06:54,398 [DEBUG] update_title_pos
+2019-05-08 23:06:54,440 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_18.h5
+2019-05-08 23:06:54,440 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-08 23:07:01,279 [DEBUG] update_title_pos
+2019-05-08 23:07:01,437 [DEBUG] update_title_pos
+2019-05-08 23:07:01,479 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_19.h5
+2019-05-08 23:07:01,479 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-08 23:07:08,403 [DEBUG] update_title_pos
+2019-05-08 23:07:08,560 [DEBUG] update_title_pos
+2019-05-08 23:07:08,601 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_21.h5
+2019-05-08 23:07:08,602 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-08 23:07:15,446 [DEBUG] update_title_pos
+2019-05-08 23:07:15,607 [DEBUG] update_title_pos
+2019-05-08 23:07:15,650 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_22.h5
+2019-05-08 23:07:15,650 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-08 23:07:22,674 [DEBUG] update_title_pos
+2019-05-08 23:07:22,854 [DEBUG] update_title_pos
+2019-05-08 23:07:22,898 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_23.h5
+2019-05-08 23:07:22,898 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-08 23:07:29,901 [DEBUG] update_title_pos
+2019-05-08 23:07:30,070 [DEBUG] update_title_pos
+2019-05-08 23:07:30,114 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_24.h5
+2019-05-08 23:07:30,115 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-08 23:07:36,959 [DEBUG] update_title_pos
+2019-05-08 23:07:37,117 [DEBUG] update_title_pos
+2019-05-08 23:07:37,158 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_32.h5
+2019-05-08 23:07:37,158 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-08 23:07:43,964 [DEBUG] update_title_pos
+2019-05-08 23:07:44,125 [DEBUG] update_title_pos
+2019-05-08 23:09:59,462 [WARNING] Ctrl + C triggered by user, testing ended prematurely

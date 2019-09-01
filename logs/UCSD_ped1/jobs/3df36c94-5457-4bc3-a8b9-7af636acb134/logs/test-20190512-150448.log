@@ -1,0 +1,24 @@
+2019-05-12 15:04:48,097 [DEBUG] Using GPU 0
+2019-05-12 15:04:48,130 [DEBUG] CACHEDIR=/home/thinh/.cache/matplotlib
+2019-05-12 15:04:48,131 [DEBUG] Using fontManager instance from /home/thinh/.cache/matplotlib/fontlist-v300.json
+2019-05-12 15:04:48,190 [DEBUG] Loaded backend agg version unknown.
+2019-05-12 15:04:49,119 [DEBUG] update_title_pos
+2019-05-12 15:04:49,122 [DEBUG] findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2019-05-12 15:05:01,905 [DEBUG] update_title_pos
+2019-05-12 15:05:17,766 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_01.h5
+2019-05-12 15:05:17,766 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-12 15:05:17,840 [CRITICAL] Uncaught exception
+Traceback (most recent call last):
+  File "/home/thinh/github/anomaly-detection-and-localization/start_test.py", line 73, in <module>
+    visualize_score=True, visualize_frame=True)
+  File "/home/thinh/github/anomaly-detection-and-localization/classifier.py", line 651, in test
+    t_err = t_predict_frame(temporal_model2, X_test1, 4)
+  File "/home/thinh/github/anomaly-detection-and-localization/classifier.py", line 484, in t_predict_frame
+    predicted_vol = model.predict(input_vol)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/keras/engine/training.py", line 1149, in predict
+    x, _, _ = self._standardize_user_data(x)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/keras/engine/training.py", line 751, in _standardize_user_data
+    exception_prefix='input')
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/keras/engine/training_utils.py", line 138, in standardize_input_data
+    str(data_shape))
+ValueError: Error when checking input: expected input_1 to have shape (7, 160, 240, 1) but got array with shape (4, 160, 240, 1)

@@ -1,0 +1,26 @@
+2019-05-14 16:32:26,607 [DEBUG] Using GPU 0
+2019-05-14 16:32:26,627 [DEBUG] CACHEDIR=/home/thinh/.cache/matplotlib
+2019-05-14 16:32:26,628 [DEBUG] Using fontManager instance from /home/thinh/.cache/matplotlib/fontlist-v300.json
+2019-05-14 16:32:26,680 [DEBUG] Loaded backend agg version unknown.
+2019-05-14 16:32:27,557 [DEBUG] update_title_pos
+2019-05-14 16:32:27,560 [DEBUG] findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2019-05-14 16:32:37,959 [DEBUG] update_title_pos
+2019-05-14 16:32:51,738 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_01.h5
+2019-05-14 16:32:51,738 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-14 16:32:59,826 [DEBUG] update_title_pos
+2019-05-14 16:32:59,952 [DEBUG] update_title_pos
+2019-05-14 16:32:59,970 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_02.h5
+2019-05-14 16:32:59,970 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-14 16:33:06,780 [DEBUG] update_title_pos
+2019-05-14 16:33:06,905 [DEBUG] update_title_pos
+2019-05-14 16:33:06,924 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_03.h5
+2019-05-14 16:33:06,924 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-14 16:33:13,727 [DEBUG] update_title_pos
+2019-05-14 16:33:13,849 [DEBUG] update_title_pos
+2019-05-14 16:33:13,867 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_04.h5
+2019-05-14 16:33:13,867 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-14 16:33:20,804 [DEBUG] update_title_pos
+2019-05-14 16:33:20,937 [DEBUG] update_title_pos
+2019-05-14 16:33:20,955 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_05.h5
+2019-05-14 16:33:20,956 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-14 16:33:25,809 [WARNING] Ctrl + C triggered by user, testing ended prematurely

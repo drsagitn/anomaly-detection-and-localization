@@ -1,0 +1,39 @@
+2019-04-16 14:22:10,021 [DEBUG] Using GPU 0
+2019-04-16 14:22:10,071 [DEBUG] CACHEDIR=/home/thinh/.cache/matplotlib
+2019-04-16 14:22:10,074 [DEBUG] Using fontManager instance from /home/thinh/.cache/matplotlib/fontlist-v300.json
+2019-04-16 14:22:10,198 [DEBUG] Loaded backend agg version unknown.
+2019-04-16 14:22:11,559 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_01.h5
+2019-04-16 14:22:11,559 [DEBUG] Predicting using logs/UCSD_ped1/jobs/d1e9c23c-e754-4027-be93-111069ea3b81/model_snapshot_e100_0.003504.h5
+2019-04-16 14:23:39,327 [CRITICAL] Uncaught exception
+Traceback (most recent call last):
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/pydevd.py", line 1741, in <module>
+    main()
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/pydevd.py", line 1735, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/pydevd.py", line 1135, in run
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/home/thinh/github/anomaly-detection-and-localization/start_test.py", line 71, in <module>
+    visualize_score=True, visualize_frame=True)
+  File "/home/thinh/github/anomaly-detection-and-localization/classifier.py", line 433, in test
+    res = stripe_predict(temporal_model, X_test, 20)
+  File "/home/thinh/github/anomaly-detection-and-localization/classifier.py", line 389, in stripe_predict
+    predicted_batch = model.predict_on_batch(stripe_batch)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/keras/engine/training.py", line 1268, in predict_on_batch
+    x, _, _ = self._standardize_user_data(x)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/keras/engine/training.py", line 751, in _standardize_user_data
+    exception_prefix='input')
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/keras/engine/training_utils.py", line 102, in standardize_input_data
+    str(len(data)) + ' arrays: ' + str(data)[:200] + '...')
+ValueError: Error when checking model input: the list of Numpy arrays that you are passing to your model is not the size the model expected. Expected to see 1 array(s), but instead got the following list of 8 arrays: [array([[[ 0.        ],
+        [ 0.        ],
+        [ 0.        ],
+        ...,
+        [ 0.        ],
+        [ 0.        ],
+        [ 0.        ]],
+
+       [[ 0.        ],
+        [ 0.        ],
+...

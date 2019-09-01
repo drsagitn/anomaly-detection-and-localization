@@ -1,0 +1,85 @@
+2019-04-04 17:02:32,469 [DEBUG] Using GPU 0
+2019-04-04 17:02:32,488 [DEBUG] CACHEDIR=/home/thinh/.cache/matplotlib
+2019-04-04 17:02:32,490 [DEBUG] Using fontManager instance from /home/thinh/.cache/matplotlib/fontlist-v300.json
+2019-04-04 17:02:32,538 [DEBUG] Loaded backend agg version unknown.
+2019-04-04 17:02:35,170 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_01.h5
+2019-04-04 17:02:35,171 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_02.h5
+2019-04-04 17:02:35,171 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_03.h5
+2019-04-04 17:02:35,171 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_04.h5
+2019-04-04 17:02:35,172 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_05.h5
+2019-04-04 17:02:35,172 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_06.h5
+2019-04-04 17:02:35,172 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_07.h5
+2019-04-04 17:02:35,173 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_08.h5
+2019-04-04 17:02:35,173 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_09.h5
+2019-04-04 17:02:35,173 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_10.h5
+2019-04-04 17:02:35,173 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_11.h5
+2019-04-04 17:02:35,174 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_12.h5
+2019-04-04 17:02:35,174 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_13.h5
+2019-04-04 17:02:35,174 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_14.h5
+2019-04-04 17:02:35,175 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_15.h5
+2019-04-04 17:02:35,175 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_16.h5
+2019-04-04 17:02:35,175 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_17.h5
+2019-04-04 17:02:35,176 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_18.h5
+2019-04-04 17:02:35,176 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_19.h5
+2019-04-04 17:02:35,176 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_20.h5
+2019-04-04 17:02:35,176 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_21.h5
+2019-04-04 17:02:35,177 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_22.h5
+2019-04-04 17:02:35,177 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_23.h5
+2019-04-04 17:02:35,177 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_24.h5
+2019-04-04 17:02:35,178 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_25.h5
+2019-04-04 17:02:35,178 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_26.h5
+2019-04-04 17:02:35,178 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_27.h5
+2019-04-04 17:02:35,179 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_28.h5
+2019-04-04 17:02:35,179 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_29.h5
+2019-04-04 17:02:35,179 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_30.h5
+2019-04-04 17:02:35,180 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_31.h5
+2019-04-04 17:02:35,180 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_32.h5
+2019-04-04 17:02:35,180 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_33.h5
+2019-04-04 17:02:35,180 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_34.h5
+2019-04-04 17:02:35,181 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_35.h5
+2019-04-04 17:02:35,181 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_36.h5
+2019-04-04 17:02:35,303 [INFO] UCSD_ped1 video 1: Overall AUC = 95.02%
+2019-04-04 17:02:35,305 [INFO] UCSD_ped1 video 2: Overall AUC = 81.81%
+2019-04-04 17:02:35,306 [INFO] UCSD_ped1 video 3: Overall AUC = 99.74%
+2019-04-04 17:02:35,307 [INFO] UCSD_ped1 video 4: Overall AUC = 56.73%
+2019-04-04 17:02:35,309 [INFO] UCSD_ped1 video 5: Overall AUC = 60.04%
+2019-04-04 17:02:35,310 [INFO] UCSD_ped1 video 6: Overall AUC = 99.83%
+2019-04-04 17:02:35,311 [INFO] UCSD_ped1 video 7: Overall AUC = 97.20%
+2019-04-04 17:02:35,312 [INFO] UCSD_ped1 video 8: Overall AUC = 83.07%
+2019-04-04 17:02:35,314 [INFO] UCSD_ped1 video 9: Overall AUC = 97.66%
+2019-04-04 17:02:35,315 [INFO] UCSD_ped1 video 10: Overall AUC = 97.85%
+2019-04-04 17:02:35,316 [INFO] UCSD_ped1 video 11: Overall AUC = 29.38%
+2019-04-04 17:02:35,317 [INFO] UCSD_ped1 video 12: Overall AUC = 62.29%
+2019-04-04 17:02:35,319 [INFO] UCSD_ped1 video 13: Overall AUC = 97.62%
+2019-04-04 17:02:35,320 [INFO] UCSD_ped1 video 14: Overall AUC = 71.11%
+2019-04-04 17:02:35,321 [INFO] UCSD_ped1 video 15: Overall AUC = 91.25%
+2019-04-04 17:02:35,322 [INFO] UCSD_ped1 video 16: Overall AUC = 92.64%
+2019-04-04 17:02:35,324 [INFO] UCSD_ped1 video 17: Overall AUC = 13.79%
+2019-04-04 17:02:35,325 [INFO] UCSD_ped1 video 18: Overall AUC = 31.34%
+2019-04-04 17:02:35,326 [INFO] UCSD_ped1 video 19: Overall AUC = 94.38%
+2019-04-04 17:02:35,327 [INFO] UCSD_ped1 video 20: Overall AUC = 95.49%
+2019-04-04 17:02:35,329 [INFO] UCSD_ped1 video 21: Overall AUC = 88.80%
+2019-04-04 17:02:35,330 [INFO] UCSD_ped1 video 22: Overall AUC = 73.57%
+2019-04-04 17:02:35,331 [INFO] UCSD_ped1 video 23: Overall AUC = 3.74%
+2019-04-04 17:02:35,332 [INFO] UCSD_ped1 video 24: Overall AUC = 99.86%
+2019-04-04 17:02:35,334 [INFO] UCSD_ped1 video 25: Overall AUC = 98.63%
+2019-04-04 17:02:35,335 [INFO] UCSD_ped1 video 26: Overall AUC = 62.57%
+2019-04-04 17:02:35,336 [INFO] UCSD_ped1 video 27: Overall AUC = 95.32%
+2019-04-04 17:02:35,337 [INFO] UCSD_ped1 video 28: Overall AUC = 26.47%
+2019-04-04 17:02:35,339 [INFO] UCSD_ped1 video 29: Overall AUC = 97.86%
+2019-04-04 17:02:35,340 [INFO] UCSD_ped1 video 30: Overall AUC = 100.00%
+2019-04-04 17:02:35,341 [INFO] UCSD_ped1 video 31: Overall AUC = 97.90%
+2019-04-04 17:02:35,342 [INFO] UCSD_ped1 video 32: Overall AUC = 99.81%
+2019-04-04 17:02:35,344 [INFO] UCSD_ped1 video 33: Overall AUC = 92.92%
+2019-04-04 17:02:35,345 [INFO] UCSD_ped1 video 34: Overall AUC = 3.75%
+2019-04-04 17:02:35,346 [INFO] UCSD_ped1 video 35: Overall AUC = 88.56%
+2019-04-04 17:02:35,347 [INFO] UCSD_ped1 video 36: Overall AUC = 86.14%
+2019-04-04 17:02:35,347 [CRITICAL] Uncaught exception
+Traceback (most recent call last):
+  File "/home/thinh/github/anomaly-detection-and-localization/start_test.py", line 64, in <module>
+    visualize_score=True, visualize_frame=True)
+  File "/home/thinh/github/anomaly-detection-and-localization/classifier.py", line 434, in test
+    calc_auc_per_video(logger, dataset, n_videos[dataset], save_path, os.path.join(save_path, "scores", "auc_per"))
+  File "/home/thinh/github/anomaly-detection-and-localization/classifier.py", line 268, in calc_auc_per_video
+    ax = range(n_vid) + 1
+TypeError: unsupported operand type(s) for +: 'range' and 'int'

@@ -1,0 +1,77 @@
+2019-04-04 13:11:35,497 [DEBUG] Using GPU 0
+2019-04-04 13:11:35,545 [DEBUG] CACHEDIR=/home/thinh/.cache/matplotlib
+2019-04-04 13:11:35,548 [DEBUG] Using fontManager instance from /home/thinh/.cache/matplotlib/fontlist-v300.json
+2019-04-04 13:11:35,666 [DEBUG] Loaded backend agg version unknown.
+2019-04-04 13:11:41,500 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_01.h5
+2019-04-04 13:11:41,500 [DEBUG] Predicting using logs/UCSD_ped1/jobs/3df36c94-5457-4bc3-a8b9-7af636acb134/model_snapshot_e200_0.001427.h5
+2019-04-04 13:11:54,091 [DEBUG] Importing BlpImagePlugin
+2019-04-04 13:11:54,092 [DEBUG] Importing BmpImagePlugin
+2019-04-04 13:11:54,093 [DEBUG] Importing BufrStubImagePlugin
+2019-04-04 13:11:54,094 [DEBUG] Importing CurImagePlugin
+2019-04-04 13:11:54,095 [DEBUG] Importing DcxImagePlugin
+2019-04-04 13:11:54,097 [DEBUG] Importing DdsImagePlugin
+2019-04-04 13:11:54,098 [DEBUG] Importing EpsImagePlugin
+2019-04-04 13:11:54,100 [DEBUG] Importing FitsStubImagePlugin
+2019-04-04 13:11:54,101 [DEBUG] Importing FliImagePlugin
+2019-04-04 13:11:54,102 [DEBUG] Importing FpxImagePlugin
+2019-04-04 13:11:54,106 [DEBUG] Importing FtexImagePlugin
+2019-04-04 13:11:54,106 [DEBUG] Importing GbrImagePlugin
+2019-04-04 13:11:54,107 [DEBUG] Importing GifImagePlugin
+2019-04-04 13:11:54,107 [DEBUG] Importing GribStubImagePlugin
+2019-04-04 13:11:54,108 [DEBUG] Importing Hdf5StubImagePlugin
+2019-04-04 13:11:54,109 [DEBUG] Importing IcnsImagePlugin
+2019-04-04 13:11:54,110 [DEBUG] Importing IcoImagePlugin
+2019-04-04 13:11:54,111 [DEBUG] Importing ImImagePlugin
+2019-04-04 13:11:54,112 [DEBUG] Importing ImtImagePlugin
+2019-04-04 13:11:54,114 [DEBUG] Importing IptcImagePlugin
+2019-04-04 13:11:54,114 [DEBUG] Importing JpegImagePlugin
+2019-04-04 13:11:54,115 [DEBUG] Importing Jpeg2KImagePlugin
+2019-04-04 13:11:54,115 [DEBUG] Importing McIdasImagePlugin
+2019-04-04 13:11:54,116 [DEBUG] Importing MicImagePlugin
+2019-04-04 13:11:54,117 [DEBUG] Importing MpegImagePlugin
+2019-04-04 13:11:54,118 [DEBUG] Importing MpoImagePlugin
+2019-04-04 13:11:54,118 [DEBUG] Importing MspImagePlugin
+2019-04-04 13:11:54,119 [DEBUG] Importing PalmImagePlugin
+2019-04-04 13:11:54,120 [DEBUG] Importing PcdImagePlugin
+2019-04-04 13:11:54,121 [DEBUG] Importing PcxImagePlugin
+2019-04-04 13:11:54,121 [DEBUG] Importing PdfImagePlugin
+2019-04-04 13:11:54,156 [DEBUG] Importing PixarImagePlugin
+2019-04-04 13:11:54,157 [DEBUG] Importing PngImagePlugin
+2019-04-04 13:11:54,157 [DEBUG] Importing PpmImagePlugin
+2019-04-04 13:11:54,157 [DEBUG] Importing PsdImagePlugin
+2019-04-04 13:11:54,158 [DEBUG] Importing SgiImagePlugin
+2019-04-04 13:11:54,159 [DEBUG] Importing SpiderImagePlugin
+2019-04-04 13:11:54,160 [DEBUG] Importing SunImagePlugin
+2019-04-04 13:11:54,160 [DEBUG] Importing TgaImagePlugin
+2019-04-04 13:11:54,161 [DEBUG] Importing TiffImagePlugin
+2019-04-04 13:11:54,161 [DEBUG] Importing WebPImagePlugin
+2019-04-04 13:11:54,162 [DEBUG] Importing WmfImagePlugin
+2019-04-04 13:11:54,163 [DEBUG] Importing XbmImagePlugin
+2019-04-04 13:11:54,168 [DEBUG] Importing XpmImagePlugin
+2019-04-04 13:11:54,169 [DEBUG] Importing XVThumbImagePlugin
+2019-04-04 13:11:56,344 [CRITICAL] Uncaught exception
+Traceback (most recent call last):
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/PIL/Image.py", line 1974, in save
+    format = EXTENSION[ext]
+KeyError: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/pydevd.py", line 1741, in <module>
+    main()
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/pydevd.py", line 1735, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/pydevd.py", line 1135, in run
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/home/thinh/github/anomaly-detection-and-localization/start_test.py", line 64, in <module>
+    visualize_score=True, visualize_frame=True)
+  File "/home/thinh/github/anomaly-detection-and-localization/classifier.py", line 338, in test
+    print_predicted_images(res, filesize, t, os.path.join(save_path, "prediction"))
+  File "/home/thinh/github/anomaly-detection-and-localization/classifier.py", line 300, in print_predicted_images
+    toimage(vol_costs[j]).save(os.path.join(savedir, "meanPredicted_", str(j), ".jpg"))
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/PIL/Image.py", line 1976, in save
+    raise ValueError('unknown file extension: {}'.format(ext))
+ValueError: unknown file extension: 

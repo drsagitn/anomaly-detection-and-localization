@@ -1,0 +1,16 @@
+2019-05-20 16:01:47,443 [DEBUG] Using GPU 0
+2019-05-20 16:01:47,464 [DEBUG] CACHEDIR=/home/thinh/.cache/matplotlib
+2019-05-20 16:01:47,465 [DEBUG] Using fontManager instance from /home/thinh/.cache/matplotlib/fontlist-v300.json
+2019-05-20 16:01:47,519 [DEBUG] Loaded backend agg version unknown.
+2019-05-20 16:01:48,469 [DEBUG] update_title_pos
+2019-05-20 16:01:48,472 [DEBUG] findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2019-05-20 16:01:58,849 [DEBUG] update_title_pos
+2019-05-20 16:02:12,593 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_01.h5
+2019-05-20 16:02:12,593 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-20 16:02:20,490 [CRITICAL] Uncaught exception
+Traceback (most recent call last):
+  File "/home/thinh/github/anomaly-detection-and-localization/start_test.py", line 73, in <module>
+    visualize_score=True, visualize_frame=True)
+  File "/home/thinh/github/anomaly-detection-and-localization/classifier.py", line 672, in test
+    rte[videoid] = total_score
+UnboundLocalError: local variable 'total_score' referenced before assignment

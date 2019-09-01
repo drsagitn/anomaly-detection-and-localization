@@ -1,0 +1,7 @@
+2019-04-10 13:16:42,625 [DEBUG] Using GPU 0
+2019-04-10 13:16:42,685 [DEBUG] CACHEDIR=/home/thinh/.cache/matplotlib
+2019-04-10 13:16:42,688 [DEBUG] Using fontManager instance from /home/thinh/.cache/matplotlib/fontlist-v300.json
+2019-04-10 13:16:42,838 [DEBUG] Loaded backend agg version unknown.
+2019-04-10 13:16:45,818 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_01.h5
+2019-04-10 13:16:45,818 [DEBUG] Predicting using logs/UCSD_ped1/jobs/db291bbf-55e9-40fd-b01f-43b4e474ec55/model_snapshot_e010_0.002689.h5
+2019-04-10 13:21:00,506 [WARNING] Ctrl + C triggered by user, testing ended prematurely

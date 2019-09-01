@@ -1,0 +1,78 @@
+2019-04-22 17:48:51,369 [DEBUG] Using GPU 0
+2019-04-22 17:48:51,419 [DEBUG] CACHEDIR=/home/thinh/.cache/matplotlib
+2019-04-22 17:48:51,422 [DEBUG] Using fontManager instance from /home/thinh/.cache/matplotlib/fontlist-v300.json
+2019-04-22 17:48:51,543 [DEBUG] Loaded backend agg version unknown.
+2019-04-22 17:48:53,540 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_03.h5
+2019-04-22 17:48:53,540 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-04-22 17:49:07,340 [DEBUG] Importing BlpImagePlugin
+2019-04-22 17:49:07,340 [DEBUG] Importing BmpImagePlugin
+2019-04-22 17:49:07,342 [DEBUG] Importing BufrStubImagePlugin
+2019-04-22 17:49:07,342 [DEBUG] Importing CurImagePlugin
+2019-04-22 17:49:07,343 [DEBUG] Importing DcxImagePlugin
+2019-04-22 17:49:07,344 [DEBUG] Importing DdsImagePlugin
+2019-04-22 17:49:07,345 [DEBUG] Importing EpsImagePlugin
+2019-04-22 17:49:07,347 [DEBUG] Importing FitsStubImagePlugin
+2019-04-22 17:49:07,348 [DEBUG] Importing FliImagePlugin
+2019-04-22 17:49:07,348 [DEBUG] Importing FpxImagePlugin
+2019-04-22 17:49:07,351 [DEBUG] Importing FtexImagePlugin
+2019-04-22 17:49:07,351 [DEBUG] Importing GbrImagePlugin
+2019-04-22 17:49:07,352 [DEBUG] Importing GifImagePlugin
+2019-04-22 17:49:07,352 [DEBUG] Importing GribStubImagePlugin
+2019-04-22 17:49:07,353 [DEBUG] Importing Hdf5StubImagePlugin
+2019-04-22 17:49:07,353 [DEBUG] Importing IcnsImagePlugin
+2019-04-22 17:49:07,354 [DEBUG] Importing IcoImagePlugin
+2019-04-22 17:49:07,355 [DEBUG] Importing ImImagePlugin
+2019-04-22 17:49:07,356 [DEBUG] Importing ImtImagePlugin
+2019-04-22 17:49:07,357 [DEBUG] Importing IptcImagePlugin
+2019-04-22 17:49:07,358 [DEBUG] Importing JpegImagePlugin
+2019-04-22 17:49:07,358 [DEBUG] Importing Jpeg2KImagePlugin
+2019-04-22 17:49:07,359 [DEBUG] Importing McIdasImagePlugin
+2019-04-22 17:49:07,360 [DEBUG] Importing MicImagePlugin
+2019-04-22 17:49:07,360 [DEBUG] Importing MpegImagePlugin
+2019-04-22 17:49:07,361 [DEBUG] Importing MpoImagePlugin
+2019-04-22 17:49:07,361 [DEBUG] Importing MspImagePlugin
+2019-04-22 17:49:07,362 [DEBUG] Importing PalmImagePlugin
+2019-04-22 17:49:07,363 [DEBUG] Importing PcdImagePlugin
+2019-04-22 17:49:07,364 [DEBUG] Importing PcxImagePlugin
+2019-04-22 17:49:07,364 [DEBUG] Importing PdfImagePlugin
+2019-04-22 17:49:07,398 [DEBUG] Importing PixarImagePlugin
+2019-04-22 17:49:07,398 [DEBUG] Importing PngImagePlugin
+2019-04-22 17:49:07,398 [DEBUG] Importing PpmImagePlugin
+2019-04-22 17:49:07,399 [DEBUG] Importing PsdImagePlugin
+2019-04-22 17:49:07,399 [DEBUG] Importing SgiImagePlugin
+2019-04-22 17:49:07,400 [DEBUG] Importing SpiderImagePlugin
+2019-04-22 17:49:07,401 [DEBUG] Importing SunImagePlugin
+2019-04-22 17:49:07,401 [DEBUG] Importing TgaImagePlugin
+2019-04-22 17:49:07,402 [DEBUG] Importing TiffImagePlugin
+2019-04-22 17:49:07,402 [DEBUG] Importing WebPImagePlugin
+2019-04-22 17:49:07,403 [DEBUG] Importing WmfImagePlugin
+2019-04-22 17:49:07,404 [DEBUG] Importing XbmImagePlugin
+2019-04-22 17:49:07,408 [DEBUG] Importing XpmImagePlugin
+2019-04-22 17:49:07,410 [DEBUG] Importing XVThumbImagePlugin
+2019-04-22 17:49:09,869 [CRITICAL] Uncaught exception
+Traceback (most recent call last):
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/pydevd.py", line 1741, in <module>
+    main()
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/pydevd.py", line 1735, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/pydevd.py", line 1135, in run
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/home/thinh/github/anomaly-detection-and-localization/start_test.py", line 73, in <module>
+    visualize_score=True, visualize_frame=True)
+  File "/home/thinh/github/anomaly-detection-and-localization/classifier.py", line 466, in test
+    calc_precision_recall_per_video_pixel(logger, dataset, videoid, save_path, res)
+  File "/home/thinh/github/anomaly-detection-and-localization/classifier.py", line 340, in calc_precision_recall_per_video_pixel
+    gt_vid = get_gt_pixel(dataset, vid_id, "VIDEO_ROOT_PATH").ravel()
+  File "/home/thinh/github/anomaly-detection-and-localization/classifier.py", line 217, in get_gt_pixel
+    frame_value = imread(os.path.join(video_gt_dir, file), as_gray=True)/255
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/skimage/io/_io.py", line 62, in imread
+    img = call_plugin('imread', fname, plugin=plugin, **plugin_args)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/skimage/io/manage_plugins.py", line 214, in call_plugin
+    return func(*args, **kwargs)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/skimage/io/_plugins/pil_plugin.py", line 36, in imread
+    im = Image.open(f)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/PIL/Image.py", line 2687, in open
+    % (filename if filename else fp))
+OSError: cannot identify image file <_io.BufferedReader name='VIDEO_ROOT_PATH/UCSD_ped1/gt/Test003_gt/._.DS_Store'>

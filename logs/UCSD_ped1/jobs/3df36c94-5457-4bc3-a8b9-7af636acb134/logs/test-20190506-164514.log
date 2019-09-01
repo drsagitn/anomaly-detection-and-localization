@@ -1,0 +1,46 @@
+2019-05-06 16:45:14,375 [DEBUG] Using GPU 0
+2019-05-06 16:45:14,426 [DEBUG] CACHEDIR=/home/thinh/.cache/matplotlib
+2019-05-06 16:45:14,429 [DEBUG] Using fontManager instance from /home/thinh/.cache/matplotlib/fontlist-v300.json
+2019-05-06 16:45:14,554 [DEBUG] Loaded backend agg version unknown.
+2019-05-06 16:45:22,496 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_03.h5
+2019-05-06 16:45:22,496 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-06 16:45:44,212 [DEBUG] update_title_pos
+2019-05-06 16:45:44,238 [DEBUG] findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2019-05-06 16:45:44,358 [DEBUG] update_title_pos
+2019-05-06 16:45:44,391 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_04.h5
+2019-05-06 16:45:44,391 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-06 16:46:29,822 [DEBUG] update_title_pos
+2019-05-06 16:46:29,962 [DEBUG] update_title_pos
+2019-05-06 16:46:29,994 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_14.h5
+2019-05-06 16:46:29,994 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-06 16:46:37,155 [DEBUG] update_title_pos
+2019-05-06 16:46:37,338 [DEBUG] update_title_pos
+2019-05-06 16:46:37,370 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_18.h5
+2019-05-06 16:46:37,371 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-06 16:46:44,410 [DEBUG] update_title_pos
+2019-05-06 16:46:44,560 [DEBUG] update_title_pos
+2019-05-06 16:46:44,597 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_19.h5
+2019-05-06 16:46:44,597 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-06 16:46:51,614 [DEBUG] update_title_pos
+2019-05-06 16:46:51,791 [DEBUG] update_title_pos
+2019-05-06 16:46:51,823 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_21.h5
+2019-05-06 16:46:51,823 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-06 16:46:58,804 [DEBUG] update_title_pos
+2019-05-06 16:46:58,986 [DEBUG] update_title_pos
+2019-05-06 16:46:59,018 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_22.h5
+2019-05-06 16:46:59,018 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-06 16:47:05,991 [DEBUG] update_title_pos
+2019-05-06 16:47:06,130 [DEBUG] update_title_pos
+2019-05-06 16:47:06,162 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_23.h5
+2019-05-06 16:47:06,162 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-06 16:47:13,160 [DEBUG] update_title_pos
+2019-05-06 16:47:13,317 [DEBUG] update_title_pos
+2019-05-06 16:47:13,351 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_24.h5
+2019-05-06 16:47:13,351 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-06 16:47:20,389 [DEBUG] update_title_pos
+2019-05-06 16:47:20,541 [DEBUG] update_title_pos
+2019-05-06 16:47:20,573 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_32.h5
+2019-05-06 16:47:20,574 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-06 16:47:27,570 [DEBUG] update_title_pos
+2019-05-06 16:47:27,707 [DEBUG] update_title_pos
+2019-05-06 16:50:43,614 [WARNING] Ctrl + C triggered by user, testing ended prematurely

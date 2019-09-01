@@ -1,0 +1,38 @@
+2019-04-04 13:24:00,214 [DEBUG] Using GPU 0
+2019-04-04 13:24:00,262 [DEBUG] CACHEDIR=/home/thinh/.cache/matplotlib
+2019-04-04 13:24:00,265 [DEBUG] Using fontManager instance from /home/thinh/.cache/matplotlib/fontlist-v300.json
+2019-04-04 13:24:00,383 [DEBUG] Loaded backend agg version unknown.
+2019-04-04 13:24:06,206 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_01.h5
+2019-04-04 13:24:06,206 [DEBUG] Predicting using logs/UCSD_ped1/jobs/3df36c94-5457-4bc3-a8b9-7af636acb134/model_snapshot_e200_0.001427.h5
+2019-04-04 13:24:12,068 [DEBUG] Calculating volume reconstruction error
+2019-04-04 13:24:12,155 [DEBUG] Calculating frame reconstruction error
+2019-04-04 13:24:12,157 [DEBUG] Plotting frame reconstruction error
+2019-04-04 13:24:12,181 [DEBUG] update_title_pos
+2019-04-04 13:24:12,203 [DEBUG] findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2019-04-04 13:24:12,250 [DEBUG] update_title_pos
+2019-04-04 13:24:12,308 [DEBUG] Plotting regularity scores
+2019-04-04 13:24:12,332 [DEBUG] update_title_pos
+2019-04-04 13:24:12,466 [DEBUG] update_title_pos
+2019-04-04 13:24:12,496 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_02.h5
+2019-04-04 13:24:12,497 [DEBUG] Predicting using logs/UCSD_ped1/jobs/3df36c94-5457-4bc3-a8b9-7af636acb134/model_snapshot_e200_0.001427.h5
+2019-04-04 13:24:19,739 [DEBUG] Calculating volume reconstruction error
+2019-04-04 13:24:19,820 [DEBUG] Calculating frame reconstruction error
+2019-04-04 13:24:19,822 [DEBUG] Plotting frame reconstruction error
+2019-04-04 13:24:19,843 [DEBUG] update_title_pos
+2019-04-04 13:24:19,904 [DEBUG] update_title_pos
+2019-04-04 13:24:19,963 [DEBUG] Plotting regularity scores
+2019-04-04 13:24:19,987 [DEBUG] update_title_pos
+2019-04-04 13:24:20,118 [DEBUG] update_title_pos
+2019-04-04 13:24:20,149 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_03.h5
+2019-04-04 13:24:20,151 [DEBUG] Predicting using logs/UCSD_ped1/jobs/3df36c94-5457-4bc3-a8b9-7af636acb134/model_snapshot_e200_0.001427.h5
+2019-04-04 13:24:30,557 [DEBUG] Calculating volume reconstruction error
+2019-04-04 13:24:30,640 [DEBUG] Calculating frame reconstruction error
+2019-04-04 13:24:30,643 [DEBUG] Plotting frame reconstruction error
+2019-04-04 13:24:30,667 [DEBUG] update_title_pos
+2019-04-04 13:24:30,729 [DEBUG] update_title_pos
+2019-04-04 13:24:30,790 [DEBUG] Plotting regularity scores
+2019-04-04 13:24:30,814 [DEBUG] update_title_pos
+2019-04-04 13:24:30,943 [DEBUG] update_title_pos
+2019-04-04 13:24:30,974 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_04.h5
+2019-04-04 13:24:30,976 [DEBUG] Predicting using logs/UCSD_ped1/jobs/3df36c94-5457-4bc3-a8b9-7af636acb134/model_snapshot_e200_0.001427.h5
+2019-04-04 13:27:16,402 [WARNING] Ctrl + C triggered by user, testing ended prematurely

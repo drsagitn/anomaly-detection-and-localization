@@ -1,0 +1,67 @@
+2019-04-26 16:33:52,681 [DEBUG] Using GPU 0
+2019-04-26 16:33:52,702 [DEBUG] CACHEDIR=/home/thinh/.cache/matplotlib
+2019-04-26 16:33:52,704 [DEBUG] Using fontManager instance from /home/thinh/.cache/matplotlib/fontlist-v300.json
+2019-04-26 16:33:52,759 [DEBUG] Loaded backend agg version unknown.
+2019-04-26 16:33:56,645 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_03.h5
+2019-04-26 16:33:56,645 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-04-26 16:34:02,886 [INFO] Dataset UCSD_ped1: Overall PR-AUC = 1.07%
+2019-04-26 16:34:02,887 [INFO] Dataset UCSD_ped1: Overall AUC = 82.42%
+2019-04-26 16:34:02,896 [DEBUG] update_title_pos
+2019-04-26 16:34:02,902 [DEBUG] findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2019-04-26 16:34:02,917 [DEBUG] findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2019-04-26 16:34:02,927 [DEBUG] update_title_pos
+2019-04-26 16:34:02,939 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_04.h5
+2019-04-26 16:34:02,939 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-04-26 16:34:07,903 [INFO] Dataset UCSD_ped1: Overall PR-AUC = 1.67%
+2019-04-26 16:34:07,903 [INFO] Dataset UCSD_ped1: Overall AUC = 89.65%
+2019-04-26 16:34:07,910 [DEBUG] update_title_pos
+2019-04-26 16:34:07,940 [DEBUG] update_title_pos
+2019-04-26 16:34:07,952 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_14.h5
+2019-04-26 16:34:07,952 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-04-26 16:34:12,928 [INFO] Dataset UCSD_ped1: Overall PR-AUC = 15.70%
+2019-04-26 16:34:12,928 [INFO] Dataset UCSD_ped1: Overall AUC = 88.50%
+2019-04-26 16:34:12,936 [DEBUG] update_title_pos
+2019-04-26 16:34:12,964 [DEBUG] update_title_pos
+2019-04-26 16:34:12,973 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_18.h5
+2019-04-26 16:34:12,973 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-04-26 16:34:17,938 [INFO] Dataset UCSD_ped1: Overall PR-AUC = 0.90%
+2019-04-26 16:34:17,938 [INFO] Dataset UCSD_ped1: Overall AUC = 88.14%
+2019-04-26 16:34:17,948 [DEBUG] update_title_pos
+2019-04-26 16:34:17,974 [DEBUG] update_title_pos
+2019-04-26 16:34:17,986 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_19.h5
+2019-04-26 16:34:17,986 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-04-26 16:34:22,918 [INFO] Dataset UCSD_ped1: Overall PR-AUC = 26.80%
+2019-04-26 16:34:22,918 [INFO] Dataset UCSD_ped1: Overall AUC = 96.48%
+2019-04-26 16:34:22,926 [DEBUG] update_title_pos
+2019-04-26 16:34:22,953 [DEBUG] update_title_pos
+2019-04-26 16:34:22,963 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_21.h5
+2019-04-26 16:34:22,963 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-04-26 16:34:27,903 [INFO] Dataset UCSD_ped1: Overall PR-AUC = 7.08%
+2019-04-26 16:34:27,903 [INFO] Dataset UCSD_ped1: Overall AUC = 92.13%
+2019-04-26 16:34:27,911 [DEBUG] update_title_pos
+2019-04-26 16:34:27,938 [DEBUG] update_title_pos
+2019-04-26 16:34:27,950 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_22.h5
+2019-04-26 16:34:27,950 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-04-26 16:34:32,926 [INFO] Dataset UCSD_ped1: Overall PR-AUC = 3.12%
+2019-04-26 16:34:32,926 [INFO] Dataset UCSD_ped1: Overall AUC = 93.39%
+2019-04-26 16:34:32,934 [DEBUG] update_title_pos
+2019-04-26 16:34:32,961 [DEBUG] update_title_pos
+2019-04-26 16:34:32,971 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_23.h5
+2019-04-26 16:34:32,971 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-04-26 16:34:37,922 [INFO] Dataset UCSD_ped1: Overall PR-AUC = 3.63%
+2019-04-26 16:34:37,922 [INFO] Dataset UCSD_ped1: Overall AUC = 89.16%
+2019-04-26 16:34:37,930 [DEBUG] update_title_pos
+2019-04-26 16:34:37,957 [DEBUG] update_title_pos
+2019-04-26 16:34:37,968 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_24.h5
+2019-04-26 16:34:37,968 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-04-26 16:34:42,814 [INFO] Dataset UCSD_ped1: Overall PR-AUC = 28.91%
+2019-04-26 16:34:42,815 [INFO] Dataset UCSD_ped1: Overall AUC = 92.54%
+2019-04-26 16:34:42,822 [DEBUG] update_title_pos
+2019-04-26 16:34:42,849 [DEBUG] update_title_pos
+2019-04-26 16:34:42,861 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_32.h5
+2019-04-26 16:34:42,861 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-04-26 16:34:47,814 [INFO] Dataset UCSD_ped1: Overall PR-AUC = 7.53%
+2019-04-26 16:34:47,814 [INFO] Dataset UCSD_ped1: Overall AUC = 92.84%
+2019-04-26 16:34:47,822 [DEBUG] update_title_pos
+2019-04-26 16:34:47,849 [DEBUG] update_title_pos
+2019-04-26 16:34:47,861 [INFO] Job 3df36c94-5457-4bc3-a8b9-7af636acb134 (UCSD_ped1) has finished testing.

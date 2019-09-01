@@ -1,0 +1,25 @@
+2019-04-18 15:46:32,901 [DEBUG] Using GPU 0
+2019-04-18 15:46:32,951 [DEBUG] CACHEDIR=/home/thinh/.cache/matplotlib
+2019-04-18 15:46:32,954 [DEBUG] Using fontManager instance from /home/thinh/.cache/matplotlib/fontlist-v300.json
+2019-04-18 15:46:33,080 [DEBUG] Loaded backend agg version unknown.
+2019-04-18 15:46:35,148 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_01.h5
+2019-04-18 15:46:35,148 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-04-18 15:46:42,307 [CRITICAL] Uncaught exception
+Traceback (most recent call last):
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/pydevd.py", line 1741, in <module>
+    main()
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/pydevd.py", line 1735, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/pydevd.py", line 1135, in run
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/home/thinh/github/anomaly-detection-and-localization/start_test.py", line 73, in <module>
+    visualize_score=True, visualize_frame=True)
+  File "/home/thinh/github/anomaly-detection-and-localization/classifier.py", line 442, in test
+    res = stripe_predict(temporal_model, X_test, 3)
+  File "/home/thinh/github/anomaly-detection-and-localization/classifier.py", line 396, in stripe_predict
+    image_side_side(np.squeeze(predicted_batch), np.squeeze(norm_prediction - predicted_batch),save_name)
+  File "/home/thinh/github/anomaly-detection-and-localization/visualization.py", line 13, in image_side_side
+    axarr[i, 0].imshow(image_arr1[i], vmin=np.amin(image_arr1[i]), vmax=np.amax(image_arr1[i]), cmap='jet')
+IndexError: index 25 is out of bounds for axis 0 with size 25

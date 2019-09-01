@@ -1,0 +1,27 @@
+2019-05-08 20:57:54,944 [DEBUG] Using GPU 0
+2019-05-08 20:57:54,993 [DEBUG] CACHEDIR=/home/thinh/.cache/matplotlib
+2019-05-08 20:57:54,996 [DEBUG] Using fontManager instance from /home/thinh/.cache/matplotlib/fontlist-v300.json
+2019-05-08 20:57:55,115 [DEBUG] Loaded backend agg version unknown.
+2019-05-08 20:57:56,030 [DEBUG] update_title_pos
+2019-05-08 20:57:56,037 [DEBUG] findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2019-05-08 20:58:02,902 [DEBUG] update_title_pos
+2019-05-08 20:58:17,572 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_01.h5
+2019-05-08 20:58:17,573 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-08 20:59:01,134 [DEBUG] Loaded backend qt5agg version unknown.
+2019-05-08 20:59:33,826 [CRITICAL] Uncaught exception
+Traceback (most recent call last):
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/pydevd.py", line 1741, in <module>
+    main()
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/pydevd.py", line 1735, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/pydevd.py", line 1135, in run
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/home/thinh/github/anomaly-detection-and-localization/start_test.py", line 73, in <module>
+    visualize_score=True, visualize_frame=True)
+  File "/home/thinh/github/anomaly-detection-and-localization/classifier.py", line 647, in test
+    get_gt_range(dataset, videoid)
+  File "/home/thinh/github/anomaly-detection-and-localization/visualization.py", line 45, in draw_anomaly_score
+    plt.xlim(1, score_vid.shape[0] + 1)
+AttributeError: 'list' object has no attribute 'shape'

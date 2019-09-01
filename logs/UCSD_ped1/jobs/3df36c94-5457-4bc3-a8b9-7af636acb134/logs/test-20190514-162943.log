@@ -1,0 +1,56 @@
+2019-05-14 16:29:43,712 [DEBUG] Using GPU 0
+2019-05-14 16:29:43,732 [DEBUG] CACHEDIR=/home/thinh/.cache/matplotlib
+2019-05-14 16:29:43,734 [DEBUG] Using fontManager instance from /home/thinh/.cache/matplotlib/fontlist-v300.json
+2019-05-14 16:29:43,788 [DEBUG] Loaded backend agg version unknown.
+2019-05-14 16:29:44,692 [DEBUG] update_title_pos
+2019-05-14 16:29:44,696 [DEBUG] findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2019-05-14 16:29:55,169 [DEBUG] update_title_pos
+2019-05-14 16:30:08,734 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_01.h5
+2019-05-14 16:30:08,734 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-14 16:30:16,672 [DEBUG] update_title_pos
+2019-05-14 16:30:16,699 [CRITICAL] Uncaught exception
+Traceback (most recent call last):
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/colors.py", line 174, in to_rgba
+    rgba = _colors_full_map.cache[c, alpha]
+KeyError: ('dark-orange', None)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/thinh/github/anomaly-detection-and-localization/start_test.py", line 73, in <module>
+    visualize_score=True, visualize_frame=True)
+  File "/home/thinh/github/anomaly-detection-and-localization/classifier.py", line 670, in test
+    get_gt_range(dataset, videoid)
+  File "/home/thinh/github/anomaly-detection-and-localization/visualization.py", line 63, in draw_anomaly_score
+    plt.savefig(save_name, dpi=300)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/pyplot.py", line 689, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/figure.py", line 2094, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2075, in print_figure
+    **kwargs)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/backends/backend_agg.py", line 510, in print_png
+    FigureCanvasAgg.draw(self)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/backends/backend_agg.py", line 402, in draw
+    self.figure.draw(self.renderer)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/artist.py", line 50, in draw_wrapper
+    return draw(artist, renderer, *args, **kwargs)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/figure.py", line 1649, in draw
+    renderer, self, artists, self.suppressComposite)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/image.py", line 138, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/artist.py", line 50, in draw_wrapper
+    return draw(artist, renderer, *args, **kwargs)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/axes/_base.py", line 2628, in draw
+    mimage._draw_list_compositing_images(renderer, self, artists)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/image.py", line 138, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/artist.py", line 50, in draw_wrapper
+    return draw(artist, renderer, *args, **kwargs)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/lines.py", line 752, in draw
+    lc_rgba = mcolors.to_rgba(self._color, self._alpha)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/colors.py", line 176, in to_rgba
+    rgba = _to_rgba_no_colorcycle(c, alpha)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/colors.py", line 220, in _to_rgba_no_colorcycle
+    raise ValueError("Invalid RGBA argument: {!r}".format(orig_c))
+ValueError: Invalid RGBA argument: 'dark-orange'

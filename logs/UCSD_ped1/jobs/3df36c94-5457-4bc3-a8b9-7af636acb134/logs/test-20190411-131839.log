@@ -1,0 +1,27 @@
+2019-04-11 13:18:39,927 [DEBUG] Using GPU 0
+2019-04-11 13:18:39,978 [DEBUG] CACHEDIR=/home/thinh/.cache/matplotlib
+2019-04-11 13:18:39,980 [DEBUG] Using fontManager instance from /home/thinh/.cache/matplotlib/fontlist-v300.json
+2019-04-11 13:18:40,101 [DEBUG] Loaded backend agg version unknown.
+2019-04-11 13:18:42,100 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_01.h5
+2019-04-11 13:18:42,100 [DEBUG] Predicting using logs/UCSD_ped1/jobs/db291bbf-55e9-40fd-b01f-43b4e474ec55/model_snapshot_e010_0.002689.h5
+2019-04-11 13:18:42,132 [CRITICAL] Uncaught exception
+Traceback (most recent call last):
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/pydevd.py", line 1741, in <module>
+    main()
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/pydevd.py", line 1735, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/pydevd.py", line 1135, in run
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/home/thinh/github/anomaly-detection-and-localization/start_test.py", line 63, in <module>
+    visualize_score=True, visualize_frame=True)
+  File "/home/thinh/github/anomaly-detection-and-localization/classifier.py", line 389, in test
+    res = temporal_model.predict(X_test, batch_size=8)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/keras/engine/training.py", line 1149, in predict
+    x, _, _ = self._standardize_user_data(x)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/keras/engine/training.py", line 751, in _standardize_user_data
+    exception_prefix='input')
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/keras/engine/training_utils.py", line 128, in standardize_input_data
+    'with shape ' + str(data_shape))
+ValueError: Error when checking input: expected input_1 to have 4 dimensions, but got array with shape (200, 160, 240)

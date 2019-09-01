@@ -1,0 +1,25 @@
+2019-04-04 13:22:46,364 [DEBUG] Using GPU 0
+2019-04-04 13:22:46,412 [DEBUG] CACHEDIR=/home/thinh/.cache/matplotlib
+2019-04-04 13:22:46,415 [DEBUG] Using fontManager instance from /home/thinh/.cache/matplotlib/fontlist-v300.json
+2019-04-04 13:22:46,535 [DEBUG] Loaded backend agg version unknown.
+2019-04-04 13:22:52,399 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_01.h5
+2019-04-04 13:22:52,399 [DEBUG] Predicting using logs/UCSD_ped1/jobs/3df36c94-5457-4bc3-a8b9-7af636acb134/model_snapshot_e200_0.001427.h5
+2019-04-04 13:22:55,706 [CRITICAL] Uncaught exception
+Traceback (most recent call last):
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/pydevd.py", line 1741, in <module>
+    main()
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/pydevd.py", line 1735, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/pydevd.py", line 1135, in run
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/home/thinh/github/anomaly-detection-and-localization/start_test.py", line 64, in <module>
+    visualize_score=True, visualize_frame=True)
+  File "/home/thinh/github/anomaly-detection-and-localization/classifier.py", line 339, in test
+    print_predicted_images(res, filesize, t, os.path.join(save_path, "prediction", str(videoid)))
+  File "/home/thinh/github/anomaly-detection-and-localization/classifier.py", line 300, in print_predicted_images
+    toimage(vol_costs[j]).save(os.path.join(savedir, "meanPredicted_{}.jpg".format(str(j))))
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/PIL/Image.py", line 1991, in save
+    fp = builtins.open(filename, "w+b")
+FileNotFoundError: [Errno 2] No such file or directory: 'logs/UCSD_ped1/jobs/3df36c94-5457-4bc3-a8b9-7af636acb134/result/200/prediction/0/meanPredicted_0.jpg'

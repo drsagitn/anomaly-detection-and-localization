@@ -1,0 +1,56 @@
+2019-08-08 16:04:13,790 [DEBUG] Using GPU 0
+2019-08-08 16:04:13,842 [DEBUG] CACHEDIR=/home/thinh/.cache/matplotlib
+2019-08-08 16:04:13,845 [DEBUG] Using fontManager instance from /home/thinh/.cache/matplotlib/fontlist-v300.json
+2019-08-08 16:04:13,973 [DEBUG] Loaded backend agg version unknown.
+2019-08-08 16:04:21,955 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_19.h5
+2019-08-08 16:04:21,955 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-08-08 16:04:47,540 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7550779978>
+2019-08-08 16:04:47,540 [DEBUG] Using auto colorbar locator on colorbar
+2019-08-08 16:04:47,541 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7550779978>
+2019-08-08 16:04:47,541 [DEBUG] Setting pcolormesh
+2019-08-08 16:04:47,544 [DEBUG] update_title_pos
+2019-08-08 16:04:47,550 [DEBUG] update_title_pos
+2019-08-08 16:04:47,567 [DEBUG] findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2019-08-08 16:04:47,598 [DEBUG] update_title_pos
+2019-08-08 16:04:47,603 [DEBUG] update_title_pos
+2019-08-08 16:04:47,738 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7550744630>
+2019-08-08 16:04:47,739 [DEBUG] Using auto colorbar locator on colorbar
+2019-08-08 16:04:47,739 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7550744630>
+2019-08-08 16:04:47,739 [DEBUG] Setting pcolormesh
+2019-08-08 16:04:47,744 [DEBUG] update_title_pos
+2019-08-08 16:04:47,749 [DEBUG] update_title_pos
+2019-08-08 16:04:47,786 [DEBUG] update_title_pos
+2019-08-08 16:04:47,791 [DEBUG] update_title_pos
+2019-08-08 16:04:47,915 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f75506aa5f8>
+2019-08-08 16:04:47,916 [DEBUG] Using auto colorbar locator on colorbar
+2019-08-08 16:04:47,916 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f75506aa5f8>
+2019-08-08 16:04:47,916 [DEBUG] Setting pcolormesh
+2019-08-08 16:04:47,919 [DEBUG] update_title_pos
+2019-08-08 16:04:47,924 [DEBUG] update_title_pos
+2019-08-08 16:04:47,964 [DEBUG] update_title_pos
+2019-08-08 16:04:47,969 [DEBUG] update_title_pos
+2019-08-08 16:04:48,092 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f75506b9438>
+2019-08-08 16:04:48,092 [DEBUG] Using auto colorbar locator on colorbar
+2019-08-08 16:04:48,092 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f75506b9438>
+2019-08-08 16:04:48,092 [DEBUG] Setting pcolormesh
+2019-08-08 16:04:48,095 [DEBUG] update_title_pos
+2019-08-08 16:04:48,100 [DEBUG] update_title_pos
+2019-08-08 16:04:48,131 [DEBUG] update_title_pos
+2019-08-08 16:04:48,136 [DEBUG] update_title_pos
+2019-08-08 16:04:48,260 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f755061e048>
+2019-08-08 16:04:48,260 [DEBUG] Using auto colorbar locator on colorbar
+2019-08-08 16:04:48,260 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f755061e048>
+2019-08-08 16:04:48,261 [DEBUG] Setting pcolormesh
+2019-08-08 16:04:48,264 [DEBUG] update_title_pos
+2019-08-08 16:04:48,269 [DEBUG] update_title_pos
+2019-08-08 16:04:48,300 [DEBUG] update_title_pos
+2019-08-08 16:04:48,305 [DEBUG] update_title_pos
+2019-08-08 16:04:48,471 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f755066eb70>
+2019-08-08 16:04:48,471 [DEBUG] Using auto colorbar locator on colorbar
+2019-08-08 16:04:48,471 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f755066eb70>
+2019-08-08 16:04:48,471 [DEBUG] Setting pcolormesh
+2019-08-08 16:04:48,474 [DEBUG] update_title_pos
+2019-08-08 16:04:48,480 [DEBUG] update_title_pos
+2019-08-08 16:04:48,513 [DEBUG] update_title_pos
+2019-08-08 16:04:48,518 [DEBUG] update_title_pos
+2019-08-08 16:11:03,835 [WARNING] Ctrl + C triggered by user, testing ended prematurely

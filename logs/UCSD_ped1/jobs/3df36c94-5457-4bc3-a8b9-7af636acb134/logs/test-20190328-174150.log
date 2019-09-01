@@ -1,0 +1,26 @@
+2019-03-28 17:41:50,180 [DEBUG] Using GPU 0
+2019-03-28 17:41:50,228 [DEBUG] CACHEDIR=/home/thinh/.cache/matplotlib
+2019-03-28 17:41:50,230 [DEBUG] Using fontManager instance from /home/thinh/.cache/matplotlib/fontlist-v300.json
+2019-03-28 17:41:50,350 [DEBUG] Loaded backend agg version unknown.
+2019-03-28 17:42:05,514 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_01.h5
+2019-03-28 17:42:05,517 [DEBUG] Predicting using logs/UCSD_ped1/jobs/3df36c94-5457-4bc3-a8b9-7af636acb134/model_snapshot_e200_0.001427.h5
+2019-03-28 17:42:14,383 [DEBUG] Calculating volume reconstruction error
+2019-03-28 17:42:19,504 [DEBUG] Calculating frame reconstruction error
+2019-03-28 17:42:19,506 [DEBUG] Plotting frame reconstruction error
+2019-03-28 17:42:19,530 [DEBUG] update_title_pos
+2019-03-28 17:42:19,552 [DEBUG] findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2019-03-28 17:42:19,599 [DEBUG] update_title_pos
+2019-03-28 17:42:19,658 [DEBUG] Plotting regularity scores
+2019-03-28 17:42:19,683 [DEBUG] update_title_pos
+2019-03-28 17:42:19,820 [DEBUG] update_title_pos
+2019-03-28 17:42:22,551 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_02.h5
+2019-03-28 17:42:22,555 [DEBUG] Predicting using logs/UCSD_ped1/jobs/3df36c94-5457-4bc3-a8b9-7af636acb134/model_snapshot_e200_0.001427.h5
+2019-03-28 17:42:30,886 [DEBUG] Calculating volume reconstruction error
+2019-03-28 17:42:30,958 [DEBUG] Calculating frame reconstruction error
+2019-03-28 17:42:30,960 [DEBUG] Plotting frame reconstruction error
+2019-03-28 17:42:30,980 [DEBUG] update_title_pos
+2019-03-28 17:42:31,043 [DEBUG] update_title_pos
+2019-03-28 17:42:31,102 [DEBUG] Plotting regularity scores
+2019-03-28 17:42:31,126 [DEBUG] update_title_pos
+2019-03-28 17:42:31,256 [DEBUG] update_title_pos
+2019-03-29 14:10:02,575 [WARNING] Ctrl + C triggered by user, testing ended prematurely

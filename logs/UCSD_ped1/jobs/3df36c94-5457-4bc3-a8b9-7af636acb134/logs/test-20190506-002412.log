@@ -1,0 +1,54 @@
+2019-05-06 00:24:12,053 [DEBUG] Using GPU 0
+2019-05-06 00:24:12,103 [DEBUG] CACHEDIR=/home/thinh/.cache/matplotlib
+2019-05-06 00:24:12,106 [DEBUG] Using fontManager instance from /home/thinh/.cache/matplotlib/fontlist-v300.json
+2019-05-06 00:24:12,231 [DEBUG] Loaded backend agg version unknown.
+2019-05-06 00:24:20,023 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_03.h5
+2019-05-06 00:24:20,023 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-06 00:24:30,795 [DEBUG] update_title_pos
+2019-05-06 00:24:32,242 [CRITICAL] Uncaught exception
+Traceback (most recent call last):
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/pydevd.py", line 1741, in <module>
+    main()
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/pydevd.py", line 1735, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/pydevd.py", line 1135, in run
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/home/thinh/github/anomaly-detection-and-localization/start_test.py", line 73, in <module>
+    visualize_score=True, visualize_frame=True)
+  File "/home/thinh/github/anomaly-detection-and-localization/classifier.py", line 630, in test
+    save_color_image(t_err[idx], os.path.join(save_path, 'pixel_error_t', '{}_err_vid{:02d}_frm{:03d}.png'.format(dataset, videoid+1, idx+1)))
+  File "/home/thinh/github/anomaly-detection-and-localization/visualization.py", line 24, in save_color_image
+    plt.savefig(save_name)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/pyplot.py", line 689, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/figure.py", line 2094, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/backend_bases.py", line 2075, in print_figure
+    **kwargs)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/backends/backend_agg.py", line 510, in print_png
+    FigureCanvasAgg.draw(self)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/backends/backend_agg.py", line 402, in draw
+    self.figure.draw(self.renderer)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/artist.py", line 50, in draw_wrapper
+    return draw(artist, renderer, *args, **kwargs)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/figure.py", line 1649, in draw
+    renderer, self, artists, self.suppressComposite)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/image.py", line 138, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/artist.py", line 50, in draw_wrapper
+    return draw(artist, renderer, *args, **kwargs)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/axes/_base.py", line 2628, in draw
+    mimage._draw_list_compositing_images(renderer, self, artists)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/image.py", line 138, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/artist.py", line 50, in draw_wrapper
+    return draw(artist, renderer, *args, **kwargs)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/image.py", line 584, in draw
+    renderer, renderer.get_image_magnification())
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/image.py", line 831, in make_image
+    unsampled=unsampled)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/image.py", line 429, in _make_image
+    self.get_filterrad())
+ValueError: Unsupported dtype

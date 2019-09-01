@@ -1,0 +1,10 @@
+2019-05-12 21:46:39,570 [DEBUG] Using GPU 0
+2019-05-12 21:46:39,619 [DEBUG] CACHEDIR=/home/thinh/.cache/matplotlib
+2019-05-12 21:46:39,622 [DEBUG] Using fontManager instance from /home/thinh/.cache/matplotlib/fontlist-v300.json
+2019-05-12 21:46:39,742 [DEBUG] Loaded backend agg version unknown.
+2019-05-12 21:46:40,698 [DEBUG] update_title_pos
+2019-05-12 21:46:40,706 [DEBUG] findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2019-05-12 21:46:53,245 [DEBUG] update_title_pos
+2019-05-12 21:47:14,107 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_01.h5
+2019-05-12 21:47:14,108 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-12 22:12:26,265 [WARNING] Ctrl + C triggered by user, testing ended prematurely

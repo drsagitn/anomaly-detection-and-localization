@@ -1,0 +1,73 @@
+2019-05-08 22:57:33,517 [DEBUG] Using GPU 0
+2019-05-08 22:57:33,569 [DEBUG] CACHEDIR=/home/thinh/.cache/matplotlib
+2019-05-08 22:57:33,572 [DEBUG] Using fontManager instance from /home/thinh/.cache/matplotlib/fontlist-v300.json
+2019-05-08 22:57:33,696 [DEBUG] Loaded backend agg version unknown.
+2019-05-08 22:57:34,665 [DEBUG] update_title_pos
+2019-05-08 22:57:34,673 [DEBUG] findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2019-05-08 22:57:41,603 [DEBUG] update_title_pos
+2019-05-08 22:57:55,856 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_03.h5
+2019-05-08 22:57:55,856 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-08 22:58:03,948 [DEBUG] update_title_pos
+2019-05-08 22:58:04,104 [DEBUG] update_title_pos
+2019-05-08 22:58:04,146 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_04.h5
+2019-05-08 22:58:04,146 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-08 22:58:10,958 [DEBUG] update_title_pos
+2019-05-08 22:58:11,122 [DEBUG] update_title_pos
+2019-05-08 22:58:11,164 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_14.h5
+2019-05-08 22:58:11,164 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-08 22:58:18,019 [DEBUG] update_title_pos
+2019-05-08 22:58:18,182 [DEBUG] update_title_pos
+2019-05-08 22:58:18,225 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_18.h5
+2019-05-08 22:58:18,225 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-08 22:58:25,247 [DEBUG] update_title_pos
+2019-05-08 22:58:25,411 [DEBUG] update_title_pos
+2019-05-08 22:58:25,455 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_19.h5
+2019-05-08 22:58:25,455 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-08 22:58:32,449 [DEBUG] update_title_pos
+2019-05-08 22:58:32,607 [DEBUG] update_title_pos
+2019-05-08 22:58:32,649 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_21.h5
+2019-05-08 22:58:32,649 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-08 22:58:39,468 [DEBUG] update_title_pos
+2019-05-08 22:58:39,630 [DEBUG] update_title_pos
+2019-05-08 22:58:39,673 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_22.h5
+2019-05-08 22:58:39,673 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-08 22:58:46,657 [DEBUG] update_title_pos
+2019-05-08 22:58:46,822 [DEBUG] update_title_pos
+2019-05-08 22:58:46,868 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_23.h5
+2019-05-08 22:58:46,868 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-08 22:58:53,843 [DEBUG] update_title_pos
+2019-05-08 22:58:54,013 [DEBUG] update_title_pos
+2019-05-08 22:58:54,059 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_24.h5
+2019-05-08 22:58:54,059 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-08 22:59:00,841 [DEBUG] update_title_pos
+2019-05-08 22:59:01,001 [DEBUG] update_title_pos
+2019-05-08 22:59:01,045 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_32.h5
+2019-05-08 22:59:01,045 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-08 22:59:07,860 [DEBUG] update_title_pos
+2019-05-08 22:59:08,020 [DEBUG] update_title_pos
+2019-05-08 23:05:47,547 [CRITICAL] Uncaught exception
+Traceback (most recent call last):
+  File "/home/thinh/github/anomaly-detection-and-localization/classifier.py", line 196, in get_gt_vid
+    start = int(gt_vid_raw[event, 0]) - 1
+IndexError: too many indices for array
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/pydevd.py", line 1741, in <module>
+    main()
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/pydevd.py", line 1735, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/pydevd.py", line 1135, in run
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/home/thinh/github/anomaly-detection-and-localization/start_test.py", line 73, in <module>
+    visualize_score=True, visualize_frame=True)
+  File "/home/thinh/github/anomaly-detection-and-localization/classifier.py", line 733, in test
+    calc_auc_frame_overall(logger, dataset, n_videos[dataset], save_path, t_score)
+  File "/home/thinh/github/anomaly-detection-and-localization/classifier.py", line 312, in calc_auc_frame_overall
+    gt_vid = get_gt_vid(dataset, vid, frame_prediction[vid])
+  File "/home/thinh/github/anomaly-detection-and-localization/classifier.py", line 202, in get_gt_vid
+    gt_vid[start:end] = 1
+IndexError: too many indices for array

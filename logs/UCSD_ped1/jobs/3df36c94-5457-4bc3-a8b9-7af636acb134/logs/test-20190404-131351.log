@@ -1,0 +1,70 @@
+2019-04-04 13:13:51,887 [DEBUG] Using GPU 0
+2019-04-04 13:13:51,936 [DEBUG] CACHEDIR=/home/thinh/.cache/matplotlib
+2019-04-04 13:13:51,938 [DEBUG] Using fontManager instance from /home/thinh/.cache/matplotlib/fontlist-v300.json
+2019-04-04 13:13:52,056 [DEBUG] Loaded backend agg version unknown.
+2019-04-04 13:13:57,850 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_01.h5
+2019-04-04 13:13:57,851 [DEBUG] Predicting using logs/UCSD_ped1/jobs/3df36c94-5457-4bc3-a8b9-7af636acb134/model_snapshot_e200_0.001427.h5
+2019-04-04 13:14:05,886 [DEBUG] Importing BlpImagePlugin
+2019-04-04 13:14:05,886 [DEBUG] Importing BmpImagePlugin
+2019-04-04 13:14:05,887 [DEBUG] Importing BufrStubImagePlugin
+2019-04-04 13:14:05,887 [DEBUG] Importing CurImagePlugin
+2019-04-04 13:14:05,888 [DEBUG] Importing DcxImagePlugin
+2019-04-04 13:14:05,889 [DEBUG] Importing DdsImagePlugin
+2019-04-04 13:14:05,890 [DEBUG] Importing EpsImagePlugin
+2019-04-04 13:14:05,891 [DEBUG] Importing FitsStubImagePlugin
+2019-04-04 13:14:05,892 [DEBUG] Importing FliImagePlugin
+2019-04-04 13:14:05,893 [DEBUG] Importing FpxImagePlugin
+2019-04-04 13:14:05,895 [DEBUG] Importing FtexImagePlugin
+2019-04-04 13:14:05,896 [DEBUG] Importing GbrImagePlugin
+2019-04-04 13:14:05,896 [DEBUG] Importing GifImagePlugin
+2019-04-04 13:14:05,896 [DEBUG] Importing GribStubImagePlugin
+2019-04-04 13:14:05,897 [DEBUG] Importing Hdf5StubImagePlugin
+2019-04-04 13:14:05,898 [DEBUG] Importing IcnsImagePlugin
+2019-04-04 13:14:05,898 [DEBUG] Importing IcoImagePlugin
+2019-04-04 13:14:05,899 [DEBUG] Importing ImImagePlugin
+2019-04-04 13:14:05,900 [DEBUG] Importing ImtImagePlugin
+2019-04-04 13:14:05,902 [DEBUG] Importing IptcImagePlugin
+2019-04-04 13:14:05,902 [DEBUG] Importing JpegImagePlugin
+2019-04-04 13:14:05,902 [DEBUG] Importing Jpeg2KImagePlugin
+2019-04-04 13:14:05,903 [DEBUG] Importing McIdasImagePlugin
+2019-04-04 13:14:05,904 [DEBUG] Importing MicImagePlugin
+2019-04-04 13:14:05,904 [DEBUG] Importing MpegImagePlugin
+2019-04-04 13:14:05,905 [DEBUG] Importing MpoImagePlugin
+2019-04-04 13:14:05,905 [DEBUG] Importing MspImagePlugin
+2019-04-04 13:14:05,906 [DEBUG] Importing PalmImagePlugin
+2019-04-04 13:14:05,907 [DEBUG] Importing PcdImagePlugin
+2019-04-04 13:14:05,908 [DEBUG] Importing PcxImagePlugin
+2019-04-04 13:14:05,908 [DEBUG] Importing PdfImagePlugin
+2019-04-04 13:14:05,942 [DEBUG] Importing PixarImagePlugin
+2019-04-04 13:14:05,943 [DEBUG] Importing PngImagePlugin
+2019-04-04 13:14:05,943 [DEBUG] Importing PpmImagePlugin
+2019-04-04 13:14:05,943 [DEBUG] Importing PsdImagePlugin
+2019-04-04 13:14:05,944 [DEBUG] Importing SgiImagePlugin
+2019-04-04 13:14:05,944 [DEBUG] Importing SpiderImagePlugin
+2019-04-04 13:14:05,945 [DEBUG] Importing SunImagePlugin
+2019-04-04 13:14:05,945 [DEBUG] Importing TgaImagePlugin
+2019-04-04 13:14:05,946 [DEBUG] Importing TiffImagePlugin
+2019-04-04 13:14:05,946 [DEBUG] Importing WebPImagePlugin
+2019-04-04 13:14:05,947 [DEBUG] Importing WmfImagePlugin
+2019-04-04 13:14:05,948 [DEBUG] Importing XbmImagePlugin
+2019-04-04 13:14:05,952 [DEBUG] Importing XpmImagePlugin
+2019-04-04 13:14:05,954 [DEBUG] Importing XVThumbImagePlugin
+2019-04-04 13:14:08,362 [CRITICAL] Uncaught exception
+Traceback (most recent call last):
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/pydevd.py", line 1741, in <module>
+    main()
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/pydevd.py", line 1735, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/pydevd.py", line 1135, in run
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/home/thinh/github/anomaly-detection-and-localization/start_test.py", line 64, in <module>
+    visualize_score=True, visualize_frame=True)
+  File "/home/thinh/github/anomaly-detection-and-localization/classifier.py", line 338, in test
+    print_predicted_images(res, filesize, t, os.path.join(save_path, "prediction"))
+  File "/home/thinh/github/anomaly-detection-and-localization/classifier.py", line 300, in print_predicted_images
+    toimage(vol_costs[j]).save(os.path.join(savedir, "meanPredicted_{}.jpf".format(str(j))))
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/PIL/Image.py", line 1991, in save
+    fp = builtins.open(filename, "w+b")
+FileNotFoundError: [Errno 2] No such file or directory: 'logs/UCSD_ped1/jobs/3df36c94-5457-4bc3-a8b9-7af636acb134/result/200/prediction/meanPredicted_0.jpf'

@@ -1,0 +1,17 @@
+2019-04-24 13:30:19,064 [DEBUG] Using GPU 0
+2019-04-24 13:30:19,089 [DEBUG] CACHEDIR=/home/thinh/.cache/matplotlib
+2019-04-24 13:30:19,091 [DEBUG] Using fontManager instance from /home/thinh/.cache/matplotlib/fontlist-v300.json
+2019-04-24 13:30:19,142 [DEBUG] Loaded backend agg version unknown.
+2019-04-24 13:30:20,287 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_14.h5
+2019-04-24 13:30:20,287 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-04-24 13:30:33,441 [INFO] Dataset UCSD_ped1: Overall PR-AUC = 18.25%
+2019-04-24 13:30:33,442 [INFO] Dataset UCSD_ped1: Overall AUC = 90.73%
+2019-04-24 13:30:33,450 [CRITICAL] Uncaught exception
+Traceback (most recent call last):
+  File "/home/thinh/github/anomaly-detection-and-localization/start_test.py", line 73, in <module>
+    visualize_score=True, visualize_frame=True)
+  File "/home/thinh/github/anomaly-detection-and-localization/classifier.py", line 496, in test
+    calc_precision_recall_per_video_pixel(logger, dataset, videoid, save_path, res)
+  File "/home/thinh/github/anomaly-detection-and-localization/classifier.py", line 351, in calc_precision_recall_per_video_pixel
+    logger.info("Dataset {}: Overall F1 = {:.2f}%".format(dataset, F1*100))
+TypeError: unsupported format string passed to numpy.ndarray.__format__

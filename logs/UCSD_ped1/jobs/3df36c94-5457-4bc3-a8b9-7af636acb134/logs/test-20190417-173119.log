@@ -1,0 +1,29 @@
+2019-04-17 17:31:19,726 [DEBUG] Using GPU 0
+2019-04-17 17:31:19,776 [DEBUG] CACHEDIR=/home/thinh/.cache/matplotlib
+2019-04-17 17:31:19,781 [DEBUG] Using fontManager instance from /home/thinh/.cache/matplotlib/fontlist-v300.json
+2019-04-17 17:31:19,906 [DEBUG] Loaded backend agg version unknown.
+2019-04-17 17:31:21,991 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_01.h5
+2019-04-17 17:31:21,991 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-04-17 17:31:22,695 [CRITICAL] Uncaught exception
+Traceback (most recent call last):
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/pydevd.py", line 1741, in <module>
+    main()
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/pydevd.py", line 1735, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/pydevd.py", line 1135, in run
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/home/thinh/github/anomaly-detection-and-localization/start_test.py", line 73, in <module>
+    visualize_score=True, visualize_frame=True)
+  File "/home/thinh/github/anomaly-detection-and-localization/classifier.py", line 442, in test
+    res = stripe_predict(temporal_model, X_test, 20)
+  File "/home/thinh/github/anomaly-detection-and-localization/classifier.py", line 394, in stripe_predict
+    norm_prediction = model.predict_on_batch(np.asarray(X[i]))
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/keras/engine/training.py", line 1268, in predict_on_batch
+    x, _, _ = self._standardize_user_data(x)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/keras/engine/training.py", line 751, in _standardize_user_data
+    exception_prefix='input')
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/keras/engine/training_utils.py", line 128, in standardize_input_data
+    'with shape ' + str(data_shape))
+ValueError: Error when checking input: expected input_1 to have 4 dimensions, but got array with shape (160, 240, 1)

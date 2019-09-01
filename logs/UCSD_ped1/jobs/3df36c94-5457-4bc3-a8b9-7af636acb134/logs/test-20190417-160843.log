@@ -1,0 +1,56 @@
+2019-04-17 16:08:43,727 [DEBUG] Using GPU 0
+2019-04-17 16:08:43,778 [DEBUG] CACHEDIR=/home/thinh/.cache/matplotlib
+2019-04-17 16:08:43,781 [DEBUG] Using fontManager instance from /home/thinh/.cache/matplotlib/fontlist-v300.json
+2019-04-17 16:08:43,906 [DEBUG] Loaded backend agg version unknown.
+2019-04-17 16:08:45,979 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_01.h5
+2019-04-17 16:08:45,980 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-04-17 16:08:58,600 [DEBUG] findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2019-04-17 16:08:58,603 [DEBUG] update_title_pos
+2019-04-17 16:08:58,634 [DEBUG] update_title_pos
+2019-04-17 16:08:58,666 [DEBUG] update_title_pos
+2019-04-17 16:08:58,696 [DEBUG] update_title_pos
+2019-04-17 16:08:58,726 [DEBUG] update_title_pos
+2019-04-17 16:08:58,757 [DEBUG] update_title_pos
+2019-04-17 16:08:58,787 [DEBUG] update_title_pos
+2019-04-17 16:08:58,817 [DEBUG] update_title_pos
+2019-04-17 16:08:58,847 [DEBUG] update_title_pos
+2019-04-17 16:08:58,880 [DEBUG] update_title_pos
+2019-04-17 16:08:58,910 [DEBUG] update_title_pos
+2019-04-17 16:08:58,941 [DEBUG] update_title_pos
+2019-04-17 16:08:58,971 [DEBUG] update_title_pos
+2019-04-17 16:08:59,002 [DEBUG] update_title_pos
+2019-04-17 16:08:59,033 [DEBUG] update_title_pos
+2019-04-17 16:08:59,063 [DEBUG] update_title_pos
+2019-04-17 16:08:59,093 [DEBUG] update_title_pos
+2019-04-17 16:08:59,114 [DEBUG] update_title_pos
+2019-04-17 16:08:59,130 [DEBUG] update_title_pos
+2019-04-17 16:08:59,146 [DEBUG] update_title_pos
+2019-04-17 16:08:59,161 [DEBUG] update_title_pos
+2019-04-17 16:08:59,177 [DEBUG] update_title_pos
+2019-04-17 16:08:59,195 [DEBUG] update_title_pos
+2019-04-17 16:08:59,211 [DEBUG] update_title_pos
+2019-04-17 16:08:59,227 [DEBUG] update_title_pos
+2019-04-17 16:08:59,242 [DEBUG] update_title_pos
+2019-04-17 16:08:59,258 [DEBUG] update_title_pos
+2019-04-17 16:08:59,273 [DEBUG] update_title_pos
+2019-04-17 16:08:59,289 [DEBUG] update_title_pos
+2019-04-17 16:08:59,305 [DEBUG] update_title_pos
+2019-04-17 16:08:59,320 [DEBUG] update_title_pos
+2019-04-17 16:08:59,336 [DEBUG] update_title_pos
+2019-04-17 16:08:59,375 [DEBUG] update_title_pos
+2019-04-17 16:08:59,390 [DEBUG] update_title_pos
+2019-04-17 16:08:59,406 [DEBUG] update_title_pos
+2019-04-17 16:08:59,422 [DEBUG] update_title_pos
+2019-04-17 16:08:59,438 [DEBUG] update_title_pos
+2019-04-17 16:08:59,453 [DEBUG] update_title_pos
+2019-04-17 16:08:59,469 [DEBUG] update_title_pos
+2019-04-17 16:08:59,484 [DEBUG] update_title_pos
+2019-04-17 16:08:59,503 [DEBUG] update_title_pos
+2019-04-17 16:08:59,519 [DEBUG] update_title_pos
+2019-04-17 16:08:59,534 [DEBUG] update_title_pos
+2019-04-17 16:08:59,550 [DEBUG] update_title_pos
+2019-04-17 16:08:59,565 [DEBUG] update_title_pos
+2019-04-17 16:08:59,581 [DEBUG] update_title_pos
+2019-04-17 16:08:59,597 [DEBUG] update_title_pos
+2019-04-17 16:08:59,613 [DEBUG] update_title_pos
+2019-04-17 16:10:47,048 [WARNING] Ctrl + C triggered by user, testing ended prematurely

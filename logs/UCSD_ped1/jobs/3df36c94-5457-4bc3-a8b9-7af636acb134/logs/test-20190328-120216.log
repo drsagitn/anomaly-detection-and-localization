@@ -1,0 +1,5 @@
+2019-03-28 12:02:16,675 [DEBUG] Using GPU 0
+2019-03-28 12:02:16,723 [DEBUG] CACHEDIR=/home/thinh/.cache/matplotlib
+2019-03-28 12:02:16,725 [DEBUG] Using fontManager instance from /home/thinh/.cache/matplotlib/fontlist-v300.json
+2019-03-28 12:02:16,841 [DEBUG] Loaded backend agg version unknown.
+2019-03-28 12:02:42,557 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_01.h5

@@ -1,0 +1,5 @@
+time_length: 4
+cost: mse
+epochs: 200
+optimizer: sgd
+batch_size: 16

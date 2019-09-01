@@ -1,0 +1,26 @@
+2019-05-08 20:55:33,582 [DEBUG] Using GPU 0
+2019-05-08 20:55:33,631 [DEBUG] CACHEDIR=/home/thinh/.cache/matplotlib
+2019-05-08 20:55:33,634 [DEBUG] Using fontManager instance from /home/thinh/.cache/matplotlib/fontlist-v300.json
+2019-05-08 20:55:33,755 [DEBUG] Loaded backend agg version unknown.
+2019-05-08 20:55:34,684 [DEBUG] update_title_pos
+2019-05-08 20:55:34,692 [DEBUG] findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2019-05-08 20:55:41,514 [DEBUG] update_title_pos
+2019-05-08 20:55:55,848 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_01.h5
+2019-05-08 20:55:55,848 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-08 20:56:04,138 [CRITICAL] Uncaught exception
+Traceback (most recent call last):
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/pydevd.py", line 1741, in <module>
+    main()
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/pydevd.py", line 1735, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/pydevd.py", line 1135, in run
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/home/thinh/github/anomaly-detection-and-localization/start_test.py", line 73, in <module>
+    visualize_score=True, visualize_frame=True)
+  File "/home/thinh/github/anomaly-detection-and-localization/classifier.py", line 640, in test
+    anomaly_score(total_err),
+  File "/home/thinh/github/anomaly-detection-and-localization/classifier.py", line 565, in anomaly_score
+    score_vid = raw_frame_cost_vid - min(raw_frame_cost_vid)
+ValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()

@@ -1,0 +1,22 @@
+2019-06-09 21:22:49,221 [DEBUG] Using GPU 0
+2019-06-09 21:22:49,247 [DEBUG] CACHEDIR=/home/thinh/.cache/matplotlib
+2019-06-09 21:22:49,248 [DEBUG] Using fontManager instance from /home/thinh/.cache/matplotlib/fontlist-v300.json
+2019-06-09 21:22:49,324 [DEBUG] Loaded backend agg version unknown.
+2019-06-09 21:22:49,325 [CRITICAL] Uncaught exception
+Traceback (most recent call last):
+  File "/home/thinh/github/anomaly-detection-and-localization/start_test.py", line 80, in <module>
+    visualize_score=True, visualize_frame=True)
+  File "/home/thinh/github/anomaly-detection-and-localization/classifier.py", line 684, in test
+    temporal_model = load_model(os.path.join(job_folder, model_filename))
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/keras/engine/saving.py", line 417, in load_model
+    f = h5dict(filepath, 'r')
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/keras/utils/io_utils.py", line 186, in __init__
+    self.data = h5py.File(path, mode=mode)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/h5py/_hl/files.py", line 394, in __init__
+    swmr=swmr)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/h5py/_hl/files.py", line 170, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 85, in h5py.h5f.open
+OSError: Unable to open file (unable to open file: name = 'logs/UCSD_ped1/jobs/537f1112-8ec0-44eb-a380-c3a6e5a3c698/model_snapshot_e749_0.000554.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)

@@ -1,0 +1,30 @@
+2019-04-10 14:41:39,360 [DEBUG] Using GPU 0
+2019-04-10 14:41:39,410 [DEBUG] CACHEDIR=/home/thinh/.cache/matplotlib
+2019-04-10 14:41:39,412 [DEBUG] Using fontManager instance from /home/thinh/.cache/matplotlib/fontlist-v300.json
+2019-04-10 14:41:39,534 [DEBUG] Loaded backend agg version unknown.
+2019-04-10 14:41:39,538 [CRITICAL] Uncaught exception
+Traceback (most recent call last):
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/pydevd.py", line 1741, in <module>
+    main()
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/pydevd.py", line 1735, in main
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/pydevd.py", line 1135, in run
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "/home/thinh/Downloads/pycharm-community-2018.3.5/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/home/thinh/github/anomaly-detection-and-localization/start_test.py", line 65, in <module>
+    visualize_score=True, visualize_frame=True)
+  File "/home/thinh/github/anomaly-detection-and-localization/classifier.py", line 363, in test
+    temporal_model = load_model(os.path.join(job_folder, model_filename))
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/keras/engine/saving.py", line 417, in load_model
+    f = h5dict(filepath, 'r')
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/keras/utils/io_utils.py", line 186, in __init__
+    self.data = h5py.File(path, mode=mode)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/h5py/_hl/files.py", line 394, in __init__
+    swmr=swmr)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/h5py/_hl/files.py", line 170, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 85, in h5py.h5f.open
+OSError: Unable to open file (unable to open file: name = 'logs/UCSD_ped1/jobs/3df36c94-5457-4bc3-a8b9-7af636acb134/model_snapshot_e001_0.013781.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)

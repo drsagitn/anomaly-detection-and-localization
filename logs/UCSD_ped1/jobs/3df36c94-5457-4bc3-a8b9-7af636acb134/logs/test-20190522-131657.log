@@ -1,0 +1,4 @@
+2019-05-22 13:16:57,885 [DEBUG] Using GPU 0
+2019-05-22 14:19:44,727 [DEBUG] CACHEDIR=/home/thinh/.cache/matplotlib
+2019-05-22 14:19:44,750 [DEBUG] Using fontManager instance from /home/thinh/.cache/matplotlib/fontlist-v300.json
+2019-05-22 14:32:34,339 [WARNING] Ctrl + C triggered by user, testing ended prematurely

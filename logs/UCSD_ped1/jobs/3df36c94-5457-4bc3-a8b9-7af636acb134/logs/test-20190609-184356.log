@@ -1,0 +1,11 @@
+2019-06-09 18:43:56,400 [DEBUG] Using GPU 0
+2019-06-09 18:43:56,449 [DEBUG] CACHEDIR=/home/thinh/.cache/matplotlib
+2019-06-09 18:43:56,452 [DEBUG] Using fontManager instance from /home/thinh/.cache/matplotlib/fontlist-v300.json
+2019-06-09 18:43:56,572 [DEBUG] Loaded backend agg version unknown.
+2019-06-09 18:44:04,141 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_01.h5
+2019-06-09 18:44:04,141 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-06-09 18:44:12,527 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f608c7b30f0>
+2019-06-09 18:44:12,528 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:44:12,528 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f608c7b30f0>
+2019-06-09 18:44:12,528 [DEBUG] Setting pcolormesh
+2019-06-09 18:47:49,114 [WARNING] Ctrl + C triggered by user, testing ended prematurely

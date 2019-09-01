@@ -1,0 +1,25 @@
+2019-05-29 14:33:34,147 [DEBUG] Using GPU 0
+2019-05-29 14:33:34,169 [DEBUG] CACHEDIR=/home/thinh/.cache/matplotlib
+2019-05-29 14:33:34,170 [DEBUG] Using fontManager instance from /home/thinh/.cache/matplotlib/fontlist-v300.json
+2019-05-29 14:33:34,227 [DEBUG] Loaded backend agg version unknown.
+2019-05-29 14:33:35,256 [DEBUG] update_title_pos
+2019-05-29 14:33:35,259 [DEBUG] findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2019-05-29 14:33:49,348 [DEBUG] update_title_pos
+2019-05-29 14:34:05,243 [CRITICAL] Uncaught exception
+Traceback (most recent call last):
+  File "/home/thinh/github/anomaly-detection-and-localization/start_test.py", line 79, in <module>
+    visualize_score=True, visualize_frame=True)
+  File "/home/thinh/github/anomaly-detection-and-localization/classifier.py", line 632, in test
+    temporal_model2 = load_model(model_filename2)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/keras/engine/saving.py", line 417, in load_model
+    f = h5dict(filepath, 'r')
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/keras/utils/io_utils.py", line 186, in __init__
+    self.data = h5py.File(path, mode=mode)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/h5py/_hl/files.py", line 394, in __init__
+    swmr=swmr)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/h5py/_hl/files.py", line 170, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 85, in h5py.h5f.open
+OSError: Unable to open file (unable to open file: name = 'logs/UCSD_ped1/jobs/3eed893e-d232-4b8c-a775-73537bd1d6b4/model_snapshot_e1109_0.000571.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)

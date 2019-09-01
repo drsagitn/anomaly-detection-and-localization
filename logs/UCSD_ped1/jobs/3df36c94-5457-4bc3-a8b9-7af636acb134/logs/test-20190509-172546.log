@@ -1,0 +1,152 @@
+2019-05-09 17:25:46,641 [DEBUG] Using GPU 0
+2019-05-09 17:25:46,691 [DEBUG] CACHEDIR=/home/thinh/.cache/matplotlib
+2019-05-09 17:25:46,694 [DEBUG] Using fontManager instance from /home/thinh/.cache/matplotlib/fontlist-v300.json
+2019-05-09 17:25:46,818 [DEBUG] Loaded backend agg version unknown.
+2019-05-09 17:25:47,822 [DEBUG] update_title_pos
+2019-05-09 17:25:47,829 [DEBUG] findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2019-05-09 17:25:54,754 [DEBUG] update_title_pos
+2019-05-09 17:26:08,931 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_01.h5
+2019-05-09 17:26:08,931 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-09 17:26:16,938 [DEBUG] update_title_pos
+2019-05-09 17:26:17,100 [DEBUG] update_title_pos
+2019-05-09 17:26:17,140 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_02.h5
+2019-05-09 17:26:17,141 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-09 17:26:23,968 [DEBUG] update_title_pos
+2019-05-09 17:26:24,126 [DEBUG] update_title_pos
+2019-05-09 17:26:24,168 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_03.h5
+2019-05-09 17:26:24,168 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-09 17:26:31,117 [DEBUG] update_title_pos
+2019-05-09 17:26:31,299 [DEBUG] update_title_pos
+2019-05-09 17:26:31,342 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_04.h5
+2019-05-09 17:26:31,342 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-09 17:26:38,150 [DEBUG] update_title_pos
+2019-05-09 17:26:38,316 [DEBUG] update_title_pos
+2019-05-09 17:26:38,359 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_05.h5
+2019-05-09 17:26:38,359 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-09 17:26:45,196 [DEBUG] update_title_pos
+2019-05-09 17:26:45,360 [DEBUG] update_title_pos
+2019-05-09 17:26:45,403 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_06.h5
+2019-05-09 17:26:45,403 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-09 17:26:52,376 [DEBUG] update_title_pos
+2019-05-09 17:26:52,542 [DEBUG] update_title_pos
+2019-05-09 17:26:52,585 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_07.h5
+2019-05-09 17:26:52,585 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-09 17:26:59,431 [DEBUG] update_title_pos
+2019-05-09 17:26:59,595 [DEBUG] update_title_pos
+2019-05-09 17:26:59,637 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_08.h5
+2019-05-09 17:26:59,637 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-09 17:27:06,460 [DEBUG] update_title_pos
+2019-05-09 17:27:06,626 [DEBUG] update_title_pos
+2019-05-09 17:27:06,668 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_09.h5
+2019-05-09 17:27:06,668 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-09 17:27:13,474 [DEBUG] update_title_pos
+2019-05-09 17:27:13,635 [DEBUG] update_title_pos
+2019-05-09 17:27:13,687 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_10.h5
+2019-05-09 17:27:13,687 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-09 17:27:20,555 [DEBUG] update_title_pos
+2019-05-09 17:27:20,716 [DEBUG] update_title_pos
+2019-05-09 17:27:20,758 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_11.h5
+2019-05-09 17:27:20,758 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-09 17:27:27,616 [DEBUG] update_title_pos
+2019-05-09 17:27:27,775 [DEBUG] update_title_pos
+2019-05-09 17:27:27,816 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_12.h5
+2019-05-09 17:27:27,816 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-09 17:27:34,636 [DEBUG] update_title_pos
+2019-05-09 17:27:34,792 [DEBUG] update_title_pos
+2019-05-09 17:27:34,833 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_13.h5
+2019-05-09 17:27:34,834 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-09 17:27:41,793 [DEBUG] update_title_pos
+2019-05-09 17:27:41,959 [DEBUG] update_title_pos
+2019-05-09 17:27:42,001 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_14.h5
+2019-05-09 17:27:42,001 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-09 17:27:48,901 [DEBUG] update_title_pos
+2019-05-09 17:27:49,090 [DEBUG] update_title_pos
+2019-05-09 17:27:49,133 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_15.h5
+2019-05-09 17:27:49,133 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-09 17:27:55,948 [DEBUG] update_title_pos
+2019-05-09 17:27:56,111 [DEBUG] update_title_pos
+2019-05-09 17:27:56,154 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_16.h5
+2019-05-09 17:27:56,154 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-09 17:28:02,968 [DEBUG] update_title_pos
+2019-05-09 17:28:03,126 [DEBUG] update_title_pos
+2019-05-09 17:28:03,167 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_17.h5
+2019-05-09 17:28:03,167 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-09 17:28:09,971 [DEBUG] update_title_pos
+2019-05-09 17:28:10,128 [DEBUG] update_title_pos
+2019-05-09 17:28:10,170 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_18.h5
+2019-05-09 17:28:10,170 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-09 17:28:16,981 [DEBUG] update_title_pos
+2019-05-09 17:28:17,141 [DEBUG] update_title_pos
+2019-05-09 17:28:17,183 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_19.h5
+2019-05-09 17:28:17,183 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-09 17:28:24,027 [DEBUG] update_title_pos
+2019-05-09 17:28:24,186 [DEBUG] update_title_pos
+2019-05-09 17:28:24,228 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_20.h5
+2019-05-09 17:28:24,228 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-09 17:28:31,058 [DEBUG] update_title_pos
+2019-05-09 17:28:31,219 [DEBUG] update_title_pos
+2019-05-09 17:28:31,261 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_21.h5
+2019-05-09 17:28:31,262 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-09 17:28:38,077 [DEBUG] update_title_pos
+2019-05-09 17:28:38,244 [DEBUG] update_title_pos
+2019-05-09 17:28:38,290 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_22.h5
+2019-05-09 17:28:38,290 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-09 17:28:45,159 [DEBUG] update_title_pos
+2019-05-09 17:28:45,341 [DEBUG] update_title_pos
+2019-05-09 17:28:45,388 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_23.h5
+2019-05-09 17:28:45,388 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-09 17:28:52,288 [DEBUG] update_title_pos
+2019-05-09 17:28:52,458 [DEBUG] update_title_pos
+2019-05-09 17:28:52,504 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_24.h5
+2019-05-09 17:28:52,504 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-09 17:28:59,438 [DEBUG] update_title_pos
+2019-05-09 17:28:59,604 [DEBUG] update_title_pos
+2019-05-09 17:28:59,650 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_25.h5
+2019-05-09 17:28:59,650 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-09 17:29:06,584 [DEBUG] update_title_pos
+2019-05-09 17:29:06,753 [DEBUG] update_title_pos
+2019-05-09 17:29:06,794 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_26.h5
+2019-05-09 17:29:06,794 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-09 17:29:13,809 [DEBUG] update_title_pos
+2019-05-09 17:29:13,976 [DEBUG] update_title_pos
+2019-05-09 17:29:14,022 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_27.h5
+2019-05-09 17:29:14,022 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-09 17:29:20,919 [DEBUG] update_title_pos
+2019-05-09 17:29:21,079 [DEBUG] update_title_pos
+2019-05-09 17:29:21,123 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_28.h5
+2019-05-09 17:29:21,123 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-09 17:29:27,978 [DEBUG] update_title_pos
+2019-05-09 17:29:28,149 [DEBUG] update_title_pos
+2019-05-09 17:29:28,195 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_29.h5
+2019-05-09 17:29:28,195 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-09 17:29:35,019 [DEBUG] update_title_pos
+2019-05-09 17:29:35,185 [DEBUG] update_title_pos
+2019-05-09 17:29:35,227 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_30.h5
+2019-05-09 17:29:35,227 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-09 17:29:42,025 [DEBUG] update_title_pos
+2019-05-09 17:29:42,176 [DEBUG] update_title_pos
+2019-05-09 17:29:42,217 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_31.h5
+2019-05-09 17:29:42,218 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-09 17:29:49,048 [DEBUG] update_title_pos
+2019-05-09 17:29:49,216 [DEBUG] update_title_pos
+2019-05-09 17:29:49,259 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_32.h5
+2019-05-09 17:29:49,260 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-09 17:29:56,090 [DEBUG] update_title_pos
+2019-05-09 17:29:56,251 [DEBUG] update_title_pos
+2019-05-09 17:29:56,294 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_33.h5
+2019-05-09 17:29:56,294 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-09 17:30:03,171 [DEBUG] update_title_pos
+2019-05-09 17:30:03,350 [DEBUG] update_title_pos
+2019-05-09 17:30:03,395 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_34.h5
+2019-05-09 17:30:03,395 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-09 17:30:10,326 [DEBUG] update_title_pos
+2019-05-09 17:30:10,492 [DEBUG] update_title_pos
+2019-05-09 17:30:10,535 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_35.h5
+2019-05-09 17:30:10,535 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-09 17:30:17,357 [DEBUG] update_title_pos
+2019-05-09 17:30:17,521 [DEBUG] update_title_pos
+2019-05-09 17:30:17,564 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_36.h5
+2019-05-09 17:30:17,565 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-09 17:30:24,420 [DEBUG] update_title_pos
+2019-05-09 17:30:24,581 [DEBUG] update_title_pos
+2019-05-09 17:48:01,972 [WARNING] Ctrl + C triggered by user, testing ended prematurely

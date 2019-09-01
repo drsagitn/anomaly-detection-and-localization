@@ -1,0 +1,1906 @@
+2019-06-09 18:47:56,562 [DEBUG] Using GPU 0
+2019-06-09 18:47:56,586 [DEBUG] CACHEDIR=/home/thinh/.cache/matplotlib
+2019-06-09 18:47:56,588 [DEBUG] Using fontManager instance from /home/thinh/.cache/matplotlib/fontlist-v300.json
+2019-06-09 18:47:56,644 [DEBUG] Loaded backend agg version unknown.
+2019-06-09 18:48:00,387 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_01.h5
+2019-06-09 18:48:00,387 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-06-09 18:48:08,871 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc1545c0>
+2019-06-09 18:48:08,872 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:08,872 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc1545c0>
+2019-06-09 18:48:08,872 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:08,874 [DEBUG] update_title_pos
+2019-06-09 18:48:08,880 [DEBUG] update_title_pos
+2019-06-09 18:48:08,887 [DEBUG] findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2019-06-09 18:48:08,904 [DEBUG] update_title_pos
+2019-06-09 18:48:08,908 [DEBUG] update_title_pos
+2019-06-09 18:48:08,951 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc0f75f8>
+2019-06-09 18:48:08,951 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:08,951 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc0f75f8>
+2019-06-09 18:48:08,951 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:08,953 [DEBUG] update_title_pos
+2019-06-09 18:48:08,957 [DEBUG] update_title_pos
+2019-06-09 18:48:08,975 [DEBUG] update_title_pos
+2019-06-09 18:48:08,979 [DEBUG] update_title_pos
+2019-06-09 18:48:09,023 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc054cf8>
+2019-06-09 18:48:09,023 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:09,023 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc054cf8>
+2019-06-09 18:48:09,023 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:09,025 [DEBUG] update_title_pos
+2019-06-09 18:48:09,029 [DEBUG] update_title_pos
+2019-06-09 18:48:09,047 [DEBUG] update_title_pos
+2019-06-09 18:48:09,051 [DEBUG] update_title_pos
+2019-06-09 18:48:09,103 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac788518>
+2019-06-09 18:48:09,103 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:09,103 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac788518>
+2019-06-09 18:48:09,103 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:09,105 [DEBUG] update_title_pos
+2019-06-09 18:48:09,109 [DEBUG] update_title_pos
+2019-06-09 18:48:09,133 [DEBUG] update_title_pos
+2019-06-09 18:48:09,137 [DEBUG] update_title_pos
+2019-06-09 18:48:09,183 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc0add30>
+2019-06-09 18:48:09,183 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:09,183 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc0add30>
+2019-06-09 18:48:09,183 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:09,185 [DEBUG] update_title_pos
+2019-06-09 18:48:09,189 [DEBUG] update_title_pos
+2019-06-09 18:48:09,207 [DEBUG] update_title_pos
+2019-06-09 18:48:09,211 [DEBUG] update_title_pos
+2019-06-09 18:48:09,255 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac702198>
+2019-06-09 18:48:09,255 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:09,255 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac702198>
+2019-06-09 18:48:09,255 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:09,256 [DEBUG] update_title_pos
+2019-06-09 18:48:09,260 [DEBUG] update_title_pos
+2019-06-09 18:48:09,279 [DEBUG] update_title_pos
+2019-06-09 18:48:09,283 [DEBUG] update_title_pos
+2019-06-09 18:48:09,328 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc054c88>
+2019-06-09 18:48:09,329 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:09,329 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc054c88>
+2019-06-09 18:48:09,329 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:09,330 [DEBUG] update_title_pos
+2019-06-09 18:48:09,335 [DEBUG] update_title_pos
+2019-06-09 18:48:09,354 [DEBUG] update_title_pos
+2019-06-09 18:48:09,359 [DEBUG] update_title_pos
+2019-06-09 18:48:09,406 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac6f2048>
+2019-06-09 18:48:09,406 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:09,406 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac6f2048>
+2019-06-09 18:48:09,406 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:09,407 [DEBUG] update_title_pos
+2019-06-09 18:48:09,411 [DEBUG] update_title_pos
+2019-06-09 18:48:09,433 [DEBUG] update_title_pos
+2019-06-09 18:48:09,437 [DEBUG] update_title_pos
+2019-06-09 18:48:09,486 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc134fd0>
+2019-06-09 18:48:09,486 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:09,486 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc134fd0>
+2019-06-09 18:48:09,486 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:09,488 [DEBUG] update_title_pos
+2019-06-09 18:48:09,492 [DEBUG] update_title_pos
+2019-06-09 18:48:09,514 [DEBUG] update_title_pos
+2019-06-09 18:48:09,518 [DEBUG] update_title_pos
+2019-06-09 18:48:09,565 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac65f748>
+2019-06-09 18:48:09,565 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:09,565 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac65f748>
+2019-06-09 18:48:09,565 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:09,566 [DEBUG] update_title_pos
+2019-06-09 18:48:09,570 [DEBUG] update_title_pos
+2019-06-09 18:48:09,592 [DEBUG] update_title_pos
+2019-06-09 18:48:09,596 [DEBUG] update_title_pos
+2019-06-09 18:48:09,647 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac7ba518>
+2019-06-09 18:48:09,647 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:09,647 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac7ba518>
+2019-06-09 18:48:09,647 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:09,649 [DEBUG] update_title_pos
+2019-06-09 18:48:09,655 [DEBUG] update_title_pos
+2019-06-09 18:48:09,674 [DEBUG] update_title_pos
+2019-06-09 18:48:09,677 [DEBUG] update_title_pos
+2019-06-09 18:48:09,722 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac5cc748>
+2019-06-09 18:48:09,722 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:09,722 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac5cc748>
+2019-06-09 18:48:09,722 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:09,724 [DEBUG] update_title_pos
+2019-06-09 18:48:09,728 [DEBUG] update_title_pos
+2019-06-09 18:48:09,750 [DEBUG] update_title_pos
+2019-06-09 18:48:09,754 [DEBUG] update_title_pos
+2019-06-09 18:48:09,801 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac7b39b0>
+2019-06-09 18:48:09,801 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:09,801 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac7b39b0>
+2019-06-09 18:48:09,801 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:09,803 [DEBUG] update_title_pos
+2019-06-09 18:48:09,807 [DEBUG] update_title_pos
+2019-06-09 18:48:09,831 [DEBUG] update_title_pos
+2019-06-09 18:48:09,835 [DEBUG] update_title_pos
+2019-06-09 18:48:09,879 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac547048>
+2019-06-09 18:48:09,879 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:09,879 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac547048>
+2019-06-09 18:48:09,879 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:09,880 [DEBUG] update_title_pos
+2019-06-09 18:48:09,884 [DEBUG] update_title_pos
+2019-06-09 18:48:09,906 [DEBUG] update_title_pos
+2019-06-09 18:48:09,910 [DEBUG] update_title_pos
+2019-06-09 18:48:09,956 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc045c18>
+2019-06-09 18:48:09,956 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:09,956 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc045c18>
+2019-06-09 18:48:09,956 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:09,957 [DEBUG] update_title_pos
+2019-06-09 18:48:09,962 [DEBUG] update_title_pos
+2019-06-09 18:48:09,983 [DEBUG] update_title_pos
+2019-06-09 18:48:09,987 [DEBUG] update_title_pos
+2019-06-09 18:48:10,034 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac533048>
+2019-06-09 18:48:10,034 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:10,034 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac533048>
+2019-06-09 18:48:10,034 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:10,036 [DEBUG] update_title_pos
+2019-06-09 18:48:10,040 [DEBUG] update_title_pos
+2019-06-09 18:48:10,061 [DEBUG] update_title_pos
+2019-06-09 18:48:10,064 [DEBUG] update_title_pos
+2019-06-09 18:48:10,112 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc03d7b8>
+2019-06-09 18:48:10,112 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:10,112 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc03d7b8>
+2019-06-09 18:48:10,112 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:10,114 [DEBUG] update_title_pos
+2019-06-09 18:48:10,118 [DEBUG] update_title_pos
+2019-06-09 18:48:10,136 [DEBUG] update_title_pos
+2019-06-09 18:48:10,140 [DEBUG] update_title_pos
+2019-06-09 18:48:10,183 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac49a048>
+2019-06-09 18:48:10,183 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:10,183 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac49a048>
+2019-06-09 18:48:10,183 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:10,185 [DEBUG] update_title_pos
+2019-06-09 18:48:10,189 [DEBUG] update_title_pos
+2019-06-09 18:48:10,210 [DEBUG] update_title_pos
+2019-06-09 18:48:10,214 [DEBUG] update_title_pos
+2019-06-09 18:48:10,262 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac5847b8>
+2019-06-09 18:48:10,263 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:10,263 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac5847b8>
+2019-06-09 18:48:10,263 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:10,264 [DEBUG] update_title_pos
+2019-06-09 18:48:10,269 [DEBUG] update_title_pos
+2019-06-09 18:48:10,290 [DEBUG] update_title_pos
+2019-06-09 18:48:10,294 [DEBUG] update_title_pos
+2019-06-09 18:48:10,341 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac4013c8>
+2019-06-09 18:48:10,341 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:10,341 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac4013c8>
+2019-06-09 18:48:10,341 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:10,343 [DEBUG] update_title_pos
+2019-06-09 18:48:10,348 [DEBUG] update_title_pos
+2019-06-09 18:48:10,369 [DEBUG] update_title_pos
+2019-06-09 18:48:10,373 [DEBUG] update_title_pos
+2019-06-09 18:48:10,419 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac44f588>
+2019-06-09 18:48:10,419 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:10,419 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac44f588>
+2019-06-09 18:48:10,419 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:10,421 [DEBUG] update_title_pos
+2019-06-09 18:48:10,425 [DEBUG] update_title_pos
+2019-06-09 18:48:10,446 [DEBUG] update_title_pos
+2019-06-09 18:48:10,451 [DEBUG] update_title_pos
+2019-06-09 18:48:10,497 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac5144e0>
+2019-06-09 18:48:10,497 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:10,497 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac5144e0>
+2019-06-09 18:48:10,498 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:10,499 [DEBUG] update_title_pos
+2019-06-09 18:48:10,505 [DEBUG] update_title_pos
+2019-06-09 18:48:10,535 [DEBUG] update_title_pos
+2019-06-09 18:48:10,539 [DEBUG] update_title_pos
+2019-06-09 18:48:10,587 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac43b668>
+2019-06-09 18:48:10,587 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:10,587 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac43b668>
+2019-06-09 18:48:10,587 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:10,590 [DEBUG] update_title_pos
+2019-06-09 18:48:10,597 [DEBUG] update_title_pos
+2019-06-09 18:48:10,622 [DEBUG] update_title_pos
+2019-06-09 18:48:10,626 [DEBUG] update_title_pos
+2019-06-09 18:48:10,672 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac3f9048>
+2019-06-09 18:48:10,672 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:10,672 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac3f9048>
+2019-06-09 18:48:10,672 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:10,674 [DEBUG] update_title_pos
+2019-06-09 18:48:10,678 [DEBUG] update_title_pos
+2019-06-09 18:48:10,696 [DEBUG] update_title_pos
+2019-06-09 18:48:10,700 [DEBUG] update_title_pos
+2019-06-09 18:48:10,746 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac43ba58>
+2019-06-09 18:48:10,746 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:10,746 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac43ba58>
+2019-06-09 18:48:10,746 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:10,748 [DEBUG] update_title_pos
+2019-06-09 18:48:10,752 [DEBUG] update_title_pos
+2019-06-09 18:48:10,772 [DEBUG] update_title_pos
+2019-06-09 18:48:10,776 [DEBUG] update_title_pos
+2019-06-09 18:48:10,824 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac35c6d8>
+2019-06-09 18:48:10,824 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:10,824 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac35c6d8>
+2019-06-09 18:48:10,824 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:10,826 [DEBUG] update_title_pos
+2019-06-09 18:48:10,830 [DEBUG] update_title_pos
+2019-06-09 18:48:10,852 [DEBUG] update_title_pos
+2019-06-09 18:48:10,856 [DEBUG] update_title_pos
+2019-06-09 18:48:10,902 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac3c5668>
+2019-06-09 18:48:10,902 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:10,902 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac3c5668>
+2019-06-09 18:48:10,902 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:10,905 [DEBUG] update_title_pos
+2019-06-09 18:48:10,909 [DEBUG] update_title_pos
+2019-06-09 18:48:10,936 [DEBUG] update_title_pos
+2019-06-09 18:48:10,940 [DEBUG] update_title_pos
+2019-06-09 18:48:10,991 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac2d3048>
+2019-06-09 18:48:10,991 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:10,991 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac2d3048>
+2019-06-09 18:48:10,991 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:10,993 [DEBUG] update_title_pos
+2019-06-09 18:48:10,997 [DEBUG] update_title_pos
+2019-06-09 18:48:11,015 [DEBUG] update_title_pos
+2019-06-09 18:48:11,019 [DEBUG] update_title_pos
+2019-06-09 18:48:11,066 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac33e6d8>
+2019-06-09 18:48:11,066 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:11,066 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac33e6d8>
+2019-06-09 18:48:11,066 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:11,068 [DEBUG] update_title_pos
+2019-06-09 18:48:11,072 [DEBUG] update_title_pos
+2019-06-09 18:48:11,090 [DEBUG] update_title_pos
+2019-06-09 18:48:11,095 [DEBUG] update_title_pos
+2019-06-09 18:48:11,139 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac2b6828>
+2019-06-09 18:48:11,139 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:11,139 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac2b6828>
+2019-06-09 18:48:11,139 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:11,141 [DEBUG] update_title_pos
+2019-06-09 18:48:11,145 [DEBUG] update_title_pos
+2019-06-09 18:48:11,167 [DEBUG] update_title_pos
+2019-06-09 18:48:11,172 [DEBUG] update_title_pos
+2019-06-09 18:48:11,215 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac24beb8>
+2019-06-09 18:48:11,215 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:11,215 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac24beb8>
+2019-06-09 18:48:11,215 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:11,217 [DEBUG] update_title_pos
+2019-06-09 18:48:11,221 [DEBUG] update_title_pos
+2019-06-09 18:48:11,240 [DEBUG] update_title_pos
+2019-06-09 18:48:11,246 [DEBUG] update_title_pos
+2019-06-09 18:48:11,291 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac21ef28>
+2019-06-09 18:48:11,291 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:11,291 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac21ef28>
+2019-06-09 18:48:11,291 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:11,293 [DEBUG] update_title_pos
+2019-06-09 18:48:11,297 [DEBUG] update_title_pos
+2019-06-09 18:48:11,318 [DEBUG] update_title_pos
+2019-06-09 18:48:11,322 [DEBUG] update_title_pos
+2019-06-09 18:48:11,428 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac279c88>
+2019-06-09 18:48:11,428 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:11,428 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac279c88>
+2019-06-09 18:48:11,428 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:11,429 [DEBUG] update_title_pos
+2019-06-09 18:48:11,434 [DEBUG] update_title_pos
+2019-06-09 18:48:11,456 [DEBUG] update_title_pos
+2019-06-09 18:48:11,460 [DEBUG] update_title_pos
+2019-06-09 18:48:11,506 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac79d390>
+2019-06-09 18:48:11,506 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:11,506 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac79d390>
+2019-06-09 18:48:11,506 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:11,508 [DEBUG] update_title_pos
+2019-06-09 18:48:11,512 [DEBUG] update_title_pos
+2019-06-09 18:48:11,537 [DEBUG] update_title_pos
+2019-06-09 18:48:11,541 [DEBUG] update_title_pos
+2019-06-09 18:48:11,589 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac70df98>
+2019-06-09 18:48:11,589 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:11,589 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac70df98>
+2019-06-09 18:48:11,590 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:11,591 [DEBUG] update_title_pos
+2019-06-09 18:48:11,595 [DEBUG] update_title_pos
+2019-06-09 18:48:11,621 [DEBUG] update_title_pos
+2019-06-09 18:48:11,627 [DEBUG] update_title_pos
+2019-06-09 18:48:11,672 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac244c18>
+2019-06-09 18:48:11,672 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:11,672 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac244c18>
+2019-06-09 18:48:11,672 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:11,674 [DEBUG] update_title_pos
+2019-06-09 18:48:11,678 [DEBUG] update_title_pos
+2019-06-09 18:48:11,700 [DEBUG] update_title_pos
+2019-06-09 18:48:11,704 [DEBUG] update_title_pos
+2019-06-09 18:48:11,754 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac671b38>
+2019-06-09 18:48:11,754 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:11,754 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac671b38>
+2019-06-09 18:48:11,754 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:11,756 [DEBUG] update_title_pos
+2019-06-09 18:48:11,760 [DEBUG] update_title_pos
+2019-06-09 18:48:11,777 [DEBUG] update_title_pos
+2019-06-09 18:48:11,781 [DEBUG] update_title_pos
+2019-06-09 18:48:11,827 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac2ab048>
+2019-06-09 18:48:11,827 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:11,827 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac2ab048>
+2019-06-09 18:48:11,827 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:11,831 [DEBUG] update_title_pos
+2019-06-09 18:48:11,837 [DEBUG] update_title_pos
+2019-06-09 18:48:11,871 [DEBUG] update_title_pos
+2019-06-09 18:48:11,876 [DEBUG] update_title_pos
+2019-06-09 18:48:11,942 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc154978>
+2019-06-09 18:48:11,942 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:11,942 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc154978>
+2019-06-09 18:48:11,942 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:11,945 [DEBUG] update_title_pos
+2019-06-09 18:48:11,951 [DEBUG] update_title_pos
+2019-06-09 18:48:11,981 [DEBUG] update_title_pos
+2019-06-09 18:48:11,986 [DEBUG] update_title_pos
+2019-06-09 18:48:12,033 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac342748>
+2019-06-09 18:48:12,033 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:12,033 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac342748>
+2019-06-09 18:48:12,033 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:12,034 [DEBUG] update_title_pos
+2019-06-09 18:48:12,039 [DEBUG] update_title_pos
+2019-06-09 18:48:12,062 [DEBUG] update_title_pos
+2019-06-09 18:48:12,066 [DEBUG] update_title_pos
+2019-06-09 18:48:12,113 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac6714a8>
+2019-06-09 18:48:12,113 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:12,113 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac6714a8>
+2019-06-09 18:48:12,113 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:12,115 [DEBUG] update_title_pos
+2019-06-09 18:48:12,119 [DEBUG] update_title_pos
+2019-06-09 18:48:12,140 [DEBUG] update_title_pos
+2019-06-09 18:48:12,144 [DEBUG] update_title_pos
+2019-06-09 18:48:12,190 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac331940>
+2019-06-09 18:48:12,190 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:12,190 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac331940>
+2019-06-09 18:48:12,190 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:12,193 [DEBUG] update_title_pos
+2019-06-09 18:48:12,199 [DEBUG] update_title_pos
+2019-06-09 18:48:12,224 [DEBUG] update_title_pos
+2019-06-09 18:48:12,228 [DEBUG] update_title_pos
+2019-06-09 18:48:12,296 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac2a5d68>
+2019-06-09 18:48:12,296 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:12,296 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac2a5d68>
+2019-06-09 18:48:12,296 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:12,299 [DEBUG] update_title_pos
+2019-06-09 18:48:12,305 [DEBUG] update_title_pos
+2019-06-09 18:48:12,337 [DEBUG] update_title_pos
+2019-06-09 18:48:12,342 [DEBUG] update_title_pos
+2019-06-09 18:48:12,390 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc0b4ba8>
+2019-06-09 18:48:12,390 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:12,390 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc0b4ba8>
+2019-06-09 18:48:12,390 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:12,392 [DEBUG] update_title_pos
+2019-06-09 18:48:12,396 [DEBUG] update_title_pos
+2019-06-09 18:48:12,417 [DEBUG] update_title_pos
+2019-06-09 18:48:12,421 [DEBUG] update_title_pos
+2019-06-09 18:48:12,468 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc19ea20>
+2019-06-09 18:48:12,468 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:12,468 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc19ea20>
+2019-06-09 18:48:12,468 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:12,470 [DEBUG] update_title_pos
+2019-06-09 18:48:12,474 [DEBUG] update_title_pos
+2019-06-09 18:48:12,493 [DEBUG] update_title_pos
+2019-06-09 18:48:12,497 [DEBUG] update_title_pos
+2019-06-09 18:48:12,540 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc0479e8>
+2019-06-09 18:48:12,540 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:12,540 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc0479e8>
+2019-06-09 18:48:12,540 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:12,543 [DEBUG] update_title_pos
+2019-06-09 18:48:12,547 [DEBUG] update_title_pos
+2019-06-09 18:48:12,569 [DEBUG] update_title_pos
+2019-06-09 18:48:12,573 [DEBUG] update_title_pos
+2019-06-09 18:48:12,617 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac2ad898>
+2019-06-09 18:48:12,617 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:12,618 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac2ad898>
+2019-06-09 18:48:12,618 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:12,619 [DEBUG] update_title_pos
+2019-06-09 18:48:12,623 [DEBUG] update_title_pos
+2019-06-09 18:48:12,649 [DEBUG] update_title_pos
+2019-06-09 18:48:12,655 [DEBUG] update_title_pos
+2019-06-09 18:48:12,703 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac6ffc18>
+2019-06-09 18:48:12,704 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:12,704 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac6ffc18>
+2019-06-09 18:48:12,704 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:12,706 [DEBUG] update_title_pos
+2019-06-09 18:48:12,710 [DEBUG] update_title_pos
+2019-06-09 18:48:12,729 [DEBUG] update_title_pos
+2019-06-09 18:48:12,733 [DEBUG] update_title_pos
+2019-06-09 18:48:12,780 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc129c18>
+2019-06-09 18:48:12,780 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:12,780 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc129c18>
+2019-06-09 18:48:12,780 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:12,782 [DEBUG] update_title_pos
+2019-06-09 18:48:12,786 [DEBUG] update_title_pos
+2019-06-09 18:48:12,806 [DEBUG] update_title_pos
+2019-06-09 18:48:12,813 [DEBUG] update_title_pos
+2019-06-09 18:48:12,858 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac403048>
+2019-06-09 18:48:12,858 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:12,858 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac403048>
+2019-06-09 18:48:12,858 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:12,861 [DEBUG] update_title_pos
+2019-06-09 18:48:12,865 [DEBUG] update_title_pos
+2019-06-09 18:48:12,896 [DEBUG] update_title_pos
+2019-06-09 18:48:12,901 [DEBUG] update_title_pos
+2019-06-09 18:48:12,946 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac311908>
+2019-06-09 18:48:12,946 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:12,946 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac311908>
+2019-06-09 18:48:12,946 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:12,948 [DEBUG] update_title_pos
+2019-06-09 18:48:12,953 [DEBUG] update_title_pos
+2019-06-09 18:48:12,974 [DEBUG] update_title_pos
+2019-06-09 18:48:12,980 [DEBUG] update_title_pos
+2019-06-09 18:48:13,030 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac6893c8>
+2019-06-09 18:48:13,030 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:13,030 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac6893c8>
+2019-06-09 18:48:13,030 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:13,032 [DEBUG] update_title_pos
+2019-06-09 18:48:13,038 [DEBUG] update_title_pos
+2019-06-09 18:48:13,063 [DEBUG] update_title_pos
+2019-06-09 18:48:13,067 [DEBUG] update_title_pos
+2019-06-09 18:48:13,112 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac6f5198>
+2019-06-09 18:48:13,113 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:13,113 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac6f5198>
+2019-06-09 18:48:13,113 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:13,117 [DEBUG] update_title_pos
+2019-06-09 18:48:13,123 [DEBUG] update_title_pos
+2019-06-09 18:48:13,150 [DEBUG] update_title_pos
+2019-06-09 18:48:13,156 [DEBUG] update_title_pos
+2019-06-09 18:48:13,216 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac469320>
+2019-06-09 18:48:13,216 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:13,216 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac469320>
+2019-06-09 18:48:13,216 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:13,219 [DEBUG] update_title_pos
+2019-06-09 18:48:13,228 [DEBUG] update_title_pos
+2019-06-09 18:48:13,254 [DEBUG] update_title_pos
+2019-06-09 18:48:13,261 [DEBUG] update_title_pos
+2019-06-09 18:48:13,316 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac659d68>
+2019-06-09 18:48:13,316 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:13,316 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac659d68>
+2019-06-09 18:48:13,316 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:13,318 [DEBUG] update_title_pos
+2019-06-09 18:48:13,322 [DEBUG] update_title_pos
+2019-06-09 18:48:13,343 [DEBUG] update_title_pos
+2019-06-09 18:48:13,347 [DEBUG] update_title_pos
+2019-06-09 18:48:13,398 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac45f6d8>
+2019-06-09 18:48:13,398 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:13,399 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac45f6d8>
+2019-06-09 18:48:13,399 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:13,401 [DEBUG] update_title_pos
+2019-06-09 18:48:13,405 [DEBUG] update_title_pos
+2019-06-09 18:48:13,425 [DEBUG] update_title_pos
+2019-06-09 18:48:13,431 [DEBUG] update_title_pos
+2019-06-09 18:48:13,475 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac519908>
+2019-06-09 18:48:13,476 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:13,476 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac519908>
+2019-06-09 18:48:13,476 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:13,478 [DEBUG] update_title_pos
+2019-06-09 18:48:13,482 [DEBUG] update_title_pos
+2019-06-09 18:48:13,507 [DEBUG] update_title_pos
+2019-06-09 18:48:13,512 [DEBUG] update_title_pos
+2019-06-09 18:48:13,570 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac4ccc18>
+2019-06-09 18:48:13,571 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:13,571 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac4ccc18>
+2019-06-09 18:48:13,571 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:13,574 [DEBUG] update_title_pos
+2019-06-09 18:48:13,580 [DEBUG] update_title_pos
+2019-06-09 18:48:13,606 [DEBUG] update_title_pos
+2019-06-09 18:48:13,612 [DEBUG] update_title_pos
+2019-06-09 18:48:13,669 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac638dd8>
+2019-06-09 18:48:13,669 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:13,669 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac638dd8>
+2019-06-09 18:48:13,669 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:13,672 [DEBUG] update_title_pos
+2019-06-09 18:48:13,678 [DEBUG] update_title_pos
+2019-06-09 18:48:13,701 [DEBUG] update_title_pos
+2019-06-09 18:48:13,706 [DEBUG] update_title_pos
+2019-06-09 18:48:13,752 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac6c70f0>
+2019-06-09 18:48:13,752 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:13,752 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac6c70f0>
+2019-06-09 18:48:13,752 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:13,755 [DEBUG] update_title_pos
+2019-06-09 18:48:13,761 [DEBUG] update_title_pos
+2019-06-09 18:48:13,785 [DEBUG] update_title_pos
+2019-06-09 18:48:13,789 [DEBUG] update_title_pos
+2019-06-09 18:48:13,840 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac5ec6d8>
+2019-06-09 18:48:13,840 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:13,840 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac5ec6d8>
+2019-06-09 18:48:13,840 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:13,842 [DEBUG] update_title_pos
+2019-06-09 18:48:13,846 [DEBUG] update_title_pos
+2019-06-09 18:48:13,870 [DEBUG] update_title_pos
+2019-06-09 18:48:13,874 [DEBUG] update_title_pos
+2019-06-09 18:48:13,923 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac62a8d0>
+2019-06-09 18:48:13,923 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:13,923 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac62a8d0>
+2019-06-09 18:48:13,923 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:13,925 [DEBUG] update_title_pos
+2019-06-09 18:48:13,929 [DEBUG] update_title_pos
+2019-06-09 18:48:13,951 [DEBUG] update_title_pos
+2019-06-09 18:48:13,955 [DEBUG] update_title_pos
+2019-06-09 18:48:14,017 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac1a7e48>
+2019-06-09 18:48:14,017 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:14,017 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac1a7e48>
+2019-06-09 18:48:14,017 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:14,019 [DEBUG] update_title_pos
+2019-06-09 18:48:14,023 [DEBUG] update_title_pos
+2019-06-09 18:48:14,046 [DEBUG] update_title_pos
+2019-06-09 18:48:14,051 [DEBUG] update_title_pos
+2019-06-09 18:48:14,099 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac5bf0b8>
+2019-06-09 18:48:14,099 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:14,099 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac5bf0b8>
+2019-06-09 18:48:14,099 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:14,101 [DEBUG] update_title_pos
+2019-06-09 18:48:14,106 [DEBUG] update_title_pos
+2019-06-09 18:48:14,124 [DEBUG] update_title_pos
+2019-06-09 18:48:14,128 [DEBUG] update_title_pos
+2019-06-09 18:48:14,173 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac120048>
+2019-06-09 18:48:14,173 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:14,173 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac120048>
+2019-06-09 18:48:14,173 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:14,175 [DEBUG] update_title_pos
+2019-06-09 18:48:14,179 [DEBUG] update_title_pos
+2019-06-09 18:48:14,206 [DEBUG] update_title_pos
+2019-06-09 18:48:14,212 [DEBUG] update_title_pos
+2019-06-09 18:48:14,265 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac7c0860>
+2019-06-09 18:48:14,266 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:14,266 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac7c0860>
+2019-06-09 18:48:14,266 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:14,268 [DEBUG] update_title_pos
+2019-06-09 18:48:14,272 [DEBUG] update_title_pos
+2019-06-09 18:48:14,294 [DEBUG] update_title_pos
+2019-06-09 18:48:14,300 [DEBUG] update_title_pos
+2019-06-09 18:48:14,349 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac08ccf8>
+2019-06-09 18:48:14,349 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:14,349 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac08ccf8>
+2019-06-09 18:48:14,349 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:14,351 [DEBUG] update_title_pos
+2019-06-09 18:48:14,355 [DEBUG] update_title_pos
+2019-06-09 18:48:14,381 [DEBUG] update_title_pos
+2019-06-09 18:48:14,386 [DEBUG] update_title_pos
+2019-06-09 18:48:14,439 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac1b74a8>
+2019-06-09 18:48:14,439 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:14,439 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac1b74a8>
+2019-06-09 18:48:14,439 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:14,442 [DEBUG] update_title_pos
+2019-06-09 18:48:14,446 [DEBUG] update_title_pos
+2019-06-09 18:48:14,468 [DEBUG] update_title_pos
+2019-06-09 18:48:14,472 [DEBUG] update_title_pos
+2019-06-09 18:48:14,527 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fa07c6438>
+2019-06-09 18:48:14,528 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:14,528 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fa07c6438>
+2019-06-09 18:48:14,528 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:14,530 [DEBUG] update_title_pos
+2019-06-09 18:48:14,534 [DEBUG] update_title_pos
+2019-06-09 18:48:14,558 [DEBUG] update_title_pos
+2019-06-09 18:48:14,562 [DEBUG] update_title_pos
+2019-06-09 18:48:14,663 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac4a84a8>
+2019-06-09 18:48:14,663 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:14,663 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac4a84a8>
+2019-06-09 18:48:14,663 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:14,667 [DEBUG] update_title_pos
+2019-06-09 18:48:14,673 [DEBUG] update_title_pos
+2019-06-09 18:48:14,693 [DEBUG] update_title_pos
+2019-06-09 18:48:14,697 [DEBUG] update_title_pos
+2019-06-09 18:48:14,741 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc13e940>
+2019-06-09 18:48:14,741 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:14,741 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc13e940>
+2019-06-09 18:48:14,741 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:14,743 [DEBUG] update_title_pos
+2019-06-09 18:48:14,747 [DEBUG] update_title_pos
+2019-06-09 18:48:14,767 [DEBUG] update_title_pos
+2019-06-09 18:48:14,771 [DEBUG] update_title_pos
+2019-06-09 18:48:14,818 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac5cf4a8>
+2019-06-09 18:48:14,818 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:14,818 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac5cf4a8>
+2019-06-09 18:48:14,818 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:14,820 [DEBUG] update_title_pos
+2019-06-09 18:48:14,824 [DEBUG] update_title_pos
+2019-06-09 18:48:14,844 [DEBUG] update_title_pos
+2019-06-09 18:48:14,848 [DEBUG] update_title_pos
+2019-06-09 18:48:14,892 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc154940>
+2019-06-09 18:48:14,892 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:14,892 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc154940>
+2019-06-09 18:48:14,892 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:14,895 [DEBUG] update_title_pos
+2019-06-09 18:48:14,899 [DEBUG] update_title_pos
+2019-06-09 18:48:14,918 [DEBUG] update_title_pos
+2019-06-09 18:48:14,922 [DEBUG] update_title_pos
+2019-06-09 18:48:14,967 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac4af400>
+2019-06-09 18:48:14,967 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:14,967 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac4af400>
+2019-06-09 18:48:14,967 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:14,969 [DEBUG] update_title_pos
+2019-06-09 18:48:14,973 [DEBUG] update_title_pos
+2019-06-09 18:48:14,992 [DEBUG] update_title_pos
+2019-06-09 18:48:14,998 [DEBUG] update_title_pos
+2019-06-09 18:48:15,050 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac098f28>
+2019-06-09 18:48:15,050 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:15,050 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac098f28>
+2019-06-09 18:48:15,050 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:15,052 [DEBUG] update_title_pos
+2019-06-09 18:48:15,056 [DEBUG] update_title_pos
+2019-06-09 18:48:15,076 [DEBUG] update_title_pos
+2019-06-09 18:48:15,080 [DEBUG] update_title_pos
+2019-06-09 18:48:15,125 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac5d6400>
+2019-06-09 18:48:15,125 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:15,125 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac5d6400>
+2019-06-09 18:48:15,125 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:15,129 [DEBUG] update_title_pos
+2019-06-09 18:48:15,136 [DEBUG] update_title_pos
+2019-06-09 18:48:15,164 [DEBUG] update_title_pos
+2019-06-09 18:48:15,168 [DEBUG] update_title_pos
+2019-06-09 18:48:15,229 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc129ba8>
+2019-06-09 18:48:15,229 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:15,229 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc129ba8>
+2019-06-09 18:48:15,229 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:15,232 [DEBUG] update_title_pos
+2019-06-09 18:48:15,238 [DEBUG] update_title_pos
+2019-06-09 18:48:15,272 [DEBUG] update_title_pos
+2019-06-09 18:48:15,278 [DEBUG] update_title_pos
+2019-06-09 18:48:15,350 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac5cf5f8>
+2019-06-09 18:48:15,350 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:15,350 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac5cf5f8>
+2019-06-09 18:48:15,350 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:15,353 [DEBUG] update_title_pos
+2019-06-09 18:48:15,359 [DEBUG] update_title_pos
+2019-06-09 18:48:15,389 [DEBUG] update_title_pos
+2019-06-09 18:48:15,394 [DEBUG] update_title_pos
+2019-06-09 18:48:15,449 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc198358>
+2019-06-09 18:48:15,449 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:15,449 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc198358>
+2019-06-09 18:48:15,449 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:15,451 [DEBUG] update_title_pos
+2019-06-09 18:48:15,456 [DEBUG] update_title_pos
+2019-06-09 18:48:15,482 [DEBUG] update_title_pos
+2019-06-09 18:48:15,487 [DEBUG] update_title_pos
+2019-06-09 18:48:15,542 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac5ffa20>
+2019-06-09 18:48:15,543 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:15,543 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac5ffa20>
+2019-06-09 18:48:15,543 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:15,546 [DEBUG] update_title_pos
+2019-06-09 18:48:15,551 [DEBUG] update_title_pos
+2019-06-09 18:48:15,578 [DEBUG] update_title_pos
+2019-06-09 18:48:15,583 [DEBUG] update_title_pos
+2019-06-09 18:48:15,637 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac0dc7f0>
+2019-06-09 18:48:15,637 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:15,637 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac0dc7f0>
+2019-06-09 18:48:15,637 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:15,640 [DEBUG] update_title_pos
+2019-06-09 18:48:15,645 [DEBUG] update_title_pos
+2019-06-09 18:48:15,672 [DEBUG] update_title_pos
+2019-06-09 18:48:15,677 [DEBUG] update_title_pos
+2019-06-09 18:48:15,732 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac5d6320>
+2019-06-09 18:48:15,733 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:15,733 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac5d6320>
+2019-06-09 18:48:15,733 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:15,735 [DEBUG] update_title_pos
+2019-06-09 18:48:15,740 [DEBUG] update_title_pos
+2019-06-09 18:48:15,768 [DEBUG] update_title_pos
+2019-06-09 18:48:15,773 [DEBUG] update_title_pos
+2019-06-09 18:48:15,829 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac19b748>
+2019-06-09 18:48:15,829 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:15,829 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac19b748>
+2019-06-09 18:48:15,829 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:15,832 [DEBUG] update_title_pos
+2019-06-09 18:48:15,837 [DEBUG] update_title_pos
+2019-06-09 18:48:15,864 [DEBUG] update_title_pos
+2019-06-09 18:48:15,869 [DEBUG] update_title_pos
+2019-06-09 18:48:15,925 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac0e9f28>
+2019-06-09 18:48:15,925 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:15,925 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac0e9f28>
+2019-06-09 18:48:15,925 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:15,928 [DEBUG] update_title_pos
+2019-06-09 18:48:15,933 [DEBUG] update_title_pos
+2019-06-09 18:48:15,960 [DEBUG] update_title_pos
+2019-06-09 18:48:15,965 [DEBUG] update_title_pos
+2019-06-09 18:48:16,020 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac78eb38>
+2019-06-09 18:48:16,021 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:16,021 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac78eb38>
+2019-06-09 18:48:16,021 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:16,023 [DEBUG] update_title_pos
+2019-06-09 18:48:16,029 [DEBUG] update_title_pos
+2019-06-09 18:48:16,054 [DEBUG] update_title_pos
+2019-06-09 18:48:16,059 [DEBUG] update_title_pos
+2019-06-09 18:48:16,115 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac5dd940>
+2019-06-09 18:48:16,115 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:16,116 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac5dd940>
+2019-06-09 18:48:16,116 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:16,118 [DEBUG] update_title_pos
+2019-06-09 18:48:16,123 [DEBUG] update_title_pos
+2019-06-09 18:48:16,149 [DEBUG] update_title_pos
+2019-06-09 18:48:16,154 [DEBUG] update_title_pos
+2019-06-09 18:48:16,210 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac798c88>
+2019-06-09 18:48:16,210 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:16,210 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac798c88>
+2019-06-09 18:48:16,210 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:16,213 [DEBUG] update_title_pos
+2019-06-09 18:48:16,218 [DEBUG] update_title_pos
+2019-06-09 18:48:16,245 [DEBUG] update_title_pos
+2019-06-09 18:48:16,250 [DEBUG] update_title_pos
+2019-06-09 18:48:16,306 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac105470>
+2019-06-09 18:48:16,306 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:16,306 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac105470>
+2019-06-09 18:48:16,306 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:16,308 [DEBUG] update_title_pos
+2019-06-09 18:48:16,314 [DEBUG] update_title_pos
+2019-06-09 18:48:16,339 [DEBUG] update_title_pos
+2019-06-09 18:48:16,344 [DEBUG] update_title_pos
+2019-06-09 18:48:16,399 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac5ec048>
+2019-06-09 18:48:16,399 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:16,399 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac5ec048>
+2019-06-09 18:48:16,399 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:16,402 [DEBUG] update_title_pos
+2019-06-09 18:48:16,407 [DEBUG] update_title_pos
+2019-06-09 18:48:16,432 [DEBUG] update_title_pos
+2019-06-09 18:48:16,437 [DEBUG] update_title_pos
+2019-06-09 18:48:16,493 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac5ecac8>
+2019-06-09 18:48:16,493 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:16,493 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac5ecac8>
+2019-06-09 18:48:16,494 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:16,496 [DEBUG] update_title_pos
+2019-06-09 18:48:16,501 [DEBUG] update_title_pos
+2019-06-09 18:48:16,528 [DEBUG] update_title_pos
+2019-06-09 18:48:16,533 [DEBUG] update_title_pos
+2019-06-09 18:48:16,578 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac6657b8>
+2019-06-09 18:48:16,578 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:16,578 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac6657b8>
+2019-06-09 18:48:16,578 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:16,580 [DEBUG] update_title_pos
+2019-06-09 18:48:16,584 [DEBUG] update_title_pos
+2019-06-09 18:48:16,605 [DEBUG] update_title_pos
+2019-06-09 18:48:16,609 [DEBUG] update_title_pos
+2019-06-09 18:48:16,654 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac6897f0>
+2019-06-09 18:48:16,654 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:16,654 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac6897f0>
+2019-06-09 18:48:16,654 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:16,656 [DEBUG] update_title_pos
+2019-06-09 18:48:16,660 [DEBUG] update_title_pos
+2019-06-09 18:48:16,680 [DEBUG] update_title_pos
+2019-06-09 18:48:16,684 [DEBUG] update_title_pos
+2019-06-09 18:48:16,729 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac767f98>
+2019-06-09 18:48:16,729 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:16,729 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac767f98>
+2019-06-09 18:48:16,729 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:16,731 [DEBUG] update_title_pos
+2019-06-09 18:48:16,735 [DEBUG] update_title_pos
+2019-06-09 18:48:16,755 [DEBUG] update_title_pos
+2019-06-09 18:48:16,759 [DEBUG] update_title_pos
+2019-06-09 18:48:16,805 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac533550>
+2019-06-09 18:48:16,805 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:16,805 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac533550>
+2019-06-09 18:48:16,805 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:16,807 [DEBUG] update_title_pos
+2019-06-09 18:48:16,811 [DEBUG] update_title_pos
+2019-06-09 18:48:16,831 [DEBUG] update_title_pos
+2019-06-09 18:48:16,835 [DEBUG] update_title_pos
+2019-06-09 18:48:16,885 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac5b3898>
+2019-06-09 18:48:16,885 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:16,885 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac5b3898>
+2019-06-09 18:48:16,885 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:16,887 [DEBUG] update_title_pos
+2019-06-09 18:48:16,892 [DEBUG] update_title_pos
+2019-06-09 18:48:16,912 [DEBUG] update_title_pos
+2019-06-09 18:48:16,916 [DEBUG] update_title_pos
+2019-06-09 18:48:16,961 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac5b3ba8>
+2019-06-09 18:48:16,962 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:16,962 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac5b3ba8>
+2019-06-09 18:48:16,962 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:16,964 [DEBUG] update_title_pos
+2019-06-09 18:48:16,968 [DEBUG] update_title_pos
+2019-06-09 18:48:16,990 [DEBUG] update_title_pos
+2019-06-09 18:48:16,994 [DEBUG] update_title_pos
+2019-06-09 18:48:17,039 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fa07fb588>
+2019-06-09 18:48:17,039 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:17,039 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fa07fb588>
+2019-06-09 18:48:17,039 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:17,041 [DEBUG] update_title_pos
+2019-06-09 18:48:17,045 [DEBUG] update_title_pos
+2019-06-09 18:48:17,065 [DEBUG] update_title_pos
+2019-06-09 18:48:17,069 [DEBUG] update_title_pos
+2019-06-09 18:48:17,114 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac6d2860>
+2019-06-09 18:48:17,114 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:17,114 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac6d2860>
+2019-06-09 18:48:17,114 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:17,116 [DEBUG] update_title_pos
+2019-06-09 18:48:17,120 [DEBUG] update_title_pos
+2019-06-09 18:48:17,142 [DEBUG] update_title_pos
+2019-06-09 18:48:17,146 [DEBUG] update_title_pos
+2019-06-09 18:48:17,205 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac481208>
+2019-06-09 18:48:17,205 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:17,205 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac481208>
+2019-06-09 18:48:17,205 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:17,208 [DEBUG] update_title_pos
+2019-06-09 18:48:17,213 [DEBUG] update_title_pos
+2019-06-09 18:48:17,234 [DEBUG] update_title_pos
+2019-06-09 18:48:17,238 [DEBUG] update_title_pos
+2019-06-09 18:48:17,282 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac40f6d8>
+2019-06-09 18:48:17,282 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:17,282 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac40f6d8>
+2019-06-09 18:48:17,282 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:17,285 [DEBUG] update_title_pos
+2019-06-09 18:48:17,289 [DEBUG] update_title_pos
+2019-06-09 18:48:17,310 [DEBUG] update_title_pos
+2019-06-09 18:48:17,314 [DEBUG] update_title_pos
+2019-06-09 18:48:17,358 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac571f28>
+2019-06-09 18:48:17,358 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:17,358 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac571f28>
+2019-06-09 18:48:17,358 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:17,360 [DEBUG] update_title_pos
+2019-06-09 18:48:17,364 [DEBUG] update_title_pos
+2019-06-09 18:48:17,382 [DEBUG] update_title_pos
+2019-06-09 18:48:17,386 [DEBUG] update_title_pos
+2019-06-09 18:48:17,430 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac482358>
+2019-06-09 18:48:17,430 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:17,430 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac482358>
+2019-06-09 18:48:17,430 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:17,432 [DEBUG] update_title_pos
+2019-06-09 18:48:17,436 [DEBUG] update_title_pos
+2019-06-09 18:48:17,456 [DEBUG] update_title_pos
+2019-06-09 18:48:17,460 [DEBUG] update_title_pos
+2019-06-09 18:48:17,504 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac3e4358>
+2019-06-09 18:48:17,504 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:17,504 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac3e4358>
+2019-06-09 18:48:17,504 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:17,507 [DEBUG] update_title_pos
+2019-06-09 18:48:17,511 [DEBUG] update_title_pos
+2019-06-09 18:48:17,532 [DEBUG] update_title_pos
+2019-06-09 18:48:17,536 [DEBUG] update_title_pos
+2019-06-09 18:48:17,585 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac313ac8>
+2019-06-09 18:48:17,585 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:17,585 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac313ac8>
+2019-06-09 18:48:17,585 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:17,587 [DEBUG] update_title_pos
+2019-06-09 18:48:17,591 [DEBUG] update_title_pos
+2019-06-09 18:48:17,612 [DEBUG] update_title_pos
+2019-06-09 18:48:17,616 [DEBUG] update_title_pos
+2019-06-09 18:48:17,659 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac2cad68>
+2019-06-09 18:48:17,659 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:17,659 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac2cad68>
+2019-06-09 18:48:17,659 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:17,662 [DEBUG] update_title_pos
+2019-06-09 18:48:17,666 [DEBUG] update_title_pos
+2019-06-09 18:48:17,685 [DEBUG] update_title_pos
+2019-06-09 18:48:17,689 [DEBUG] update_title_pos
+2019-06-09 18:48:17,735 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac2c2550>
+2019-06-09 18:48:17,735 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:17,735 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac2c2550>
+2019-06-09 18:48:17,735 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:17,737 [DEBUG] update_title_pos
+2019-06-09 18:48:17,741 [DEBUG] update_title_pos
+2019-06-09 18:48:17,760 [DEBUG] update_title_pos
+2019-06-09 18:48:17,764 [DEBUG] update_title_pos
+2019-06-09 18:48:17,807 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac2a0358>
+2019-06-09 18:48:17,807 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:17,807 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac2a0358>
+2019-06-09 18:48:17,807 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:17,809 [DEBUG] update_title_pos
+2019-06-09 18:48:17,813 [DEBUG] update_title_pos
+2019-06-09 18:48:17,835 [DEBUG] update_title_pos
+2019-06-09 18:48:17,839 [DEBUG] update_title_pos
+2019-06-09 18:48:17,884 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac1d9cf8>
+2019-06-09 18:48:17,884 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:17,884 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac1d9cf8>
+2019-06-09 18:48:17,884 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:17,887 [DEBUG] update_title_pos
+2019-06-09 18:48:17,891 [DEBUG] update_title_pos
+2019-06-09 18:48:17,911 [DEBUG] update_title_pos
+2019-06-09 18:48:17,915 [DEBUG] update_title_pos
+2019-06-09 18:48:17,962 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fa078c278>
+2019-06-09 18:48:17,963 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:17,963 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fa078c278>
+2019-06-09 18:48:17,963 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:17,965 [DEBUG] update_title_pos
+2019-06-09 18:48:17,969 [DEBUG] update_title_pos
+2019-06-09 18:48:17,989 [DEBUG] update_title_pos
+2019-06-09 18:48:17,993 [DEBUG] update_title_pos
+2019-06-09 18:48:18,038 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac381b70>
+2019-06-09 18:48:18,038 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:18,038 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac381b70>
+2019-06-09 18:48:18,038 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:18,040 [DEBUG] update_title_pos
+2019-06-09 18:48:18,044 [DEBUG] update_title_pos
+2019-06-09 18:48:18,063 [DEBUG] update_title_pos
+2019-06-09 18:48:18,067 [DEBUG] update_title_pos
+2019-06-09 18:48:18,111 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fa0773ba8>
+2019-06-09 18:48:18,111 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:18,111 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fa0773ba8>
+2019-06-09 18:48:18,111 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:18,113 [DEBUG] update_title_pos
+2019-06-09 18:48:18,117 [DEBUG] update_title_pos
+2019-06-09 18:48:18,139 [DEBUG] update_title_pos
+2019-06-09 18:48:18,143 [DEBUG] update_title_pos
+2019-06-09 18:48:18,189 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fa07ab8d0>
+2019-06-09 18:48:18,189 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:18,189 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fa07ab8d0>
+2019-06-09 18:48:18,189 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:18,191 [DEBUG] update_title_pos
+2019-06-09 18:48:18,195 [DEBUG] update_title_pos
+2019-06-09 18:48:18,217 [DEBUG] update_title_pos
+2019-06-09 18:48:18,221 [DEBUG] update_title_pos
+2019-06-09 18:48:18,266 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fa06e3a58>
+2019-06-09 18:48:18,266 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:18,266 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fa06e3a58>
+2019-06-09 18:48:18,266 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:18,268 [DEBUG] update_title_pos
+2019-06-09 18:48:18,272 [DEBUG] update_title_pos
+2019-06-09 18:48:18,295 [DEBUG] update_title_pos
+2019-06-09 18:48:18,299 [DEBUG] update_title_pos
+2019-06-09 18:48:18,343 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fa0708898>
+2019-06-09 18:48:18,343 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:18,343 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fa0708898>
+2019-06-09 18:48:18,344 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:18,346 [DEBUG] update_title_pos
+2019-06-09 18:48:18,350 [DEBUG] update_title_pos
+2019-06-09 18:48:18,370 [DEBUG] update_title_pos
+2019-06-09 18:48:18,374 [DEBUG] update_title_pos
+2019-06-09 18:48:18,418 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fa0656198>
+2019-06-09 18:48:18,418 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:18,418 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fa0656198>
+2019-06-09 18:48:18,418 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:18,420 [DEBUG] update_title_pos
+2019-06-09 18:48:18,425 [DEBUG] update_title_pos
+2019-06-09 18:48:18,446 [DEBUG] update_title_pos
+2019-06-09 18:48:18,450 [DEBUG] update_title_pos
+2019-06-09 18:48:18,550 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fa06b0668>
+2019-06-09 18:48:18,550 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:18,550 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fa06b0668>
+2019-06-09 18:48:18,550 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:18,552 [DEBUG] update_title_pos
+2019-06-09 18:48:18,556 [DEBUG] update_title_pos
+2019-06-09 18:48:18,576 [DEBUG] update_title_pos
+2019-06-09 18:48:18,580 [DEBUG] update_title_pos
+2019-06-09 18:48:18,624 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc114a20>
+2019-06-09 18:48:18,624 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:18,624 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc114a20>
+2019-06-09 18:48:18,624 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:18,627 [DEBUG] update_title_pos
+2019-06-09 18:48:18,631 [DEBUG] update_title_pos
+2019-06-09 18:48:18,653 [DEBUG] update_title_pos
+2019-06-09 18:48:18,658 [DEBUG] update_title_pos
+2019-06-09 18:48:18,702 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac37b2e8>
+2019-06-09 18:48:18,703 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:18,703 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac37b2e8>
+2019-06-09 18:48:18,703 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:18,705 [DEBUG] update_title_pos
+2019-06-09 18:48:18,709 [DEBUG] update_title_pos
+2019-06-09 18:48:18,728 [DEBUG] update_title_pos
+2019-06-09 18:48:18,732 [DEBUG] update_title_pos
+2019-06-09 18:48:18,775 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac2cc4a8>
+2019-06-09 18:48:18,775 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:18,775 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac2cc4a8>
+2019-06-09 18:48:18,775 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:18,778 [DEBUG] update_title_pos
+2019-06-09 18:48:18,782 [DEBUG] update_title_pos
+2019-06-09 18:48:18,803 [DEBUG] update_title_pos
+2019-06-09 18:48:18,807 [DEBUG] update_title_pos
+2019-06-09 18:48:18,853 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac70dc18>
+2019-06-09 18:48:18,853 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:18,853 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac70dc18>
+2019-06-09 18:48:18,853 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:18,855 [DEBUG] update_title_pos
+2019-06-09 18:48:18,859 [DEBUG] update_title_pos
+2019-06-09 18:48:18,879 [DEBUG] update_title_pos
+2019-06-09 18:48:18,883 [DEBUG] update_title_pos
+2019-06-09 18:48:18,928 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fa077c2b0>
+2019-06-09 18:48:18,929 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:18,929 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fa077c2b0>
+2019-06-09 18:48:18,929 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:18,931 [DEBUG] update_title_pos
+2019-06-09 18:48:18,935 [DEBUG] update_title_pos
+2019-06-09 18:48:18,957 [DEBUG] update_title_pos
+2019-06-09 18:48:18,961 [DEBUG] update_title_pos
+2019-06-09 18:48:19,010 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc154240>
+2019-06-09 18:48:19,011 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:19,011 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc154240>
+2019-06-09 18:48:19,011 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:19,014 [DEBUG] update_title_pos
+2019-06-09 18:48:19,019 [DEBUG] update_title_pos
+2019-06-09 18:48:19,041 [DEBUG] update_title_pos
+2019-06-09 18:48:19,045 [DEBUG] update_title_pos
+2019-06-09 18:48:19,089 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc132470>
+2019-06-09 18:48:19,089 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:19,089 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc132470>
+2019-06-09 18:48:19,089 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:19,091 [DEBUG] update_title_pos
+2019-06-09 18:48:19,095 [DEBUG] update_title_pos
+2019-06-09 18:48:19,114 [DEBUG] update_title_pos
+2019-06-09 18:48:19,118 [DEBUG] update_title_pos
+2019-06-09 18:48:19,162 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac2a0c50>
+2019-06-09 18:48:19,162 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:19,162 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac2a0c50>
+2019-06-09 18:48:19,162 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:19,164 [DEBUG] update_title_pos
+2019-06-09 18:48:19,168 [DEBUG] update_title_pos
+2019-06-09 18:48:19,190 [DEBUG] update_title_pos
+2019-06-09 18:48:19,194 [DEBUG] update_title_pos
+2019-06-09 18:48:19,239 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fa0634c88>
+2019-06-09 18:48:19,239 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:19,239 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fa0634c88>
+2019-06-09 18:48:19,239 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:19,242 [DEBUG] update_title_pos
+2019-06-09 18:48:19,246 [DEBUG] update_title_pos
+2019-06-09 18:48:19,269 [DEBUG] update_title_pos
+2019-06-09 18:48:19,273 [DEBUG] update_title_pos
+2019-06-09 18:48:19,323 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc13ea90>
+2019-06-09 18:48:19,323 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:19,324 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc13ea90>
+2019-06-09 18:48:19,324 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:19,326 [DEBUG] update_title_pos
+2019-06-09 18:48:19,330 [DEBUG] update_title_pos
+2019-06-09 18:48:19,352 [DEBUG] update_title_pos
+2019-06-09 18:48:19,356 [DEBUG] update_title_pos
+2019-06-09 18:48:19,406 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc1a2080>
+2019-06-09 18:48:19,406 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:19,406 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc1a2080>
+2019-06-09 18:48:19,406 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:19,409 [DEBUG] update_title_pos
+2019-06-09 18:48:19,413 [DEBUG] update_title_pos
+2019-06-09 18:48:19,435 [DEBUG] update_title_pos
+2019-06-09 18:48:19,439 [DEBUG] update_title_pos
+2019-06-09 18:48:19,484 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fa062ab38>
+2019-06-09 18:48:19,484 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:19,484 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fa062ab38>
+2019-06-09 18:48:19,484 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:19,487 [DEBUG] update_title_pos
+2019-06-09 18:48:19,491 [DEBUG] update_title_pos
+2019-06-09 18:48:19,513 [DEBUG] update_title_pos
+2019-06-09 18:48:19,517 [DEBUG] update_title_pos
+2019-06-09 18:48:19,561 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac1cb198>
+2019-06-09 18:48:19,561 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:19,561 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac1cb198>
+2019-06-09 18:48:19,561 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:19,564 [DEBUG] update_title_pos
+2019-06-09 18:48:19,568 [DEBUG] update_title_pos
+2019-06-09 18:48:19,589 [DEBUG] update_title_pos
+2019-06-09 18:48:19,593 [DEBUG] update_title_pos
+2019-06-09 18:48:19,638 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc06a5f8>
+2019-06-09 18:48:19,638 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:19,638 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc06a5f8>
+2019-06-09 18:48:19,639 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:19,641 [DEBUG] update_title_pos
+2019-06-09 18:48:19,645 [DEBUG] update_title_pos
+2019-06-09 18:48:19,667 [DEBUG] update_title_pos
+2019-06-09 18:48:19,671 [DEBUG] update_title_pos
+2019-06-09 18:48:19,716 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac2293c8>
+2019-06-09 18:48:19,716 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:19,716 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac2293c8>
+2019-06-09 18:48:19,716 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:19,718 [DEBUG] update_title_pos
+2019-06-09 18:48:19,723 [DEBUG] update_title_pos
+2019-06-09 18:48:19,747 [DEBUG] update_title_pos
+2019-06-09 18:48:19,751 [DEBUG] update_title_pos
+2019-06-09 18:48:19,802 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac3c7860>
+2019-06-09 18:48:19,803 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:19,803 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac3c7860>
+2019-06-09 18:48:19,803 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:19,805 [DEBUG] update_title_pos
+2019-06-09 18:48:19,809 [DEBUG] update_title_pos
+2019-06-09 18:48:19,831 [DEBUG] update_title_pos
+2019-06-09 18:48:19,835 [DEBUG] update_title_pos
+2019-06-09 18:48:19,880 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac7915f8>
+2019-06-09 18:48:19,880 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:19,880 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac7915f8>
+2019-06-09 18:48:19,880 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:19,882 [DEBUG] update_title_pos
+2019-06-09 18:48:19,887 [DEBUG] update_title_pos
+2019-06-09 18:48:19,905 [DEBUG] update_title_pos
+2019-06-09 18:48:19,909 [DEBUG] update_title_pos
+2019-06-09 18:48:19,953 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fa0626cf8>
+2019-06-09 18:48:19,953 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:19,953 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fa0626cf8>
+2019-06-09 18:48:19,953 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:19,956 [DEBUG] update_title_pos
+2019-06-09 18:48:19,960 [DEBUG] update_title_pos
+2019-06-09 18:48:19,980 [DEBUG] update_title_pos
+2019-06-09 18:48:19,984 [DEBUG] update_title_pos
+2019-06-09 18:48:20,028 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac7cf438>
+2019-06-09 18:48:20,029 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:20,029 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac7cf438>
+2019-06-09 18:48:20,029 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:20,031 [DEBUG] update_title_pos
+2019-06-09 18:48:20,035 [DEBUG] update_title_pos
+2019-06-09 18:48:20,056 [DEBUG] update_title_pos
+2019-06-09 18:48:20,060 [DEBUG] update_title_pos
+2019-06-09 18:48:20,106 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac3c9eb8>
+2019-06-09 18:48:20,106 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:20,106 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac3c9eb8>
+2019-06-09 18:48:20,106 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:20,109 [DEBUG] update_title_pos
+2019-06-09 18:48:20,113 [DEBUG] update_title_pos
+2019-06-09 18:48:20,133 [DEBUG] update_title_pos
+2019-06-09 18:48:20,137 [DEBUG] update_title_pos
+2019-06-09 18:48:20,187 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac553eb8>
+2019-06-09 18:48:20,187 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:20,187 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac553eb8>
+2019-06-09 18:48:20,187 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:20,190 [DEBUG] update_title_pos
+2019-06-09 18:48:20,195 [DEBUG] update_title_pos
+2019-06-09 18:48:20,218 [DEBUG] update_title_pos
+2019-06-09 18:48:20,223 [DEBUG] update_title_pos
+2019-06-09 18:48:20,273 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac203978>
+2019-06-09 18:48:20,273 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:20,273 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac203978>
+2019-06-09 18:48:20,273 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:20,276 [DEBUG] update_title_pos
+2019-06-09 18:48:20,281 [DEBUG] update_title_pos
+2019-06-09 18:48:20,303 [DEBUG] update_title_pos
+2019-06-09 18:48:20,307 [DEBUG] update_title_pos
+2019-06-09 18:48:20,355 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc0579e8>
+2019-06-09 18:48:20,355 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:20,355 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc0579e8>
+2019-06-09 18:48:20,355 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:20,357 [DEBUG] update_title_pos
+2019-06-09 18:48:20,362 [DEBUG] update_title_pos
+2019-06-09 18:48:20,386 [DEBUG] update_title_pos
+2019-06-09 18:48:20,390 [DEBUG] update_title_pos
+2019-06-09 18:48:20,436 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac5eca90>
+2019-06-09 18:48:20,436 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:20,436 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac5eca90>
+2019-06-09 18:48:20,436 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:20,439 [DEBUG] update_title_pos
+2019-06-09 18:48:20,443 [DEBUG] update_title_pos
+2019-06-09 18:48:20,465 [DEBUG] update_title_pos
+2019-06-09 18:48:20,469 [DEBUG] update_title_pos
+2019-06-09 18:48:20,514 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac35feb8>
+2019-06-09 18:48:20,514 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:20,514 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac35feb8>
+2019-06-09 18:48:20,514 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:20,517 [DEBUG] update_title_pos
+2019-06-09 18:48:20,521 [DEBUG] update_title_pos
+2019-06-09 18:48:20,542 [DEBUG] update_title_pos
+2019-06-09 18:48:20,547 [DEBUG] update_title_pos
+2019-06-09 18:48:20,593 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac331860>
+2019-06-09 18:48:20,593 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:20,593 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac331860>
+2019-06-09 18:48:20,593 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:20,596 [DEBUG] update_title_pos
+2019-06-09 18:48:20,600 [DEBUG] update_title_pos
+2019-06-09 18:48:20,623 [DEBUG] update_title_pos
+2019-06-09 18:48:20,629 [DEBUG] update_title_pos
+2019-06-09 18:48:20,679 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac4c9d68>
+2019-06-09 18:48:20,679 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:20,679 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac4c9d68>
+2019-06-09 18:48:20,679 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:20,682 [DEBUG] update_title_pos
+2019-06-09 18:48:20,686 [DEBUG] update_title_pos
+2019-06-09 18:48:20,706 [DEBUG] update_title_pos
+2019-06-09 18:48:20,710 [DEBUG] update_title_pos
+2019-06-09 18:48:20,756 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac1cfcc0>
+2019-06-09 18:48:20,756 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:20,756 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac1cfcc0>
+2019-06-09 18:48:20,756 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:20,759 [DEBUG] update_title_pos
+2019-06-09 18:48:20,764 [DEBUG] update_title_pos
+2019-06-09 18:48:20,785 [DEBUG] update_title_pos
+2019-06-09 18:48:20,789 [DEBUG] update_title_pos
+2019-06-09 18:48:20,833 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac6db0b8>
+2019-06-09 18:48:20,833 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:20,833 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac6db0b8>
+2019-06-09 18:48:20,833 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:20,836 [DEBUG] update_title_pos
+2019-06-09 18:48:20,840 [DEBUG] update_title_pos
+2019-06-09 18:48:20,863 [DEBUG] update_title_pos
+2019-06-09 18:48:20,867 [DEBUG] update_title_pos
+2019-06-09 18:48:20,911 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac6e6cf8>
+2019-06-09 18:48:20,911 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:20,912 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac6e6cf8>
+2019-06-09 18:48:20,912 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:20,914 [DEBUG] update_title_pos
+2019-06-09 18:48:20,918 [DEBUG] update_title_pos
+2019-06-09 18:48:20,938 [DEBUG] update_title_pos
+2019-06-09 18:48:20,942 [DEBUG] update_title_pos
+2019-06-09 18:48:20,985 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac51e048>
+2019-06-09 18:48:20,985 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:20,985 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac51e048>
+2019-06-09 18:48:20,985 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:20,988 [DEBUG] update_title_pos
+2019-06-09 18:48:20,992 [DEBUG] update_title_pos
+2019-06-09 18:48:21,013 [DEBUG] update_title_pos
+2019-06-09 18:48:21,017 [DEBUG] update_title_pos
+2019-06-09 18:48:21,061 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac4f8470>
+2019-06-09 18:48:21,061 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:21,062 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac4f8470>
+2019-06-09 18:48:21,062 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:21,064 [DEBUG] update_title_pos
+2019-06-09 18:48:21,068 [DEBUG] update_title_pos
+2019-06-09 18:48:21,088 [DEBUG] update_title_pos
+2019-06-09 18:48:21,092 [DEBUG] update_title_pos
+2019-06-09 18:48:21,135 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac475518>
+2019-06-09 18:48:21,135 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:21,135 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac475518>
+2019-06-09 18:48:21,135 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:21,138 [DEBUG] update_title_pos
+2019-06-09 18:48:21,142 [DEBUG] update_title_pos
+2019-06-09 18:48:21,160 [DEBUG] update_title_pos
+2019-06-09 18:48:21,164 [DEBUG] update_title_pos
+2019-06-09 18:48:21,208 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac5d3dd8>
+2019-06-09 18:48:21,209 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:21,209 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac5d3dd8>
+2019-06-09 18:48:21,209 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:21,211 [DEBUG] update_title_pos
+2019-06-09 18:48:21,215 [DEBUG] update_title_pos
+2019-06-09 18:48:21,235 [DEBUG] update_title_pos
+2019-06-09 18:48:21,239 [DEBUG] update_title_pos
+2019-06-09 18:48:21,283 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac0c1748>
+2019-06-09 18:48:21,283 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:21,283 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac0c1748>
+2019-06-09 18:48:21,284 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:21,286 [DEBUG] update_title_pos
+2019-06-09 18:48:21,291 [DEBUG] update_title_pos
+2019-06-09 18:48:21,312 [DEBUG] update_title_pos
+2019-06-09 18:48:21,316 [DEBUG] update_title_pos
+2019-06-09 18:48:21,362 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac758f28>
+2019-06-09 18:48:21,362 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:21,362 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac758f28>
+2019-06-09 18:48:21,362 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:21,364 [DEBUG] update_title_pos
+2019-06-09 18:48:21,369 [DEBUG] update_title_pos
+2019-06-09 18:48:21,391 [DEBUG] update_title_pos
+2019-06-09 18:48:21,395 [DEBUG] update_title_pos
+2019-06-09 18:48:21,440 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac484cf8>
+2019-06-09 18:48:21,440 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:21,440 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac484cf8>
+2019-06-09 18:48:21,440 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:21,443 [DEBUG] update_title_pos
+2019-06-09 18:48:21,447 [DEBUG] update_title_pos
+2019-06-09 18:48:21,469 [DEBUG] update_title_pos
+2019-06-09 18:48:21,473 [DEBUG] update_title_pos
+2019-06-09 18:48:21,519 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac46bfd0>
+2019-06-09 18:48:21,519 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:21,519 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac46bfd0>
+2019-06-09 18:48:21,519 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:21,521 [DEBUG] update_title_pos
+2019-06-09 18:48:21,525 [DEBUG] update_title_pos
+2019-06-09 18:48:21,600 [DEBUG] update_title_pos
+2019-06-09 18:48:21,604 [DEBUG] update_title_pos
+2019-06-09 18:48:21,648 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc071ef0>
+2019-06-09 18:48:21,648 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:21,648 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc071ef0>
+2019-06-09 18:48:21,648 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:21,651 [DEBUG] update_title_pos
+2019-06-09 18:48:21,655 [DEBUG] update_title_pos
+2019-06-09 18:48:21,677 [DEBUG] update_title_pos
+2019-06-09 18:48:21,680 [DEBUG] update_title_pos
+2019-06-09 18:48:21,725 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac7b3748>
+2019-06-09 18:48:21,726 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:21,726 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac7b3748>
+2019-06-09 18:48:21,726 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:21,728 [DEBUG] update_title_pos
+2019-06-09 18:48:21,732 [DEBUG] update_title_pos
+2019-06-09 18:48:21,754 [DEBUG] update_title_pos
+2019-06-09 18:48:21,758 [DEBUG] update_title_pos
+2019-06-09 18:48:21,803 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac416320>
+2019-06-09 18:48:21,803 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:21,803 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac416320>
+2019-06-09 18:48:21,803 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:21,806 [DEBUG] update_title_pos
+2019-06-09 18:48:21,810 [DEBUG] update_title_pos
+2019-06-09 18:48:21,830 [DEBUG] update_title_pos
+2019-06-09 18:48:21,834 [DEBUG] update_title_pos
+2019-06-09 18:48:21,877 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac7cf518>
+2019-06-09 18:48:21,877 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:21,877 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac7cf518>
+2019-06-09 18:48:21,877 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:21,880 [DEBUG] update_title_pos
+2019-06-09 18:48:21,884 [DEBUG] update_title_pos
+2019-06-09 18:48:21,906 [DEBUG] update_title_pos
+2019-06-09 18:48:21,910 [DEBUG] update_title_pos
+2019-06-09 18:48:21,955 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc1546a0>
+2019-06-09 18:48:21,955 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:21,955 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc1546a0>
+2019-06-09 18:48:21,955 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:21,958 [DEBUG] update_title_pos
+2019-06-09 18:48:21,962 [DEBUG] update_title_pos
+2019-06-09 18:48:21,984 [DEBUG] update_title_pos
+2019-06-09 18:48:21,988 [DEBUG] update_title_pos
+2019-06-09 18:48:22,032 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac161b00>
+2019-06-09 18:48:22,032 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:22,033 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac161b00>
+2019-06-09 18:48:22,033 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:22,035 [DEBUG] update_title_pos
+2019-06-09 18:48:22,039 [DEBUG] update_title_pos
+2019-06-09 18:48:22,060 [DEBUG] update_title_pos
+2019-06-09 18:48:22,064 [DEBUG] update_title_pos
+2019-06-09 18:48:22,109 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc19b550>
+2019-06-09 18:48:22,109 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:22,109 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc19b550>
+2019-06-09 18:48:22,109 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:22,112 [DEBUG] update_title_pos
+2019-06-09 18:48:22,116 [DEBUG] update_title_pos
+2019-06-09 18:48:22,137 [DEBUG] update_title_pos
+2019-06-09 18:48:22,141 [DEBUG] update_title_pos
+2019-06-09 18:48:22,184 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac58ebe0>
+2019-06-09 18:48:22,184 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:22,184 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac58ebe0>
+2019-06-09 18:48:22,184 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:22,187 [DEBUG] update_title_pos
+2019-06-09 18:48:22,191 [DEBUG] update_title_pos
+2019-06-09 18:48:22,211 [DEBUG] update_title_pos
+2019-06-09 18:48:22,215 [DEBUG] update_title_pos
+2019-06-09 18:48:22,260 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc134550>
+2019-06-09 18:48:22,260 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:22,260 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc134550>
+2019-06-09 18:48:22,260 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:22,262 [DEBUG] update_title_pos
+2019-06-09 18:48:22,266 [DEBUG] update_title_pos
+2019-06-09 18:48:22,287 [DEBUG] update_title_pos
+2019-06-09 18:48:22,291 [DEBUG] update_title_pos
+2019-06-09 18:48:22,335 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc107160>
+2019-06-09 18:48:22,335 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:22,336 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc107160>
+2019-06-09 18:48:22,336 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:22,338 [DEBUG] update_title_pos
+2019-06-09 18:48:22,342 [DEBUG] update_title_pos
+2019-06-09 18:48:22,362 [DEBUG] update_title_pos
+2019-06-09 18:48:22,366 [DEBUG] update_title_pos
+2019-06-09 18:48:22,410 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac7a5710>
+2019-06-09 18:48:22,410 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:22,410 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac7a5710>
+2019-06-09 18:48:22,410 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:22,413 [DEBUG] update_title_pos
+2019-06-09 18:48:22,417 [DEBUG] update_title_pos
+2019-06-09 18:48:22,437 [DEBUG] update_title_pos
+2019-06-09 18:48:22,441 [DEBUG] update_title_pos
+2019-06-09 18:48:22,485 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac482748>
+2019-06-09 18:48:22,485 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:22,485 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac482748>
+2019-06-09 18:48:22,485 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:22,488 [DEBUG] update_title_pos
+2019-06-09 18:48:22,492 [DEBUG] update_title_pos
+2019-06-09 18:48:22,513 [DEBUG] update_title_pos
+2019-06-09 18:48:22,517 [DEBUG] update_title_pos
+2019-06-09 18:48:22,563 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac4a96d8>
+2019-06-09 18:48:22,563 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:22,563 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac4a96d8>
+2019-06-09 18:48:22,563 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:22,566 [DEBUG] update_title_pos
+2019-06-09 18:48:22,570 [DEBUG] update_title_pos
+2019-06-09 18:48:22,593 [DEBUG] update_title_pos
+2019-06-09 18:48:22,597 [DEBUG] update_title_pos
+2019-06-09 18:48:22,642 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac3440f0>
+2019-06-09 18:48:22,642 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:22,642 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac3440f0>
+2019-06-09 18:48:22,642 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:22,644 [DEBUG] update_title_pos
+2019-06-09 18:48:22,648 [DEBUG] update_title_pos
+2019-06-09 18:48:22,670 [DEBUG] update_title_pos
+2019-06-09 18:48:22,674 [DEBUG] update_title_pos
+2019-06-09 18:48:22,721 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac672908>
+2019-06-09 18:48:22,721 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:22,721 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac672908>
+2019-06-09 18:48:22,721 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:22,723 [DEBUG] update_title_pos
+2019-06-09 18:48:22,727 [DEBUG] update_title_pos
+2019-06-09 18:48:22,749 [DEBUG] update_title_pos
+2019-06-09 18:48:22,753 [DEBUG] update_title_pos
+2019-06-09 18:48:22,798 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac4e8908>
+2019-06-09 18:48:22,798 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:22,798 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac4e8908>
+2019-06-09 18:48:22,798 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:22,801 [DEBUG] update_title_pos
+2019-06-09 18:48:22,805 [DEBUG] update_title_pos
+2019-06-09 18:48:22,827 [DEBUG] update_title_pos
+2019-06-09 18:48:22,831 [DEBUG] update_title_pos
+2019-06-09 18:48:22,877 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac341518>
+2019-06-09 18:48:22,877 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:22,877 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac341518>
+2019-06-09 18:48:22,877 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:22,880 [DEBUG] update_title_pos
+2019-06-09 18:48:22,884 [DEBUG] update_title_pos
+2019-06-09 18:48:22,907 [DEBUG] update_title_pos
+2019-06-09 18:48:22,910 [DEBUG] update_title_pos
+2019-06-09 18:48:22,956 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac5f8b38>
+2019-06-09 18:48:22,956 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:22,956 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac5f8b38>
+2019-06-09 18:48:22,956 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:22,958 [DEBUG] update_title_pos
+2019-06-09 18:48:22,962 [DEBUG] update_title_pos
+2019-06-09 18:48:22,984 [DEBUG] update_title_pos
+2019-06-09 18:48:22,988 [DEBUG] update_title_pos
+2019-06-09 18:48:23,033 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac2e84a8>
+2019-06-09 18:48:23,033 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:23,033 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac2e84a8>
+2019-06-09 18:48:23,033 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:23,035 [DEBUG] update_title_pos
+2019-06-09 18:48:23,039 [DEBUG] update_title_pos
+2019-06-09 18:48:23,061 [DEBUG] update_title_pos
+2019-06-09 18:48:23,065 [DEBUG] update_title_pos
+2019-06-09 18:48:23,109 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac2402b0>
+2019-06-09 18:48:23,109 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:23,109 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac2402b0>
+2019-06-09 18:48:23,109 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:23,112 [DEBUG] update_title_pos
+2019-06-09 18:48:23,116 [DEBUG] update_title_pos
+2019-06-09 18:48:23,137 [DEBUG] update_title_pos
+2019-06-09 18:48:23,141 [DEBUG] update_title_pos
+2019-06-09 18:48:23,186 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac5e2d30>
+2019-06-09 18:48:23,186 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:23,186 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac5e2d30>
+2019-06-09 18:48:23,186 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:23,189 [DEBUG] update_title_pos
+2019-06-09 18:48:23,193 [DEBUG] update_title_pos
+2019-06-09 18:48:23,214 [DEBUG] update_title_pos
+2019-06-09 18:48:23,218 [DEBUG] update_title_pos
+2019-06-09 18:48:23,263 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc0d4e48>
+2019-06-09 18:48:23,263 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:23,263 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc0d4e48>
+2019-06-09 18:48:23,264 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:23,266 [DEBUG] update_title_pos
+2019-06-09 18:48:23,270 [DEBUG] update_title_pos
+2019-06-09 18:48:23,292 [DEBUG] update_title_pos
+2019-06-09 18:48:23,296 [DEBUG] update_title_pos
+2019-06-09 18:48:23,341 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc0b1dd8>
+2019-06-09 18:48:23,341 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:23,341 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc0b1dd8>
+2019-06-09 18:48:23,341 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:23,344 [DEBUG] update_title_pos
+2019-06-09 18:48:23,348 [DEBUG] update_title_pos
+2019-06-09 18:48:23,369 [DEBUG] update_title_pos
+2019-06-09 18:48:23,373 [DEBUG] update_title_pos
+2019-06-09 18:48:23,418 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac5cf080>
+2019-06-09 18:48:23,418 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:23,418 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac5cf080>
+2019-06-09 18:48:23,418 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:23,421 [DEBUG] update_title_pos
+2019-06-09 18:48:23,425 [DEBUG] update_title_pos
+2019-06-09 18:48:23,447 [DEBUG] update_title_pos
+2019-06-09 18:48:23,451 [DEBUG] update_title_pos
+2019-06-09 18:48:23,496 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc071d30>
+2019-06-09 18:48:23,496 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:23,496 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc071d30>
+2019-06-09 18:48:23,496 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:23,499 [DEBUG] update_title_pos
+2019-06-09 18:48:23,503 [DEBUG] update_title_pos
+2019-06-09 18:48:23,525 [DEBUG] update_title_pos
+2019-06-09 18:48:23,529 [DEBUG] update_title_pos
+2019-06-09 18:48:23,574 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac1fa438>
+2019-06-09 18:48:23,574 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:23,574 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac1fa438>
+2019-06-09 18:48:23,574 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:23,577 [DEBUG] update_title_pos
+2019-06-09 18:48:23,581 [DEBUG] update_title_pos
+2019-06-09 18:48:23,603 [DEBUG] update_title_pos
+2019-06-09 18:48:23,607 [DEBUG] update_title_pos
+2019-06-09 18:48:23,653 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac70add8>
+2019-06-09 18:48:23,653 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:23,653 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac70add8>
+2019-06-09 18:48:23,653 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:23,656 [DEBUG] update_title_pos
+2019-06-09 18:48:23,660 [DEBUG] update_title_pos
+2019-06-09 18:48:23,681 [DEBUG] update_title_pos
+2019-06-09 18:48:23,685 [DEBUG] update_title_pos
+2019-06-09 18:48:23,730 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac427518>
+2019-06-09 18:48:23,730 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:23,730 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac427518>
+2019-06-09 18:48:23,730 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:23,733 [DEBUG] update_title_pos
+2019-06-09 18:48:23,737 [DEBUG] update_title_pos
+2019-06-09 18:48:23,759 [DEBUG] update_title_pos
+2019-06-09 18:48:23,763 [DEBUG] update_title_pos
+2019-06-09 18:48:23,808 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac6ca860>
+2019-06-09 18:48:23,808 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:23,808 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac6ca860>
+2019-06-09 18:48:23,808 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:23,811 [DEBUG] update_title_pos
+2019-06-09 18:48:23,815 [DEBUG] update_title_pos
+2019-06-09 18:48:23,836 [DEBUG] update_title_pos
+2019-06-09 18:48:23,840 [DEBUG] update_title_pos
+2019-06-09 18:48:23,884 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac3c55f8>
+2019-06-09 18:48:23,884 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:23,884 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac3c55f8>
+2019-06-09 18:48:23,884 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:23,887 [DEBUG] update_title_pos
+2019-06-09 18:48:23,891 [DEBUG] update_title_pos
+2019-06-09 18:48:23,911 [DEBUG] update_title_pos
+2019-06-09 18:48:23,915 [DEBUG] update_title_pos
+2019-06-09 18:48:23,960 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac78af98>
+2019-06-09 18:48:23,960 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:23,960 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac78af98>
+2019-06-09 18:48:23,960 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:23,962 [DEBUG] update_title_pos
+2019-06-09 18:48:23,967 [DEBUG] update_title_pos
+2019-06-09 18:48:23,989 [DEBUG] update_title_pos
+2019-06-09 18:48:23,993 [DEBUG] update_title_pos
+2019-06-09 18:48:24,037 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac31eac8>
+2019-06-09 18:48:24,037 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:24,037 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac31eac8>
+2019-06-09 18:48:24,037 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:24,040 [DEBUG] update_title_pos
+2019-06-09 18:48:24,044 [DEBUG] update_title_pos
+2019-06-09 18:48:24,063 [DEBUG] update_title_pos
+2019-06-09 18:48:24,067 [DEBUG] update_title_pos
+2019-06-09 18:48:24,110 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac269710>
+2019-06-09 18:48:24,110 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:24,110 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac269710>
+2019-06-09 18:48:24,110 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:24,113 [DEBUG] update_title_pos
+2019-06-09 18:48:24,117 [DEBUG] update_title_pos
+2019-06-09 18:48:24,139 [DEBUG] update_title_pos
+2019-06-09 18:48:24,143 [DEBUG] update_title_pos
+2019-06-09 18:48:24,187 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fa0707c18>
+2019-06-09 18:48:24,187 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:24,187 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fa0707c18>
+2019-06-09 18:48:24,187 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:24,190 [DEBUG] update_title_pos
+2019-06-09 18:48:24,194 [DEBUG] update_title_pos
+2019-06-09 18:48:24,216 [DEBUG] update_title_pos
+2019-06-09 18:48:24,220 [DEBUG] update_title_pos
+2019-06-09 18:48:24,266 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac3fb048>
+2019-06-09 18:48:24,266 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:24,266 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac3fb048>
+2019-06-09 18:48:24,266 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:24,268 [DEBUG] update_title_pos
+2019-06-09 18:48:24,272 [DEBUG] update_title_pos
+2019-06-09 18:48:24,295 [DEBUG] update_title_pos
+2019-06-09 18:48:24,299 [DEBUG] update_title_pos
+2019-06-09 18:48:24,343 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fa0793470>
+2019-06-09 18:48:24,344 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:24,344 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fa0793470>
+2019-06-09 18:48:24,344 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:24,347 [DEBUG] update_title_pos
+2019-06-09 18:48:24,351 [DEBUG] update_title_pos
+2019-06-09 18:48:24,372 [DEBUG] update_title_pos
+2019-06-09 18:48:24,376 [DEBUG] update_title_pos
+2019-06-09 18:48:24,421 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fa0671748>
+2019-06-09 18:48:24,421 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:24,421 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fa0671748>
+2019-06-09 18:48:24,422 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:24,424 [DEBUG] update_title_pos
+2019-06-09 18:48:24,428 [DEBUG] update_title_pos
+2019-06-09 18:48:24,449 [DEBUG] update_title_pos
+2019-06-09 18:48:24,453 [DEBUG] update_title_pos
+2019-06-09 18:48:24,497 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fa0707b70>
+2019-06-09 18:48:24,497 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:24,497 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fa0707b70>
+2019-06-09 18:48:24,497 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:24,500 [DEBUG] update_title_pos
+2019-06-09 18:48:24,504 [DEBUG] update_title_pos
+2019-06-09 18:48:24,524 [DEBUG] update_title_pos
+2019-06-09 18:48:24,528 [DEBUG] update_title_pos
+2019-06-09 18:48:24,573 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac7b0128>
+2019-06-09 18:48:24,573 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:24,573 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac7b0128>
+2019-06-09 18:48:24,573 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:24,576 [DEBUG] update_title_pos
+2019-06-09 18:48:24,580 [DEBUG] update_title_pos
+2019-06-09 18:48:24,601 [DEBUG] update_title_pos
+2019-06-09 18:48:24,605 [DEBUG] update_title_pos
+2019-06-09 18:48:24,649 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac119128>
+2019-06-09 18:48:24,650 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:24,650 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac119128>
+2019-06-09 18:48:24,650 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:24,653 [DEBUG] update_title_pos
+2019-06-09 18:48:24,657 [DEBUG] update_title_pos
+2019-06-09 18:48:24,679 [DEBUG] update_title_pos
+2019-06-09 18:48:24,683 [DEBUG] update_title_pos
+2019-06-09 18:48:24,729 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac68eef0>
+2019-06-09 18:48:24,729 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:24,729 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac68eef0>
+2019-06-09 18:48:24,729 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:24,732 [DEBUG] update_title_pos
+2019-06-09 18:48:24,736 [DEBUG] update_title_pos
+2019-06-09 18:48:24,758 [DEBUG] update_title_pos
+2019-06-09 18:48:24,762 [DEBUG] update_title_pos
+2019-06-09 18:48:24,807 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fa0624358>
+2019-06-09 18:48:24,807 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:24,807 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fa0624358>
+2019-06-09 18:48:24,807 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:24,810 [DEBUG] update_title_pos
+2019-06-09 18:48:24,814 [DEBUG] update_title_pos
+2019-06-09 18:48:24,835 [DEBUG] update_title_pos
+2019-06-09 18:48:24,839 [DEBUG] update_title_pos
+2019-06-09 18:48:24,884 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fa06c6a58>
+2019-06-09 18:48:24,884 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:24,884 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fa06c6a58>
+2019-06-09 18:48:24,884 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:24,886 [DEBUG] update_title_pos
+2019-06-09 18:48:24,890 [DEBUG] update_title_pos
+2019-06-09 18:48:24,967 [DEBUG] update_title_pos
+2019-06-09 18:48:24,971 [DEBUG] update_title_pos
+2019-06-09 18:48:25,016 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac3d6cc0>
+2019-06-09 18:48:25,016 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:25,016 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac3d6cc0>
+2019-06-09 18:48:25,016 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:25,018 [DEBUG] update_title_pos
+2019-06-09 18:48:25,023 [DEBUG] update_title_pos
+2019-06-09 18:48:25,042 [DEBUG] update_title_pos
+2019-06-09 18:48:25,046 [DEBUG] update_title_pos
+2019-06-09 18:48:25,090 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc317518>
+2019-06-09 18:48:25,090 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:25,090 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc317518>
+2019-06-09 18:48:25,090 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:25,093 [DEBUG] update_title_pos
+2019-06-09 18:48:25,097 [DEBUG] update_title_pos
+2019-06-09 18:48:25,117 [DEBUG] update_title_pos
+2019-06-09 18:48:25,122 [DEBUG] update_title_pos
+2019-06-09 18:48:25,165 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac110e10>
+2019-06-09 18:48:25,165 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:25,165 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac110e10>
+2019-06-09 18:48:25,165 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:25,168 [DEBUG] update_title_pos
+2019-06-09 18:48:25,172 [DEBUG] update_title_pos
+2019-06-09 18:48:25,195 [DEBUG] update_title_pos
+2019-06-09 18:48:25,198 [DEBUG] update_title_pos
+2019-06-09 18:48:25,229 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_02.h5
+2019-06-09 18:48:25,229 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-06-09 18:48:32,167 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac372940>
+2019-06-09 18:48:32,167 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:32,167 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac372940>
+2019-06-09 18:48:32,167 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:32,170 [DEBUG] update_title_pos
+2019-06-09 18:48:32,174 [DEBUG] update_title_pos
+2019-06-09 18:48:32,194 [DEBUG] update_title_pos
+2019-06-09 18:48:32,198 [DEBUG] update_title_pos
+2019-06-09 18:48:32,242 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc13eb00>
+2019-06-09 18:48:32,242 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:32,242 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc13eb00>
+2019-06-09 18:48:32,242 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:32,245 [DEBUG] update_title_pos
+2019-06-09 18:48:32,249 [DEBUG] update_title_pos
+2019-06-09 18:48:32,268 [DEBUG] update_title_pos
+2019-06-09 18:48:32,272 [DEBUG] update_title_pos
+2019-06-09 18:48:32,314 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac3c55f8>
+2019-06-09 18:48:32,314 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:32,315 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac3c55f8>
+2019-06-09 18:48:32,315 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:32,317 [DEBUG] update_title_pos
+2019-06-09 18:48:32,321 [DEBUG] update_title_pos
+2019-06-09 18:48:32,339 [DEBUG] update_title_pos
+2019-06-09 18:48:32,343 [DEBUG] update_title_pos
+2019-06-09 18:48:32,386 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fa0772828>
+2019-06-09 18:48:32,386 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:32,386 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fa0772828>
+2019-06-09 18:48:32,387 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:32,389 [DEBUG] update_title_pos
+2019-06-09 18:48:32,393 [DEBUG] update_title_pos
+2019-06-09 18:48:32,414 [DEBUG] update_title_pos
+2019-06-09 18:48:32,418 [DEBUG] update_title_pos
+2019-06-09 18:48:32,461 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fa060ac18>
+2019-06-09 18:48:32,461 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:32,461 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fa060ac18>
+2019-06-09 18:48:32,461 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:32,464 [DEBUG] update_title_pos
+2019-06-09 18:48:32,468 [DEBUG] update_title_pos
+2019-06-09 18:48:32,490 [DEBUG] update_title_pos
+2019-06-09 18:48:32,494 [DEBUG] update_title_pos
+2019-06-09 18:48:32,538 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc083240>
+2019-06-09 18:48:32,539 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:32,539 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc083240>
+2019-06-09 18:48:32,539 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:32,541 [DEBUG] update_title_pos
+2019-06-09 18:48:32,545 [DEBUG] update_title_pos
+2019-06-09 18:48:32,564 [DEBUG] update_title_pos
+2019-06-09 18:48:32,568 [DEBUG] update_title_pos
+2019-06-09 18:48:32,611 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fa06b9438>
+2019-06-09 18:48:32,611 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:32,611 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fa06b9438>
+2019-06-09 18:48:32,612 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:32,614 [DEBUG] update_title_pos
+2019-06-09 18:48:32,618 [DEBUG] update_title_pos
+2019-06-09 18:48:32,636 [DEBUG] update_title_pos
+2019-06-09 18:48:32,640 [DEBUG] update_title_pos
+2019-06-09 18:48:32,683 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac129550>
+2019-06-09 18:48:32,683 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:32,683 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac129550>
+2019-06-09 18:48:32,683 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:32,686 [DEBUG] update_title_pos
+2019-06-09 18:48:32,690 [DEBUG] update_title_pos
+2019-06-09 18:48:32,711 [DEBUG] update_title_pos
+2019-06-09 18:48:32,715 [DEBUG] update_title_pos
+2019-06-09 18:48:32,759 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac3c0358>
+2019-06-09 18:48:32,759 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:32,759 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac3c0358>
+2019-06-09 18:48:32,759 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:32,762 [DEBUG] update_title_pos
+2019-06-09 18:48:32,766 [DEBUG] update_title_pos
+2019-06-09 18:48:32,787 [DEBUG] update_title_pos
+2019-06-09 18:48:32,791 [DEBUG] update_title_pos
+2019-06-09 18:48:32,837 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc195550>
+2019-06-09 18:48:32,837 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:32,837 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc195550>
+2019-06-09 18:48:32,837 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:32,840 [DEBUG] update_title_pos
+2019-06-09 18:48:32,844 [DEBUG] update_title_pos
+2019-06-09 18:48:32,861 [DEBUG] update_title_pos
+2019-06-09 18:48:32,865 [DEBUG] update_title_pos
+2019-06-09 18:48:32,908 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fa0748320>
+2019-06-09 18:48:32,908 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:32,908 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fa0748320>
+2019-06-09 18:48:32,908 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:32,911 [DEBUG] update_title_pos
+2019-06-09 18:48:32,915 [DEBUG] update_title_pos
+2019-06-09 18:48:32,932 [DEBUG] update_title_pos
+2019-06-09 18:48:32,936 [DEBUG] update_title_pos
+2019-06-09 18:48:32,980 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fa0607128>
+2019-06-09 18:48:32,980 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:32,980 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fa0607128>
+2019-06-09 18:48:32,980 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:32,983 [DEBUG] update_title_pos
+2019-06-09 18:48:32,987 [DEBUG] update_title_pos
+2019-06-09 18:48:33,009 [DEBUG] update_title_pos
+2019-06-09 18:48:33,012 [DEBUG] update_title_pos
+2019-06-09 18:48:33,057 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac2dc0b8>
+2019-06-09 18:48:33,057 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:33,057 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac2dc0b8>
+2019-06-09 18:48:33,057 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:33,059 [DEBUG] update_title_pos
+2019-06-09 18:48:33,063 [DEBUG] update_title_pos
+2019-06-09 18:48:33,085 [DEBUG] update_title_pos
+2019-06-09 18:48:33,089 [DEBUG] update_title_pos
+2019-06-09 18:48:33,134 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac2f9e10>
+2019-06-09 18:48:33,134 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:33,134 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac2f9e10>
+2019-06-09 18:48:33,134 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:33,136 [DEBUG] update_title_pos
+2019-06-09 18:48:33,140 [DEBUG] update_title_pos
+2019-06-09 18:48:33,161 [DEBUG] update_title_pos
+2019-06-09 18:48:33,165 [DEBUG] update_title_pos
+2019-06-09 18:48:33,209 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac392898>
+2019-06-09 18:48:33,209 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:33,209 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac392898>
+2019-06-09 18:48:33,209 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:33,212 [DEBUG] update_title_pos
+2019-06-09 18:48:33,216 [DEBUG] update_title_pos
+2019-06-09 18:48:33,237 [DEBUG] update_title_pos
+2019-06-09 18:48:33,241 [DEBUG] update_title_pos
+2019-06-09 18:48:33,286 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac391748>
+2019-06-09 18:48:33,286 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:33,286 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac391748>
+2019-06-09 18:48:33,286 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:33,289 [DEBUG] update_title_pos
+2019-06-09 18:48:33,293 [DEBUG] update_title_pos
+2019-06-09 18:48:33,314 [DEBUG] update_title_pos
+2019-06-09 18:48:33,318 [DEBUG] update_title_pos
+2019-06-09 18:48:33,362 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac20c438>
+2019-06-09 18:48:33,362 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:33,362 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac20c438>
+2019-06-09 18:48:33,362 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:33,365 [DEBUG] update_title_pos
+2019-06-09 18:48:33,369 [DEBUG] update_title_pos
+2019-06-09 18:48:33,389 [DEBUG] update_title_pos
+2019-06-09 18:48:33,393 [DEBUG] update_title_pos
+2019-06-09 18:48:33,437 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac2b6438>
+2019-06-09 18:48:33,437 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:33,437 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac2b6438>
+2019-06-09 18:48:33,437 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:33,439 [DEBUG] update_title_pos
+2019-06-09 18:48:33,443 [DEBUG] update_title_pos
+2019-06-09 18:48:33,465 [DEBUG] update_title_pos
+2019-06-09 18:48:33,469 [DEBUG] update_title_pos
+2019-06-09 18:48:33,513 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac78cdd8>
+2019-06-09 18:48:33,513 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:33,513 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac78cdd8>
+2019-06-09 18:48:33,513 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:33,516 [DEBUG] update_title_pos
+2019-06-09 18:48:33,520 [DEBUG] update_title_pos
+2019-06-09 18:48:33,538 [DEBUG] update_title_pos
+2019-06-09 18:48:33,542 [DEBUG] update_title_pos
+2019-06-09 18:48:33,586 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac78c748>
+2019-06-09 18:48:33,586 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:33,586 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac78c748>
+2019-06-09 18:48:33,586 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:33,589 [DEBUG] update_title_pos
+2019-06-09 18:48:33,593 [DEBUG] update_title_pos
+2019-06-09 18:48:33,613 [DEBUG] update_title_pos
+2019-06-09 18:48:33,617 [DEBUG] update_title_pos
+2019-06-09 18:48:33,660 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac5c46d8>
+2019-06-09 18:48:33,660 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:33,660 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac5c46d8>
+2019-06-09 18:48:33,660 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:33,663 [DEBUG] update_title_pos
+2019-06-09 18:48:33,667 [DEBUG] update_title_pos
+2019-06-09 18:48:33,687 [DEBUG] update_title_pos
+2019-06-09 18:48:33,691 [DEBUG] update_title_pos
+2019-06-09 18:48:33,736 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac5fcda0>
+2019-06-09 18:48:33,736 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:33,736 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac5fcda0>
+2019-06-09 18:48:33,736 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:33,738 [DEBUG] update_title_pos
+2019-06-09 18:48:33,742 [DEBUG] update_title_pos
+2019-06-09 18:48:33,762 [DEBUG] update_title_pos
+2019-06-09 18:48:33,766 [DEBUG] update_title_pos
+2019-06-09 18:48:33,808 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac6b8048>
+2019-06-09 18:48:33,809 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:33,809 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac6b8048>
+2019-06-09 18:48:33,809 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:33,811 [DEBUG] update_title_pos
+2019-06-09 18:48:33,815 [DEBUG] update_title_pos
+2019-06-09 18:48:33,834 [DEBUG] update_title_pos
+2019-06-09 18:48:33,838 [DEBUG] update_title_pos
+2019-06-09 18:48:33,882 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc0b46a0>
+2019-06-09 18:48:33,882 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:33,882 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc0b46a0>
+2019-06-09 18:48:33,882 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:33,885 [DEBUG] update_title_pos
+2019-06-09 18:48:33,889 [DEBUG] update_title_pos
+2019-06-09 18:48:33,908 [DEBUG] update_title_pos
+2019-06-09 18:48:33,912 [DEBUG] update_title_pos
+2019-06-09 18:48:33,954 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac6179e8>
+2019-06-09 18:48:33,954 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:33,954 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac6179e8>
+2019-06-09 18:48:33,955 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:33,957 [DEBUG] update_title_pos
+2019-06-09 18:48:33,961 [DEBUG] update_title_pos
+2019-06-09 18:48:33,980 [DEBUG] update_title_pos
+2019-06-09 18:48:33,984 [DEBUG] update_title_pos
+2019-06-09 18:48:34,028 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac4bf470>
+2019-06-09 18:48:34,028 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:34,028 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac4bf470>
+2019-06-09 18:48:34,028 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:34,031 [DEBUG] update_title_pos
+2019-06-09 18:48:34,035 [DEBUG] update_title_pos
+2019-06-09 18:48:34,055 [DEBUG] update_title_pos
+2019-06-09 18:48:34,059 [DEBUG] update_title_pos
+2019-06-09 18:48:34,102 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac345588>
+2019-06-09 18:48:34,102 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:34,102 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac345588>
+2019-06-09 18:48:34,102 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:34,105 [DEBUG] update_title_pos
+2019-06-09 18:48:34,109 [DEBUG] update_title_pos
+2019-06-09 18:48:34,129 [DEBUG] update_title_pos
+2019-06-09 18:48:34,133 [DEBUG] update_title_pos
+2019-06-09 18:48:34,177 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac3457b8>
+2019-06-09 18:48:34,177 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:34,177 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac3457b8>
+2019-06-09 18:48:34,177 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:34,180 [DEBUG] update_title_pos
+2019-06-09 18:48:34,184 [DEBUG] update_title_pos
+2019-06-09 18:48:34,203 [DEBUG] update_title_pos
+2019-06-09 18:48:34,207 [DEBUG] update_title_pos
+2019-06-09 18:48:34,250 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac553048>
+2019-06-09 18:48:34,250 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:34,250 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac553048>
+2019-06-09 18:48:34,250 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:34,253 [DEBUG] update_title_pos
+2019-06-09 18:48:34,257 [DEBUG] update_title_pos
+2019-06-09 18:48:34,276 [DEBUG] update_title_pos
+2019-06-09 18:48:34,280 [DEBUG] update_title_pos
+2019-06-09 18:48:34,323 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac2ed390>
+2019-06-09 18:48:34,323 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:34,323 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac2ed390>
+2019-06-09 18:48:34,324 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:34,326 [DEBUG] update_title_pos
+2019-06-09 18:48:34,330 [DEBUG] update_title_pos
+2019-06-09 18:48:34,349 [DEBUG] update_title_pos
+2019-06-09 18:48:34,353 [DEBUG] update_title_pos
+2019-06-09 18:48:34,395 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac6be828>
+2019-06-09 18:48:34,395 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:34,395 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac6be828>
+2019-06-09 18:48:34,395 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:34,398 [DEBUG] update_title_pos
+2019-06-09 18:48:34,402 [DEBUG] update_title_pos
+2019-06-09 18:48:34,420 [DEBUG] update_title_pos
+2019-06-09 18:48:34,424 [DEBUG] update_title_pos
+2019-06-09 18:48:34,468 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac637d30>
+2019-06-09 18:48:34,468 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:34,468 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac637d30>
+2019-06-09 18:48:34,468 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:34,471 [DEBUG] update_title_pos
+2019-06-09 18:48:34,475 [DEBUG] update_title_pos
+2019-06-09 18:48:34,493 [DEBUG] update_title_pos
+2019-06-09 18:48:34,497 [DEBUG] update_title_pos
+2019-06-09 18:48:34,539 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac47f3c8>
+2019-06-09 18:48:34,539 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:34,539 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac47f3c8>
+2019-06-09 18:48:34,539 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:34,542 [DEBUG] update_title_pos
+2019-06-09 18:48:34,546 [DEBUG] update_title_pos
+2019-06-09 18:48:34,565 [DEBUG] update_title_pos
+2019-06-09 18:48:34,568 [DEBUG] update_title_pos
+2019-06-09 18:48:34,612 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac49c278>
+2019-06-09 18:48:34,612 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:34,612 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac49c278>
+2019-06-09 18:48:34,612 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:34,615 [DEBUG] update_title_pos
+2019-06-09 18:48:34,619 [DEBUG] update_title_pos
+2019-06-09 18:48:34,637 [DEBUG] update_title_pos
+2019-06-09 18:48:34,641 [DEBUG] update_title_pos
+2019-06-09 18:48:34,683 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac15cc88>
+2019-06-09 18:48:34,683 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:34,683 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac15cc88>
+2019-06-09 18:48:34,683 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:34,686 [DEBUG] update_title_pos
+2019-06-09 18:48:34,690 [DEBUG] update_title_pos
+2019-06-09 18:48:34,713 [DEBUG] update_title_pos
+2019-06-09 18:48:34,716 [DEBUG] update_title_pos
+2019-06-09 18:48:34,761 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc0606d8>
+2019-06-09 18:48:34,761 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:34,761 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fcc0606d8>
+2019-06-09 18:48:34,761 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:34,764 [DEBUG] update_title_pos
+2019-06-09 18:48:34,768 [DEBUG] update_title_pos
+2019-06-09 18:48:34,790 [DEBUG] update_title_pos
+2019-06-09 18:48:34,794 [DEBUG] update_title_pos
+2019-06-09 18:48:34,842 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac0fbc88>
+2019-06-09 18:48:34,842 [DEBUG] Using auto colorbar locator on colorbar
+2019-06-09 18:48:34,842 [DEBUG] locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f7fac0fbc88>
+2019-06-09 18:48:34,842 [DEBUG] Setting pcolormesh
+2019-06-09 18:48:34,845 [DEBUG] update_title_pos
+2019-06-09 18:48:34,850 [DEBUG] update_title_pos
+2019-06-09 18:48:34,872 [DEBUG] update_title_pos
+2019-06-09 18:48:34,876 [DEBUG] update_title_pos
+2019-06-09 18:48:34,899 [WARNING] Ctrl + C triggered by user, testing ended prematurely

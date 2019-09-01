@@ -1,0 +1,36 @@
+2019-05-20 14:38:09,999 [DEBUG] Using GPU 0
+2019-05-20 14:38:10,019 [DEBUG] CACHEDIR=/home/thinh/.cache/matplotlib
+2019-05-20 14:38:10,020 [DEBUG] Using fontManager instance from /home/thinh/.cache/matplotlib/fontlist-v300.json
+2019-05-20 14:38:10,071 [DEBUG] Loaded backend agg version unknown.
+2019-05-20 14:38:10,999 [DEBUG] update_title_pos
+2019-05-20 14:38:11,002 [DEBUG] findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2019-05-20 14:38:21,478 [DEBUG] update_title_pos
+2019-05-20 14:38:37,454 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_01.h5
+2019-05-20 14:38:37,454 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-05-20 14:38:50,033 [CRITICAL] Uncaught exception
+Traceback (most recent call last):
+  File "/home/thinh/github/anomaly-detection-and-localization/start_test.py", line 73, in <module>
+    visualize_score=True, visualize_frame=True)
+  File "/home/thinh/github/anomaly-detection-and-localization/classifier.py", line 660, in test
+    t_err = t_predict_frame(temporal_model2, X_test1, 4)
+  File "/home/thinh/github/anomaly-detection-and-localization/classifier.py", line 484, in t_predict_frame
+    predicted_vol = model.predict(input_vol)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/keras/engine/training.py", line 1169, in predict
+    steps=steps)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/keras/engine/training_arrays.py", line 294, in predict_loop
+    batch_outs = f(ins_batch)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py", line 2715, in __call__
+    return self._call(inputs)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py", line 2675, in _call
+    fetched = self._callable_fn(*array_vals)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1439, in __call__
+    run_metadata_ptr)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/tensorflow/python/framework/errors_impl.py", line 528, in __exit__
+    c_api.TF_GetCode(self.status.status))
+tensorflow.python.framework.errors_impl.ResourceExhaustedError: OOM when allocating tensor with shape[4,32,160,240,96] and type float on /job:localhost/replica:0/task:0/device:GPU:0 by allocator GPU_0_bfc
+	 [[{{node convlstm1/transpose}} = Transpose[T=DT_FLOAT, Tperm=DT_INT32, _class=["loc:@convlstm1/TensorArrayUnstack/TensorArrayScatter/TensorArrayScatterV3"], _device="/job:localhost/replica:0/task:0/device:GPU:0"](batch_normalization_1_1/cond/Merge, convlstm0/transpose/perm)]]
+Hint: If you want to see a list of allocated tensors when OOM happens, add report_tensor_allocations_upon_oom to RunOptions for current allocation info.
+
+	 [[{{node time_distributed_1/Reshape_1/_977}} = _Recv[client_terminated=false, recv_device="/job:localhost/replica:0/task:0/device:CPU:0", send_device="/job:localhost/replica:0/task:0/device:GPU:0", send_device_incarnation=1, tensor_name="edge_1810_time_distributed_1/Reshape_1", tensor_type=DT_FLOAT, _device="/job:localhost/replica:0/task:0/device:CPU:0"]()]]
+Hint: If you want to see a list of allocated tensors when OOM happens, add report_tensor_allocations_upon_oom to RunOptions for current allocation info.
+

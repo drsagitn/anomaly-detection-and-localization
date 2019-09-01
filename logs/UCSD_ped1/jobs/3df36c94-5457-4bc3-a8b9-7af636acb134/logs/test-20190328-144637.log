@@ -1,0 +1,17 @@
+2019-03-28 14:46:37,433 [DEBUG] Using GPU 0
+2019-03-28 14:46:37,481 [DEBUG] CACHEDIR=/home/thinh/.cache/matplotlib
+2019-03-28 14:46:37,483 [DEBUG] Using fontManager instance from /home/thinh/.cache/matplotlib/fontlist-v300.json
+2019-03-28 14:46:37,600 [DEBUG] Loaded backend agg version unknown.
+2019-03-28 14:47:58,562 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_01.h5
+2019-03-28 15:37:16,078 [DEBUG] Predicting using logs/UCSD_ped1/jobs/3df36c94-5457-4bc3-a8b9-7af636acb134/model_snapshot_e200_0.001427.h5
+2019-03-28 15:37:31,293 [DEBUG] Calculating volume reconstruction error
+2019-03-28 15:43:25,837 [DEBUG] Calculating frame reconstruction error
+2019-03-28 15:44:15,508 [DEBUG] Plotting frame reconstruction error
+2019-03-28 15:50:16,619 [DEBUG] update_title_pos
+2019-03-28 15:50:16,663 [DEBUG] findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2019-03-28 15:50:16,745 [DEBUG] update_title_pos
+2019-03-28 15:50:37,307 [DEBUG] Plotting regularity scores
+2019-03-28 15:51:20,852 [DEBUG] update_title_pos
+2019-03-28 15:51:21,032 [DEBUG] update_title_pos
+2019-03-28 16:18:43,567 [DEBUG] Calculating pixel reconstruction error
+2019-03-28 16:18:48,524 [WARNING] Ctrl + C triggered by user, testing ended prematurely

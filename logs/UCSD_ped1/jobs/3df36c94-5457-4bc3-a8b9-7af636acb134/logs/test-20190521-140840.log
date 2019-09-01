@@ -1,0 +1,19 @@
+2019-05-21 14:08:40,538 [DEBUG] Using GPU 0
+2019-05-21 14:08:40,563 [DEBUG] CACHEDIR=/home/thinh/.cache/matplotlib
+2019-05-21 14:08:40,565 [DEBUG] Using fontManager instance from /home/thinh/.cache/matplotlib/fontlist-v300.json
+2019-05-21 14:08:40,634 [DEBUG] Loaded backend agg version unknown.
+2019-05-21 14:08:40,743 [CRITICAL] Uncaught exception
+Traceback (most recent call last):
+  File "/home/thinh/github/anomaly-detection-and-localization/start_test.py", line 73, in <module>
+    visualize_score=True, visualize_frame=True)
+  File "/home/thinh/github/anomaly-detection-and-localization/classifier.py", line 603, in test
+    from visualization import save_color_image, draw_anomaly_score
+  File "/home/thinh/github/anomaly-detection-and-localization/visualization.py", line 185, in <module>
+    None, None, None,]
+  File "/home/thinh/github/anomaly-detection-and-localization/visualization.py", line 93, in draw_auc_graph_from_datafile
+    fpr, tpr, auc = load_auc_data_from_file(datafile_arr[i])
+  File "/home/thinh/github/anomaly-detection-and-localization/visualization.py", line 70, in load_auc_data_from_file
+    data = np.load(data_save_file)
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/numpy/lib/npyio.py", line 415, in load
+    fid = open(os_fspath(file), "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/result/298/scores/pixel_auc_data_s.npz'

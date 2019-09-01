@@ -1,0 +1,370 @@
+2019-04-04 13:29:03,172 [DEBUG] Using GPU 0
+2019-04-04 13:29:03,221 [DEBUG] CACHEDIR=/home/thinh/.cache/matplotlib
+2019-04-04 13:29:03,224 [DEBUG] Using fontManager instance from /home/thinh/.cache/matplotlib/fontlist-v300.json
+2019-04-04 13:29:03,345 [DEBUG] Loaded backend agg version unknown.
+2019-04-04 13:29:09,164 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_01.h5
+2019-04-04 13:29:09,165 [DEBUG] Predicting using logs/UCSD_ped1/jobs/3df36c94-5457-4bc3-a8b9-7af636acb134/model_snapshot_e200_0.001427.h5
+2019-04-04 13:50:56,715 [DEBUG] Calculating volume reconstruction error
+2019-04-04 13:50:56,791 [DEBUG] Calculating frame reconstruction error
+2019-04-04 13:50:56,793 [DEBUG] Plotting frame reconstruction error
+2019-04-04 13:50:56,818 [DEBUG] update_title_pos
+2019-04-04 13:50:56,840 [DEBUG] findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2019-04-04 13:50:56,892 [DEBUG] update_title_pos
+2019-04-04 13:50:56,954 [DEBUG] Plotting regularity scores
+2019-04-04 13:50:56,978 [DEBUG] update_title_pos
+2019-04-04 13:50:57,114 [DEBUG] update_title_pos
+2019-04-04 13:50:57,144 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_02.h5
+2019-04-04 13:50:57,145 [DEBUG] Predicting using logs/UCSD_ped1/jobs/3df36c94-5457-4bc3-a8b9-7af636acb134/model_snapshot_e200_0.001427.h5
+2019-04-04 13:51:00,371 [DEBUG] Calculating volume reconstruction error
+2019-04-04 13:51:00,450 [DEBUG] Calculating frame reconstruction error
+2019-04-04 13:51:00,452 [DEBUG] Plotting frame reconstruction error
+2019-04-04 13:51:00,475 [DEBUG] update_title_pos
+2019-04-04 13:51:00,541 [DEBUG] update_title_pos
+2019-04-04 13:51:00,599 [DEBUG] Plotting regularity scores
+2019-04-04 13:51:00,623 [DEBUG] update_title_pos
+2019-04-04 13:51:00,758 [DEBUG] update_title_pos
+2019-04-04 13:51:00,789 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_03.h5
+2019-04-04 13:51:00,791 [DEBUG] Predicting using logs/UCSD_ped1/jobs/3df36c94-5457-4bc3-a8b9-7af636acb134/model_snapshot_e200_0.001427.h5
+2019-04-04 13:51:02,191 [DEBUG] Calculating volume reconstruction error
+2019-04-04 13:51:02,262 [DEBUG] Calculating frame reconstruction error
+2019-04-04 13:51:02,264 [DEBUG] Plotting frame reconstruction error
+2019-04-04 13:51:02,284 [DEBUG] update_title_pos
+2019-04-04 13:51:02,345 [DEBUG] update_title_pos
+2019-04-04 13:51:02,403 [DEBUG] Plotting regularity scores
+2019-04-04 13:51:02,427 [DEBUG] update_title_pos
+2019-04-04 13:51:02,559 [DEBUG] update_title_pos
+2019-04-04 13:51:02,591 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_04.h5
+2019-04-04 13:51:02,592 [DEBUG] Predicting using logs/UCSD_ped1/jobs/3df36c94-5457-4bc3-a8b9-7af636acb134/model_snapshot_e200_0.001427.h5
+2019-04-04 13:51:03,977 [DEBUG] Calculating volume reconstruction error
+2019-04-04 13:51:04,048 [DEBUG] Calculating frame reconstruction error
+2019-04-04 13:51:04,050 [DEBUG] Plotting frame reconstruction error
+2019-04-04 13:51:04,070 [DEBUG] update_title_pos
+2019-04-04 13:51:04,132 [DEBUG] update_title_pos
+2019-04-04 13:51:04,189 [DEBUG] Plotting regularity scores
+2019-04-04 13:51:04,214 [DEBUG] update_title_pos
+2019-04-04 13:51:04,360 [DEBUG] update_title_pos
+2019-04-04 13:51:04,391 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_05.h5
+2019-04-04 13:51:04,393 [DEBUG] Predicting using logs/UCSD_ped1/jobs/3df36c94-5457-4bc3-a8b9-7af636acb134/model_snapshot_e200_0.001427.h5
+2019-04-04 13:51:05,839 [DEBUG] Calculating volume reconstruction error
+2019-04-04 13:51:05,910 [DEBUG] Calculating frame reconstruction error
+2019-04-04 13:51:05,912 [DEBUG] Plotting frame reconstruction error
+2019-04-04 13:51:05,933 [DEBUG] update_title_pos
+2019-04-04 13:51:05,995 [DEBUG] update_title_pos
+2019-04-04 13:51:06,053 [DEBUG] Plotting regularity scores
+2019-04-04 13:51:06,078 [DEBUG] update_title_pos
+2019-04-04 13:51:06,213 [DEBUG] update_title_pos
+2019-04-04 13:51:06,244 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_06.h5
+2019-04-04 13:51:06,246 [DEBUG] Predicting using logs/UCSD_ped1/jobs/3df36c94-5457-4bc3-a8b9-7af636acb134/model_snapshot_e200_0.001427.h5
+2019-04-04 13:51:07,666 [DEBUG] Calculating volume reconstruction error
+2019-04-04 13:51:07,737 [DEBUG] Calculating frame reconstruction error
+2019-04-04 13:51:07,739 [DEBUG] Plotting frame reconstruction error
+2019-04-04 13:51:07,760 [DEBUG] update_title_pos
+2019-04-04 13:51:07,823 [DEBUG] update_title_pos
+2019-04-04 13:51:07,882 [DEBUG] Plotting regularity scores
+2019-04-04 13:51:07,907 [DEBUG] update_title_pos
+2019-04-04 13:51:08,048 [DEBUG] update_title_pos
+2019-04-04 13:51:08,079 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_07.h5
+2019-04-04 13:51:08,081 [DEBUG] Predicting using logs/UCSD_ped1/jobs/3df36c94-5457-4bc3-a8b9-7af636acb134/model_snapshot_e200_0.001427.h5
+2019-04-04 13:51:09,528 [DEBUG] Calculating volume reconstruction error
+2019-04-04 13:51:09,599 [DEBUG] Calculating frame reconstruction error
+2019-04-04 13:51:09,600 [DEBUG] Plotting frame reconstruction error
+2019-04-04 13:51:09,621 [DEBUG] update_title_pos
+2019-04-04 13:51:09,683 [DEBUG] update_title_pos
+2019-04-04 13:51:09,741 [DEBUG] Plotting regularity scores
+2019-04-04 13:51:09,765 [DEBUG] update_title_pos
+2019-04-04 13:51:09,902 [DEBUG] update_title_pos
+2019-04-04 13:51:09,933 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_08.h5
+2019-04-04 13:51:09,935 [DEBUG] Predicting using logs/UCSD_ped1/jobs/3df36c94-5457-4bc3-a8b9-7af636acb134/model_snapshot_e200_0.001427.h5
+2019-04-04 13:51:11,373 [DEBUG] Calculating volume reconstruction error
+2019-04-04 13:51:11,445 [DEBUG] Calculating frame reconstruction error
+2019-04-04 13:51:11,446 [DEBUG] Plotting frame reconstruction error
+2019-04-04 13:51:11,467 [DEBUG] update_title_pos
+2019-04-04 13:51:11,529 [DEBUG] update_title_pos
+2019-04-04 13:51:11,586 [DEBUG] Plotting regularity scores
+2019-04-04 13:51:11,611 [DEBUG] update_title_pos
+2019-04-04 13:51:11,744 [DEBUG] update_title_pos
+2019-04-04 13:51:11,776 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_09.h5
+2019-04-04 13:51:11,778 [DEBUG] Predicting using logs/UCSD_ped1/jobs/3df36c94-5457-4bc3-a8b9-7af636acb134/model_snapshot_e200_0.001427.h5
+2019-04-04 13:51:13,208 [DEBUG] Calculating volume reconstruction error
+2019-04-04 13:51:13,279 [DEBUG] Calculating frame reconstruction error
+2019-04-04 13:51:13,280 [DEBUG] Plotting frame reconstruction error
+2019-04-04 13:51:13,301 [DEBUG] update_title_pos
+2019-04-04 13:51:13,362 [DEBUG] update_title_pos
+2019-04-04 13:51:13,420 [DEBUG] Plotting regularity scores
+2019-04-04 13:51:13,444 [DEBUG] update_title_pos
+2019-04-04 13:51:13,574 [DEBUG] update_title_pos
+2019-04-04 13:51:13,606 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_10.h5
+2019-04-04 13:51:13,607 [DEBUG] Predicting using logs/UCSD_ped1/jobs/3df36c94-5457-4bc3-a8b9-7af636acb134/model_snapshot_e200_0.001427.h5
+2019-04-04 13:51:15,054 [DEBUG] Calculating volume reconstruction error
+2019-04-04 13:51:15,125 [DEBUG] Calculating frame reconstruction error
+2019-04-04 13:51:15,127 [DEBUG] Plotting frame reconstruction error
+2019-04-04 13:51:15,148 [DEBUG] update_title_pos
+2019-04-04 13:51:15,210 [DEBUG] update_title_pos
+2019-04-04 13:51:15,267 [DEBUG] Plotting regularity scores
+2019-04-04 13:51:15,291 [DEBUG] update_title_pos
+2019-04-04 13:51:15,428 [DEBUG] update_title_pos
+2019-04-04 13:51:15,459 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_11.h5
+2019-04-04 13:51:15,461 [DEBUG] Predicting using logs/UCSD_ped1/jobs/3df36c94-5457-4bc3-a8b9-7af636acb134/model_snapshot_e200_0.001427.h5
+2019-04-04 13:51:16,910 [DEBUG] Calculating volume reconstruction error
+2019-04-04 13:51:16,982 [DEBUG] Calculating frame reconstruction error
+2019-04-04 13:51:16,984 [DEBUG] Plotting frame reconstruction error
+2019-04-04 13:51:17,005 [DEBUG] update_title_pos
+2019-04-04 13:51:17,067 [DEBUG] update_title_pos
+2019-04-04 13:51:17,127 [DEBUG] Plotting regularity scores
+2019-04-04 13:51:17,151 [DEBUG] update_title_pos
+2019-04-04 13:51:17,283 [DEBUG] update_title_pos
+2019-04-04 13:51:17,314 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_12.h5
+2019-04-04 13:51:17,315 [DEBUG] Predicting using logs/UCSD_ped1/jobs/3df36c94-5457-4bc3-a8b9-7af636acb134/model_snapshot_e200_0.001427.h5
+2019-04-04 13:51:18,740 [DEBUG] Calculating volume reconstruction error
+2019-04-04 13:51:18,811 [DEBUG] Calculating frame reconstruction error
+2019-04-04 13:51:18,813 [DEBUG] Plotting frame reconstruction error
+2019-04-04 13:51:18,834 [DEBUG] update_title_pos
+2019-04-04 13:51:18,896 [DEBUG] update_title_pos
+2019-04-04 13:51:18,954 [DEBUG] Plotting regularity scores
+2019-04-04 13:51:18,982 [DEBUG] update_title_pos
+2019-04-04 13:51:19,112 [DEBUG] update_title_pos
+2019-04-04 13:51:19,144 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_13.h5
+2019-04-04 13:51:19,145 [DEBUG] Predicting using logs/UCSD_ped1/jobs/3df36c94-5457-4bc3-a8b9-7af636acb134/model_snapshot_e200_0.001427.h5
+2019-04-04 13:51:20,592 [DEBUG] Calculating volume reconstruction error
+2019-04-04 13:51:20,663 [DEBUG] Calculating frame reconstruction error
+2019-04-04 13:51:20,664 [DEBUG] Plotting frame reconstruction error
+2019-04-04 13:51:20,685 [DEBUG] update_title_pos
+2019-04-04 13:51:20,746 [DEBUG] update_title_pos
+2019-04-04 13:51:20,804 [DEBUG] Plotting regularity scores
+2019-04-04 13:51:20,828 [DEBUG] update_title_pos
+2019-04-04 13:51:20,965 [DEBUG] update_title_pos
+2019-04-04 13:51:20,997 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_14.h5
+2019-04-04 13:51:20,998 [DEBUG] Predicting using logs/UCSD_ped1/jobs/3df36c94-5457-4bc3-a8b9-7af636acb134/model_snapshot_e200_0.001427.h5
+2019-04-04 13:51:22,454 [DEBUG] Calculating volume reconstruction error
+2019-04-04 13:51:22,525 [DEBUG] Calculating frame reconstruction error
+2019-04-04 13:51:22,527 [DEBUG] Plotting frame reconstruction error
+2019-04-04 13:51:22,547 [DEBUG] update_title_pos
+2019-04-04 13:51:22,609 [DEBUG] update_title_pos
+2019-04-04 13:51:22,668 [DEBUG] Plotting regularity scores
+2019-04-04 13:51:22,692 [DEBUG] update_title_pos
+2019-04-04 13:51:22,829 [DEBUG] update_title_pos
+2019-04-04 13:51:22,860 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_15.h5
+2019-04-04 13:51:22,861 [DEBUG] Predicting using logs/UCSD_ped1/jobs/3df36c94-5457-4bc3-a8b9-7af636acb134/model_snapshot_e200_0.001427.h5
+2019-04-04 13:51:24,286 [DEBUG] Calculating volume reconstruction error
+2019-04-04 13:51:24,357 [DEBUG] Calculating frame reconstruction error
+2019-04-04 13:51:24,358 [DEBUG] Plotting frame reconstruction error
+2019-04-04 13:51:24,379 [DEBUG] update_title_pos
+2019-04-04 13:51:24,441 [DEBUG] update_title_pos
+2019-04-04 13:51:24,499 [DEBUG] Plotting regularity scores
+2019-04-04 13:51:24,523 [DEBUG] update_title_pos
+2019-04-04 13:51:24,655 [DEBUG] update_title_pos
+2019-04-04 13:51:24,686 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_16.h5
+2019-04-04 13:51:24,687 [DEBUG] Predicting using logs/UCSD_ped1/jobs/3df36c94-5457-4bc3-a8b9-7af636acb134/model_snapshot_e200_0.001427.h5
+2019-04-04 13:51:26,107 [DEBUG] Calculating volume reconstruction error
+2019-04-04 13:51:26,179 [DEBUG] Calculating frame reconstruction error
+2019-04-04 13:51:26,181 [DEBUG] Plotting frame reconstruction error
+2019-04-04 13:51:26,201 [DEBUG] update_title_pos
+2019-04-04 13:51:26,263 [DEBUG] update_title_pos
+2019-04-04 13:51:26,321 [DEBUG] Plotting regularity scores
+2019-04-04 13:51:26,344 [DEBUG] update_title_pos
+2019-04-04 13:51:26,474 [DEBUG] update_title_pos
+2019-04-04 13:51:26,504 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_17.h5
+2019-04-04 13:51:26,505 [DEBUG] Predicting using logs/UCSD_ped1/jobs/3df36c94-5457-4bc3-a8b9-7af636acb134/model_snapshot_e200_0.001427.h5
+2019-04-04 13:51:27,937 [DEBUG] Calculating volume reconstruction error
+2019-04-04 13:51:28,008 [DEBUG] Calculating frame reconstruction error
+2019-04-04 13:51:28,010 [DEBUG] Plotting frame reconstruction error
+2019-04-04 13:51:28,031 [DEBUG] update_title_pos
+2019-04-04 13:51:28,090 [DEBUG] update_title_pos
+2019-04-04 13:51:28,147 [DEBUG] Plotting regularity scores
+2019-04-04 13:51:28,170 [DEBUG] update_title_pos
+2019-04-04 13:51:28,297 [DEBUG] update_title_pos
+2019-04-04 13:51:28,327 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_18.h5
+2019-04-04 13:51:28,328 [DEBUG] Predicting using logs/UCSD_ped1/jobs/3df36c94-5457-4bc3-a8b9-7af636acb134/model_snapshot_e200_0.001427.h5
+2019-04-04 13:51:29,783 [DEBUG] Calculating volume reconstruction error
+2019-04-04 13:51:29,854 [DEBUG] Calculating frame reconstruction error
+2019-04-04 13:51:29,856 [DEBUG] Plotting frame reconstruction error
+2019-04-04 13:51:29,877 [DEBUG] update_title_pos
+2019-04-04 13:51:29,939 [DEBUG] update_title_pos
+2019-04-04 13:51:29,997 [DEBUG] Plotting regularity scores
+2019-04-04 13:51:30,021 [DEBUG] update_title_pos
+2019-04-04 13:51:30,153 [DEBUG] update_title_pos
+2019-04-04 13:51:30,184 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_19.h5
+2019-04-04 13:51:30,185 [DEBUG] Predicting using logs/UCSD_ped1/jobs/3df36c94-5457-4bc3-a8b9-7af636acb134/model_snapshot_e200_0.001427.h5
+2019-04-04 13:51:31,632 [DEBUG] Calculating volume reconstruction error
+2019-04-04 13:51:31,704 [DEBUG] Calculating frame reconstruction error
+2019-04-04 13:51:31,706 [DEBUG] Plotting frame reconstruction error
+2019-04-04 13:51:31,727 [DEBUG] update_title_pos
+2019-04-04 13:51:31,789 [DEBUG] update_title_pos
+2019-04-04 13:51:31,850 [DEBUG] Plotting regularity scores
+2019-04-04 13:51:31,873 [DEBUG] update_title_pos
+2019-04-04 13:51:32,007 [DEBUG] update_title_pos
+2019-04-04 13:51:32,041 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_20.h5
+2019-04-04 13:51:32,043 [DEBUG] Predicting using logs/UCSD_ped1/jobs/3df36c94-5457-4bc3-a8b9-7af636acb134/model_snapshot_e200_0.001427.h5
+2019-04-04 13:51:33,480 [DEBUG] Calculating volume reconstruction error
+2019-04-04 13:51:33,551 [DEBUG] Calculating frame reconstruction error
+2019-04-04 13:51:33,553 [DEBUG] Plotting frame reconstruction error
+2019-04-04 13:51:33,574 [DEBUG] update_title_pos
+2019-04-04 13:51:33,636 [DEBUG] update_title_pos
+2019-04-04 13:51:33,695 [DEBUG] Plotting regularity scores
+2019-04-04 13:51:33,721 [DEBUG] update_title_pos
+2019-04-04 13:51:33,856 [DEBUG] update_title_pos
+2019-04-04 13:51:33,888 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_21.h5
+2019-04-04 13:51:33,890 [DEBUG] Predicting using logs/UCSD_ped1/jobs/3df36c94-5457-4bc3-a8b9-7af636acb134/model_snapshot_e200_0.001427.h5
+2019-04-04 13:51:35,322 [DEBUG] Calculating volume reconstruction error
+2019-04-04 13:51:35,394 [DEBUG] Calculating frame reconstruction error
+2019-04-04 13:51:35,396 [DEBUG] Plotting frame reconstruction error
+2019-04-04 13:51:35,417 [DEBUG] update_title_pos
+2019-04-04 13:51:35,479 [DEBUG] update_title_pos
+2019-04-04 13:51:35,539 [DEBUG] Plotting regularity scores
+2019-04-04 13:51:35,563 [DEBUG] update_title_pos
+2019-04-04 13:51:35,702 [DEBUG] update_title_pos
+2019-04-04 13:51:35,733 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_22.h5
+2019-04-04 13:51:35,736 [DEBUG] Predicting using logs/UCSD_ped1/jobs/3df36c94-5457-4bc3-a8b9-7af636acb134/model_snapshot_e200_0.001427.h5
+2019-04-04 13:51:37,184 [DEBUG] Calculating volume reconstruction error
+2019-04-04 13:51:37,267 [DEBUG] Calculating frame reconstruction error
+2019-04-04 13:51:37,269 [DEBUG] Plotting frame reconstruction error
+2019-04-04 13:51:37,347 [DEBUG] update_title_pos
+2019-04-04 13:51:37,411 [DEBUG] update_title_pos
+2019-04-04 13:51:37,469 [DEBUG] Plotting regularity scores
+2019-04-04 13:51:37,492 [DEBUG] update_title_pos
+2019-04-04 13:51:37,627 [DEBUG] update_title_pos
+2019-04-04 13:51:37,658 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_23.h5
+2019-04-04 13:51:37,661 [DEBUG] Predicting using logs/UCSD_ped1/jobs/3df36c94-5457-4bc3-a8b9-7af636acb134/model_snapshot_e200_0.001427.h5
+2019-04-04 13:51:39,082 [DEBUG] Calculating volume reconstruction error
+2019-04-04 13:51:39,154 [DEBUG] Calculating frame reconstruction error
+2019-04-04 13:51:39,157 [DEBUG] Plotting frame reconstruction error
+2019-04-04 13:51:39,177 [DEBUG] update_title_pos
+2019-04-04 13:51:39,239 [DEBUG] update_title_pos
+2019-04-04 13:51:39,298 [DEBUG] Plotting regularity scores
+2019-04-04 13:51:39,323 [DEBUG] update_title_pos
+2019-04-04 13:51:39,462 [DEBUG] update_title_pos
+2019-04-04 13:51:39,493 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_24.h5
+2019-04-04 13:51:39,494 [DEBUG] Predicting using logs/UCSD_ped1/jobs/3df36c94-5457-4bc3-a8b9-7af636acb134/model_snapshot_e200_0.001427.h5
+2019-04-04 13:51:40,915 [DEBUG] Calculating volume reconstruction error
+2019-04-04 13:51:40,986 [DEBUG] Calculating frame reconstruction error
+2019-04-04 13:51:40,987 [DEBUG] Plotting frame reconstruction error
+2019-04-04 13:51:41,009 [DEBUG] update_title_pos
+2019-04-04 13:51:41,072 [DEBUG] update_title_pos
+2019-04-04 13:51:41,148 [DEBUG] Plotting regularity scores
+2019-04-04 13:51:41,173 [DEBUG] update_title_pos
+2019-04-04 13:51:41,306 [DEBUG] update_title_pos
+2019-04-04 13:51:41,337 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_25.h5
+2019-04-04 13:51:41,338 [DEBUG] Predicting using logs/UCSD_ped1/jobs/3df36c94-5457-4bc3-a8b9-7af636acb134/model_snapshot_e200_0.001427.h5
+2019-04-04 13:51:42,783 [DEBUG] Calculating volume reconstruction error
+2019-04-04 13:51:42,862 [DEBUG] Calculating frame reconstruction error
+2019-04-04 13:51:42,864 [DEBUG] Plotting frame reconstruction error
+2019-04-04 13:51:42,885 [DEBUG] update_title_pos
+2019-04-04 13:51:42,947 [DEBUG] update_title_pos
+2019-04-04 13:51:43,005 [DEBUG] Plotting regularity scores
+2019-04-04 13:51:43,029 [DEBUG] update_title_pos
+2019-04-04 13:51:43,160 [DEBUG] update_title_pos
+2019-04-04 13:51:43,191 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_26.h5
+2019-04-04 13:51:43,192 [DEBUG] Predicting using logs/UCSD_ped1/jobs/3df36c94-5457-4bc3-a8b9-7af636acb134/model_snapshot_e200_0.001427.h5
+2019-04-04 13:51:44,612 [DEBUG] Calculating volume reconstruction error
+2019-04-04 13:51:44,683 [DEBUG] Calculating frame reconstruction error
+2019-04-04 13:51:44,685 [DEBUG] Plotting frame reconstruction error
+2019-04-04 13:51:44,705 [DEBUG] update_title_pos
+2019-04-04 13:51:44,767 [DEBUG] update_title_pos
+2019-04-04 13:51:44,826 [DEBUG] Plotting regularity scores
+2019-04-04 13:51:44,850 [DEBUG] update_title_pos
+2019-04-04 13:51:44,989 [DEBUG] update_title_pos
+2019-04-04 13:51:45,021 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_27.h5
+2019-04-04 13:51:45,023 [DEBUG] Predicting using logs/UCSD_ped1/jobs/3df36c94-5457-4bc3-a8b9-7af636acb134/model_snapshot_e200_0.001427.h5
+2019-04-04 13:51:46,459 [DEBUG] Calculating volume reconstruction error
+2019-04-04 13:51:46,531 [DEBUG] Calculating frame reconstruction error
+2019-04-04 13:51:46,533 [DEBUG] Plotting frame reconstruction error
+2019-04-04 13:51:46,553 [DEBUG] update_title_pos
+2019-04-04 13:51:46,615 [DEBUG] update_title_pos
+2019-04-04 13:51:46,673 [DEBUG] Plotting regularity scores
+2019-04-04 13:51:46,698 [DEBUG] update_title_pos
+2019-04-04 13:51:46,837 [DEBUG] update_title_pos
+2019-04-04 13:51:46,868 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_28.h5
+2019-04-04 13:51:46,869 [DEBUG] Predicting using logs/UCSD_ped1/jobs/3df36c94-5457-4bc3-a8b9-7af636acb134/model_snapshot_e200_0.001427.h5
+2019-04-04 13:51:48,306 [DEBUG] Calculating volume reconstruction error
+2019-04-04 13:51:48,377 [DEBUG] Calculating frame reconstruction error
+2019-04-04 13:51:48,379 [DEBUG] Plotting frame reconstruction error
+2019-04-04 13:51:48,400 [DEBUG] update_title_pos
+2019-04-04 13:51:48,462 [DEBUG] update_title_pos
+2019-04-04 13:51:48,520 [DEBUG] Plotting regularity scores
+2019-04-04 13:51:48,545 [DEBUG] update_title_pos
+2019-04-04 13:51:48,687 [DEBUG] update_title_pos
+2019-04-04 13:51:48,717 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_29.h5
+2019-04-04 13:51:48,718 [DEBUG] Predicting using logs/UCSD_ped1/jobs/3df36c94-5457-4bc3-a8b9-7af636acb134/model_snapshot_e200_0.001427.h5
+2019-04-04 13:51:50,159 [DEBUG] Calculating volume reconstruction error
+2019-04-04 13:51:50,231 [DEBUG] Calculating frame reconstruction error
+2019-04-04 13:51:50,233 [DEBUG] Plotting frame reconstruction error
+2019-04-04 13:51:50,254 [DEBUG] update_title_pos
+2019-04-04 13:51:50,316 [DEBUG] update_title_pos
+2019-04-04 13:51:50,375 [DEBUG] Plotting regularity scores
+2019-04-04 13:51:50,401 [DEBUG] update_title_pos
+2019-04-04 13:51:50,541 [DEBUG] update_title_pos
+2019-04-04 13:51:50,573 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_30.h5
+2019-04-04 13:51:50,574 [DEBUG] Predicting using logs/UCSD_ped1/jobs/3df36c94-5457-4bc3-a8b9-7af636acb134/model_snapshot_e200_0.001427.h5
+2019-04-04 13:51:52,010 [DEBUG] Calculating volume reconstruction error
+2019-04-04 13:51:52,081 [DEBUG] Calculating frame reconstruction error
+2019-04-04 13:51:52,083 [DEBUG] Plotting frame reconstruction error
+2019-04-04 13:51:52,104 [DEBUG] update_title_pos
+2019-04-04 13:51:52,166 [DEBUG] update_title_pos
+2019-04-04 13:51:52,224 [DEBUG] Plotting regularity scores
+2019-04-04 13:51:52,249 [DEBUG] update_title_pos
+2019-04-04 13:51:52,382 [DEBUG] update_title_pos
+2019-04-04 13:51:52,412 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_31.h5
+2019-04-04 13:51:52,414 [DEBUG] Predicting using logs/UCSD_ped1/jobs/3df36c94-5457-4bc3-a8b9-7af636acb134/model_snapshot_e200_0.001427.h5
+2019-04-04 13:51:53,869 [DEBUG] Calculating volume reconstruction error
+2019-04-04 13:51:53,946 [DEBUG] Calculating frame reconstruction error
+2019-04-04 13:51:53,949 [DEBUG] Plotting frame reconstruction error
+2019-04-04 13:51:53,969 [DEBUG] update_title_pos
+2019-04-04 13:51:54,031 [DEBUG] update_title_pos
+2019-04-04 13:51:54,093 [DEBUG] Plotting regularity scores
+2019-04-04 13:51:54,117 [DEBUG] update_title_pos
+2019-04-04 13:51:54,257 [DEBUG] update_title_pos
+2019-04-04 13:51:54,288 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_32.h5
+2019-04-04 13:51:54,289 [DEBUG] Predicting using logs/UCSD_ped1/jobs/3df36c94-5457-4bc3-a8b9-7af636acb134/model_snapshot_e200_0.001427.h5
+2019-04-04 13:51:55,711 [DEBUG] Calculating volume reconstruction error
+2019-04-04 13:51:55,786 [DEBUG] Calculating frame reconstruction error
+2019-04-04 13:51:55,788 [DEBUG] Plotting frame reconstruction error
+2019-04-04 13:51:55,809 [DEBUG] update_title_pos
+2019-04-04 13:51:55,871 [DEBUG] update_title_pos
+2019-04-04 13:51:55,931 [DEBUG] Plotting regularity scores
+2019-04-04 13:51:55,956 [DEBUG] update_title_pos
+2019-04-04 13:51:56,092 [DEBUG] update_title_pos
+2019-04-04 13:51:56,123 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_33.h5
+2019-04-04 13:51:56,124 [DEBUG] Predicting using logs/UCSD_ped1/jobs/3df36c94-5457-4bc3-a8b9-7af636acb134/model_snapshot_e200_0.001427.h5
+2019-04-04 13:51:57,564 [DEBUG] Calculating volume reconstruction error
+2019-04-04 13:51:57,635 [DEBUG] Calculating frame reconstruction error
+2019-04-04 13:51:57,637 [DEBUG] Plotting frame reconstruction error
+2019-04-04 13:51:57,658 [DEBUG] update_title_pos
+2019-04-04 13:51:57,720 [DEBUG] update_title_pos
+2019-04-04 13:51:57,778 [DEBUG] Plotting regularity scores
+2019-04-04 13:51:57,802 [DEBUG] update_title_pos
+2019-04-04 13:51:57,938 [DEBUG] update_title_pos
+2019-04-04 13:51:57,970 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_34.h5
+2019-04-04 13:51:57,971 [DEBUG] Predicting using logs/UCSD_ped1/jobs/3df36c94-5457-4bc3-a8b9-7af636acb134/model_snapshot_e200_0.001427.h5
+2019-04-04 13:51:59,396 [DEBUG] Calculating volume reconstruction error
+2019-04-04 13:51:59,468 [DEBUG] Calculating frame reconstruction error
+2019-04-04 13:51:59,470 [DEBUG] Plotting frame reconstruction error
+2019-04-04 13:51:59,491 [DEBUG] update_title_pos
+2019-04-04 13:51:59,552 [DEBUG] update_title_pos
+2019-04-04 13:51:59,610 [DEBUG] Plotting regularity scores
+2019-04-04 13:51:59,634 [DEBUG] update_title_pos
+2019-04-04 13:51:59,770 [DEBUG] update_title_pos
+2019-04-04 13:51:59,801 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_35.h5
+2019-04-04 13:51:59,803 [DEBUG] Predicting using logs/UCSD_ped1/jobs/3df36c94-5457-4bc3-a8b9-7af636acb134/model_snapshot_e200_0.001427.h5
+2019-04-04 13:52:01,237 [DEBUG] Calculating volume reconstruction error
+2019-04-04 13:52:01,308 [DEBUG] Calculating frame reconstruction error
+2019-04-04 13:52:01,310 [DEBUG] Plotting frame reconstruction error
+2019-04-04 13:52:01,331 [DEBUG] update_title_pos
+2019-04-04 13:52:01,392 [DEBUG] update_title_pos
+2019-04-04 13:52:01,451 [DEBUG] Plotting regularity scores
+2019-04-04 13:52:01,474 [DEBUG] update_title_pos
+2019-04-04 13:52:01,611 [DEBUG] update_title_pos
+2019-04-04 13:52:01,643 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t4/UCSD_ped1_36.h5
+2019-04-04 13:52:01,645 [DEBUG] Predicting using logs/UCSD_ped1/jobs/3df36c94-5457-4bc3-a8b9-7af636acb134/model_snapshot_e200_0.001427.h5
+2019-04-04 13:52:03,064 [DEBUG] Calculating volume reconstruction error
+2019-04-04 13:52:03,134 [DEBUG] Calculating frame reconstruction error
+2019-04-04 13:52:03,136 [DEBUG] Plotting frame reconstruction error
+2019-04-04 13:52:03,157 [DEBUG] update_title_pos
+2019-04-04 13:52:03,218 [DEBUG] update_title_pos
+2019-04-04 13:52:03,276 [DEBUG] Plotting regularity scores
+2019-04-04 13:52:03,300 [DEBUG] update_title_pos
+2019-04-04 13:52:03,430 [DEBUG] update_title_pos
+2019-04-04 13:52:03,461 [INFO] UCSD_ped1: Calculating overall metrics
+2019-04-04 13:52:03,768 [INFO] Dataset UCSD_ped1: Overall AUC = 76.63%, Overall EER = 28.50%
+2019-04-04 13:52:03,791 [DEBUG] update_title_pos
+2019-04-04 13:52:03,836 [DEBUG] findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2019-04-04 13:52:03,848 [DEBUG] update_title_pos

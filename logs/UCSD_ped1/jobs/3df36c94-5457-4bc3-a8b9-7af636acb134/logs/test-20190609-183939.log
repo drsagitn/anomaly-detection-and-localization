@@ -1,0 +1,17 @@
+2019-06-09 18:39:39,208 [DEBUG] Using GPU 0
+2019-06-09 18:39:39,236 [DEBUG] CACHEDIR=/home/thinh/.cache/matplotlib
+2019-06-09 18:39:39,237 [DEBUG] Using fontManager instance from /home/thinh/.cache/matplotlib/fontlist-v300.json
+2019-06-09 18:39:39,292 [DEBUG] Loaded backend agg version unknown.
+2019-06-09 18:39:42,922 [INFO] ==> VIDEO_ROOT_PATH/UCSD_ped1/testing_h5_t0/UCSD_ped1_01.h5
+2019-06-09 18:39:42,922 [DEBUG] Predicting using logs/UCSD_ped1/jobs/f5846318-6990-4622-b584-ececf33a54d7/model_snapshot_e298_0.003159.h5
+2019-06-09 18:39:51,065 [CRITICAL] Uncaught exception
+Traceback (most recent call last):
+  File "/home/thinh/github/anomaly-detection-and-localization/start_test.py", line 80, in <module>
+    visualize_score=True, visualize_frame=True)
+  File "/home/thinh/github/anomaly-detection-and-localization/classifier.py", line 763, in test
+    save_color_image(total_err[idx], os.path.join(save_path, 'pixel_error', '{}_err_vid{:02d}_frm{:03d}.png'.format(dataset, videoid+1, idx+1)))
+  File "/home/thinh/github/anomaly-detection-and-localization/visualization.py", line 24, in save_color_image
+    plt.colorbar()
+  File "/home/thinh/miniconda3/envs/ano/lib/python3.6/site-packages/matplotlib/pyplot.py", line 2093, in colorbar
+    raise RuntimeError('No mappable was found to use for colorbar '
+RuntimeError: No mappable was found to use for colorbar creation. First define a mappable such as an image (with imshow) or a contour set (with contourf).
