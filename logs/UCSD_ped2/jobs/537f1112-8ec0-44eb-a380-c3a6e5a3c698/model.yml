@@ -1,0 +1,106 @@
+"backend: tensorflow\nclass_name: Model\nconfig:\n  input_layers:\n  - - input_2\n\
+  \    - 0\n    - 0\n  layers:\n  - class_name: InputLayer\n    config:\n      batch_input_shape:\
+  \ !!python/tuple\n      - null\n      - 160\n      - 240\n      - 1\n      dtype:\
+  \ float32\n      name: input_2\n      sparse: false\n    inbound_nodes: []\n   \
+  \ name: input_2\n  - class_name: Conv2D\n    config:\n      activation: linear\n\
+  \      activity_regularizer: null\n      bias_constraint: null\n      bias_initializer:\n\
+  \        class_name: Zeros\n        config: {}\n      bias_regularizer: null\n \
+  \     data_format: channels_last\n      dilation_rate: &id001 !!python/tuple\n \
+  \     - 1\n      - 1\n      filters: 128\n      kernel_constraint: null\n      kernel_initializer:\n\
+  \        class_name: VarianceScaling\n        config:\n          distribution: uniform\n\
+  \          mode: fan_avg\n          scale: 1.0\n          seed: null\n      kernel_regularizer:\
+  \ null\n      kernel_size: !!python/tuple\n      - 7\n      - 7\n      name: conv1\n\
+  \      padding: same\n      strides: !!python/tuple\n      - 4\n      - 4\n    \
+  \  trainable: true\n      use_bias: true\n    inbound_nodes:\n    - - - input_2\n\
+  \        - 0\n        - 0\n        - {}\n    name: conv1\n  - class_name: BatchNormalization\n\
+  \    config:\n      axis: -1\n      beta_constraint: null\n      beta_initializer:\n\
+  \        class_name: Zeros\n        config: {}\n      beta_regularizer: null\n \
+  \     center: true\n      epsilon: 0.001\n      gamma_constraint: null\n      gamma_initializer:\n\
+  \        class_name: Ones\n        config: {}\n      gamma_regularizer: null\n \
+  \     momentum: 0.99\n      moving_mean_initializer:\n        class_name: Zeros\n\
+  \        config: {}\n      moving_variance_initializer:\n        class_name: Ones\n\
+  \        config: {}\n      name: batch_normalization_5\n      scale: true\n    \
+  \  trainable: true\n    inbound_nodes:\n    - - - conv1\n        - 0\n        -\
+  \ 0\n        - {}\n    name: batch_normalization_5\n  - class_name: Activation\n\
+  \    config:\n      activation: relu\n      name: activation_5\n      trainable:\
+  \ true\n    inbound_nodes:\n    - - - batch_normalization_5\n        - 0\n     \
+  \   - 0\n        - {}\n    name: activation_5\n  - class_name: Conv2D\n    config:\n\
+  \      activation: linear\n      activity_regularizer: null\n      bias_constraint:\
+  \ null\n      bias_initializer:\n        class_name: Zeros\n        config: {}\n\
+  \      bias_regularizer: null\n      data_format: channels_last\n      dilation_rate:\
+  \ *id001\n      filters: 64\n      kernel_constraint: null\n      kernel_initializer:\n\
+  \        class_name: VarianceScaling\n        config:\n          distribution: uniform\n\
+  \          mode: fan_avg\n          scale: 1.0\n          seed: null\n      kernel_regularizer:\
+  \ null\n      kernel_size: !!python/tuple\n      - 5\n      - 5\n      name: conv2\n\
+  \      padding: same\n      strides: !!python/tuple\n      - 2\n      - 2\n    \
+  \  trainable: true\n      use_bias: true\n    inbound_nodes:\n    - - - activation_5\n\
+  \        - 0\n        - 0\n        - {}\n    name: conv2\n  - class_name: BatchNormalization\n\
+  \    config:\n      axis: -1\n      beta_constraint: null\n      beta_initializer:\n\
+  \        class_name: Zeros\n        config: {}\n      beta_regularizer: null\n \
+  \     center: true\n      epsilon: 0.001\n      gamma_constraint: null\n      gamma_initializer:\n\
+  \        class_name: Ones\n        config: {}\n      gamma_regularizer: null\n \
+  \     momentum: 0.99\n      moving_mean_initializer:\n        class_name: Zeros\n\
+  \        config: {}\n      moving_variance_initializer:\n        class_name: Ones\n\
+  \        config: {}\n      name: batch_normalization_6\n      scale: true\n    \
+  \  trainable: true\n    inbound_nodes:\n    - - - conv2\n        - 0\n        -\
+  \ 0\n        - {}\n    name: batch_normalization_6\n  - class_name: Activation\n\
+  \    config:\n      activation: relu\n      name: activation_6\n      trainable:\
+  \ true\n    inbound_nodes:\n    - - - batch_normalization_6\n        - 0\n     \
+  \   - 0\n        - {}\n    name: activation_6\n  - class_name: Conv2D\n    config:\n\
+  \      activation: linear\n      activity_regularizer: null\n      bias_constraint:\
+  \ null\n      bias_initializer:\n        class_name: Zeros\n        config: {}\n\
+  \      bias_regularizer: null\n      data_format: channels_last\n      dilation_rate:\
+  \ *id001\n      filters: 32\n      kernel_constraint: null\n      kernel_initializer:\n\
+  \        class_name: VarianceScaling\n        config:\n          distribution: uniform\n\
+  \          mode: fan_avg\n          scale: 1.0\n          seed: null\n      kernel_regularizer:\
+  \ null\n      kernel_size: !!python/tuple\n      - 3\n      - 3\n      name: conv3\n\
+  \      padding: same\n      strides: !!python/tuple\n      - 1\n      - 1\n    \
+  \  trainable: true\n      use_bias: true\n    inbound_nodes:\n    - - - activation_6\n\
+  \        - 0\n        - 0\n        - {}\n    name: conv3\n  - class_name: BatchNormalization\n\
+  \    config:\n      axis: -1\n      beta_constraint: null\n      beta_initializer:\n\
+  \        class_name: Zeros\n        config: {}\n      beta_regularizer: null\n \
+  \     center: true\n      epsilon: 0.001\n      gamma_constraint: null\n      gamma_initializer:\n\
+  \        class_name: Ones\n        config: {}\n      gamma_regularizer: null\n \
+  \     momentum: 0.99\n      moving_mean_initializer:\n        class_name: Zeros\n\
+  \        config: {}\n      moving_variance_initializer:\n        class_name: Ones\n\
+  \        config: {}\n      name: batch_normalization_7\n      scale: true\n    \
+  \  trainable: true\n    inbound_nodes:\n    - - - conv3\n        - 0\n        -\
+  \ 0\n        - {}\n    name: batch_normalization_7\n  - class_name: Activation\n\
+  \    config:\n      activation: relu\n      name: activation_7\n      trainable:\
+  \ true\n    inbound_nodes:\n    - - - batch_normalization_7\n        - 0\n     \
+  \   - 0\n        - {}\n    name: activation_7\n  - class_name: Conv2DTranspose\n\
+  \    config:\n      activation: linear\n      activity_regularizer: null\n     \
+  \ bias_constraint: null\n      bias_initializer:\n        class_name: Zeros\n  \
+  \      config: {}\n      bias_regularizer: null\n      data_format: channels_last\n\
+  \      dilation_rate: &id002 !!python/tuple\n      - 1\n      - 1\n      filters:\
+  \ 64\n      kernel_constraint: null\n      kernel_initializer:\n        class_name:\
+  \ VarianceScaling\n        config:\n          distribution: uniform\n          mode:\
+  \ fan_avg\n          scale: 1.0\n          seed: null\n      kernel_regularizer:\
+  \ null\n      kernel_size: !!python/tuple\n      - 3\n      - 3\n      name: deconv2\n\
+  \      output_padding: null\n      padding: same\n      strides: !!python/tuple\n\
+  \      - 2\n      - 2\n      trainable: true\n      use_bias: true\n    inbound_nodes:\n\
+  \    - - - activation_7\n        - 0\n        - 0\n        - {}\n    name: deconv2\n\
+  \  - class_name: BatchNormalization\n    config:\n      axis: -1\n      beta_constraint:\
+  \ null\n      beta_initializer:\n        class_name: Zeros\n        config: {}\n\
+  \      beta_regularizer: null\n      center: true\n      epsilon: 0.001\n      gamma_constraint:\
+  \ null\n      gamma_initializer:\n        class_name: Ones\n        config: {}\n\
+  \      gamma_regularizer: null\n      momentum: 0.99\n      moving_mean_initializer:\n\
+  \        class_name: Zeros\n        config: {}\n      moving_variance_initializer:\n\
+  \        class_name: Ones\n        config: {}\n      name: batch_normalization_8\n\
+  \      scale: true\n      trainable: true\n    inbound_nodes:\n    - - - deconv2\n\
+  \        - 0\n        - 0\n        - {}\n    name: batch_normalization_8\n  - class_name:\
+  \ Activation\n    config:\n      activation: relu\n      name: activation_8\n  \
+  \    trainable: true\n    inbound_nodes:\n    - - - batch_normalization_8\n    \
+  \    - 0\n        - 0\n        - {}\n    name: activation_8\n  - class_name: Conv2DTranspose\n\
+  \    config:\n      activation: linear\n      activity_regularizer: null\n     \
+  \ bias_constraint: null\n      bias_initializer:\n        class_name: Zeros\n  \
+  \      config: {}\n      bias_regularizer: null\n      data_format: channels_last\n\
+  \      dilation_rate: *id002\n      filters: 1\n      kernel_constraint: null\n\
+  \      kernel_initializer:\n        class_name: VarianceScaling\n        config:\n\
+  \          distribution: uniform\n          mode: fan_avg\n          scale: 1.0\n\
+  \          seed: null\n      kernel_regularizer: null\n      kernel_size: !!python/tuple\n\
+  \      - 11\n      - 11\n      name: deconvAAAA\n      output_padding: null\n  \
+  \    padding: same\n      strides: !!python/tuple\n      - 4\n      - 4\n      trainable:\
+  \ true\n      use_bias: true\n    inbound_nodes:\n    - - - activation_8\n     \
+  \   - 0\n        - 0\n        - {}\n    name: deconvAAAA\n  name: model_2\n  output_layers:\n\
+  \  - - deconvAAAA\n    - 0\n    - 0\nkeras_version: 2.2.4\n"
