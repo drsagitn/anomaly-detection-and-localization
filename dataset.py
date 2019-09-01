@@ -1,3 +1,55 @@
+def preprocessing_cuhk(train_or_test, n_video):
+    from skimage.io import imsave
+    import scipy.io as sc
+    import os
+    training_vol_path = "VIDEO_ROOT_PATH/cuhk/{}_vol/".format(train_or_test)
+    training_frame_path = "VIDEO_ROOT_PATH/cuhk/{}_frames/".format(train_or_test)
+    if train_or_test == "training":
+        foldername = "Train"
+    else:
+        foldername = "Test"
+    for i in range(0, n_video):
+        frame_data = sc.loadmat(os.path.join(training_vol_path, "vol{:02d}.mat".format(i+1)))
+        frame_length = frame_data['vol'].shape[2]
+        save_path = os.path.join(training_frame_path, "{}{:03d}".format(foldername, i+1))
+        os.makedirs(save_path, exist_ok=True)
+        for f in range(0, frame_length):
+            imsave(os.path.join(save_path, "{:03d}.tif".format(f+1)), frame_data['vol'][:,:,f])
+
+def preprocess_gt_cuhk():
+    from skimage.io import imsave
+    import scipy.io as sc
+    import os
+    import numpy as np
+    training_vol_path = "VIDEO_ROOT_PATH/cuhk/testing_label_mask/"
+    for i in range(0, 21):
+        frame_data = sc.loadmat(os.path.join(training_vol_path, "{}_label.mat".format(i + 1)))
+        pixel_gt_save_path = "VIDEO_ROOT_PATH/cuhk/gt/Test{:03d}_gt".format(i+1)
+        frame_gt_save_path = "VIDEO_ROOT_PATH/cuhk/gt_files"
+        os.makedirs(pixel_gt_save_path, exist_ok=True)
+        frame_gt = []
+        for f in range (0, frame_data['volLabel'].shape[1]):
+            imsave(os.path.join(pixel_gt_save_path, "{:03d}.bmp".format(f + 1)), frame_data['volLabel'][0][f]*255)
+            frame_gt.append(np.max(frame_data['volLabel'][0][f]))
+
+        #make the frame gt index txt
+        start = -1
+        gt_arr = []
+        idx_arr = np.nonzero(frame_gt)[0]
+        l = len(idx_arr)
+        for k in range(0, l-1):
+            if(start == -1):
+                start = idx_arr[k]
+            else:
+                if idx_arr[k] + 1 < idx_arr[k+1]:
+                    gt_arr.append([start+1, idx_arr[k]+1])
+                    start = -1
+                if(l == k + 2): #end array
+                    gt_arr.append([start + 1, idx_arr[k+1] + 1])
+        np.savetxt(os.path.join(frame_gt_save_path, "gt_cuhk_vid{:02d}.txt".format(i+1)), gt_arr, fmt='%i')
+
+# preprocess_gt_cuhk()
+
 def calc_mean(dataset, video_root_path='/share/data/videos'):
     import os
     from skimage.io import imread
@@ -44,8 +96,8 @@ def subtract_mean(dataset, video_root_path='/share/data/videos', is_combine=Fals
     with open('config.yml', 'r') as ymlfile:
         cfg = yaml.load(ymlfile)
 
-    is_clip = cfg['clip']
-    noise_factor = cfg['noise_factor']
+    is_clip = cfg.get('clip')
+    noise_factor = cfg.get('noise_factor')
 
     frame_path = os.path.join(video_root_path, dataset, 'training_frames')
     for frame_folder in os.listdir(frame_path):
@@ -60,14 +112,14 @@ def subtract_mean(dataset, video_root_path='/share/data/videos', is_combine=Fals
             training_frames_vid.append(frame_value)
         training_frames_vid = np.array(training_frames_vid)
 
-        if noise_factor > 0:
+        if noise_factor is not None and noise_factor > 0:
             training_frames_vid = add_noise(training_frames_vid, noise_factor)
-        if is_clip:
+        if is_clip is not None and is_clip:
             training_frames_vid = np.clip(training_frames_vid, 0, 1)
 
         np.save(os.path.join(video_root_path, dataset, 'training_frames_{}.npy'.format(frame_folder[-3:])), training_frames_vid)
         if is_combine:
-            training_combine.append(training_frames_vid)
+            training_combine.extend(training_frames_vid.reshape(-1, 160, 240, 1))
 
     frame_path = os.path.join(video_root_path, dataset, 'testing_frames')
     for frame_folder in os.listdir(frame_path):
@@ -82,17 +134,17 @@ def subtract_mean(dataset, video_root_path='/share/data/videos', is_combine=Fals
             testing_frames_vid.append(frame_value)
         testing_frames_vid = np.array(testing_frames_vid)
 
-        if noise_factor > 0:
+        if noise_factor is not None and noise_factor > 0:
             testing_frames_vid = add_noise(testing_frames_vid, noise_factor)
-        if is_clip:
+        if is_clip is not None and is_clip:
             testing_frames_vid = np.clip(testing_frames_vid, 0, 1)
 
         np.save(os.path.join(video_root_path, dataset, 'testing_frames_{}.npy'.format(frame_folder[-3:])), testing_frames_vid)
         if is_combine:
-            testing_combine.append(testing_frames_vid)
+            testing_combine.extend(testing_frames_vid.reshape(-1, 160, 240, 1))
     if is_combine:
-        training_combine = np.array(training_combine).reshape(-1, 160, 240, 1)
-        testing_combine = np.array(testing_combine).reshape(-1, 160, 240, 1)
+        training_combine = np.array(training_combine)
+        testing_combine = np.array(testing_combine)
         np.save(os.path.join(video_root_path, dataset, 'training_frames_t0.npy'), training_combine)
         np.save(os.path.join(video_root_path, dataset, 'testing_frames_t0.npy'), testing_combine)
 
@@ -111,7 +163,7 @@ def build_h5(dataset, train_or_test, t, video_root_path='VIDEO_ROOT_PATH'):
             data_frames = np.expand_dims(data_frames, axis=-1)
             num_frames = data_frames.shape[0]
 
-            data_only_frames = np.zeros((num_frames-time_length, time_length, 160, 240, 1)).astype('float16')
+            data_only_frames = np.zeros((num_frames-time_length, time_length, 160, 240, 1)).astype('float64')
 
             vol = 0
             for j in range(num_frames-time_length):
@@ -168,7 +220,9 @@ def preprocess_data(logger, dataset, t, video_root_path='VIDEO_ROOT_PATH'):
 
     with open('config.yml', 'r') as ymlfile:
         cfg = yaml.load(ymlfile)
-    data_regen = cfg['data-regen']
+    data_regen = False
+    if cfg.get('data-regen'):
+        data_regen = cfg['data-regen']
 
     # Step 1: Calculate the mean frame of all training frames
     # Check if mean frame file exists for the dataset
